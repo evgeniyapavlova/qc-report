@@ -35,10 +35,6 @@ export default {
         hydratable: true,
         emitCss: true,
       }),
-      url({
-        sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-        publicPath: '/client/',
-      }),
       resolve({
         browser: true,
         dedupe: ['svelte'],
@@ -92,11 +88,6 @@ export default {
         generate: 'ssr',
         hydratable: true,
         dev,
-      }),
-      url({
-        sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-        publicPath: '/client/',
-        emitFiles: false, // already emitted by client build
       }),
       resolve({
         dedupe: ['svelte'],
