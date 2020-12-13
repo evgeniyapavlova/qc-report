@@ -1,6 +1,8 @@
 <script>
   import Layout from '../../components/Layout.svelte';
   import Logo from './logo_black.svg';
+  import Cubes from './Cubes.svelte';
+  import Img2020 from './2020.svelte';
   const menuItems = [
     { name: 'Проекция EBITDA за год' },
     { name: 'Проект года — Margin Forex	' },
@@ -15,23 +17,32 @@
 </script>
 
 <section>
-  <Layout>
-    <Logo />
-    <div class="caption">ONE YEAR<br /> IN REVIEW</div>
-    <div class="menu">
-      {#each menuItems as item, index}
-        <div class="row {index === 2 && 'active'}">
-          <div class="item">{item.name}</div>
-          <div class="number">0{index + 1}</div>
-        </div>
-      {/each}
-    </div>
-  </Layout>
+  <div class="wrap">
+    <Layout>
+      <Logo />
+      <div class="caption">ONE YEAR<br /> IN REVIEW</div>
+      <div class="menu">
+        {#each menuItems as item, index}
+          <div class="row {index === 2 && 'active'}">
+            <div class="item">{item.name}</div>
+            <div class="number">0{index + 1}</div>
+          </div>
+        {/each}
+      </div>
+    </Layout>
+  </div>
+  <Img2020 />
+  <Cubes />
 </section>
 
 <style>
   section {
     padding: 66px 0;
+    position: relative;
+    min-height: 100vh;
+  }
+  .wrap {
+    z-index: 2;
   }
   .caption {
     color: rgba(0, 0, 0, 0.06);
