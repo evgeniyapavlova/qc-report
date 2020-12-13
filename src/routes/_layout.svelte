@@ -19,7 +19,7 @@
   :global(p) {
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 1.25;
   }
   :global(.quote) {
     font-weight: 600;
@@ -47,6 +47,9 @@
     margin-top: 15px;
     width: 190px;
   }
+  :global(h4.h4-title) {
+    opacity: 1;
+  }
   @media only screen and (min-width: 480px) {
     :global(h3) {
       font-size: 30px;
@@ -58,7 +61,6 @@
   @media only screen and (min-width: 960px) {
     :global(p) {
       font-size: 16px;
-      line-height: 20px;
     }
     :global(h5) {
       font-size: 18px;
