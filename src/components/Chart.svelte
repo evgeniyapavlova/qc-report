@@ -1,4 +1,5 @@
 <script>
+  export let chartId, data;
   import { onMount } from 'svelte';
   import Chart from 'chart.js';
 
@@ -7,30 +8,17 @@
   });
 
   const renderChart = () => {
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctx, {
+    const ctx = document.getElementById(chartId).getContext('2d');
+    const chart = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: [
-          'Jan',
-          'Feb',
-          'Mar',
-          'Apr',
-          'May',
-          'Jun',
-          'Jul',
-          'Aug',
-          'Sep',
-          'Oct',
-          'Nov',
-          'Dec',
-        ],
+        labels: data.labels,
         datasets: [
           {
             backgroundColor: 'rgba(230,35,52,0.1)',
             pointHoverBackgroundColor: '#F2DCDE',
             borderColor: '#e62334',
-            data: [0, 0, 8000, 4000, 9500, 1500, 0, 0, 0, 0, 0, 0],
+            data: data.values,
             lineTension: 0,
             pointBackgroundColor: '#fff',
             pointBorderColor: '#e62334',
@@ -86,7 +74,7 @@
           animationDuration: 0,
         },
         animation: {
-          duration: 1,
+          duration: 1000,
           onComplete: function () {
             var chartInstance = this.chart,
               ctx = chartInstance.ctx;
@@ -115,4 +103,4 @@
   Chart.defaults.global.defaultFontFamily = 'Montserrat';
 </script>
 
-<canvas id="myChart"></canvas>
+<canvas id="{chartId}"></canvas>
