@@ -12,13 +12,13 @@
     width: 115px;
     left: 5%;
     top: 70%;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-name: cube1;
   }
   .cube2 {
     top: 5%;
     left: 50%;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-name: cube2;
   }
   .cube2,
@@ -28,7 +28,7 @@
   .cube3 {
     right: 20%;
     bottom: 10%;
-    animation-duration: 6s;
+    animation-duration: 7s;
     animation-name: cube2;
   }
   .cube4 {
