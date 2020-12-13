@@ -66,6 +66,7 @@
 <div class="development">
   {#each items as item, index}
     <div class="block block-{index}">
+      <img class="img-item" src="{item.img}" alt="" />
       <h3>{item.title}</h3>
       <p class="p-text">{item.text}</p>
       {#if item.title2}
@@ -111,6 +112,18 @@
     max-width: 310px;
     margin: 0 auto;
   }
+  .img-item {
+    height: 262px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  @media only screen and (min-width: 650px) {
+    .img-item {
+			margin-left: 0;
+    }
+  }
+
   @media only screen and (min-width: 700px) {
     .subitem {
       width: 50%;
@@ -136,7 +149,8 @@
       text-align: left;
     }
     .centered,
-    .p-text, h5 {
+    .p-text,
+    h5 {
       max-width: 250px;
       margin: 0 auto 0 0;
     }
