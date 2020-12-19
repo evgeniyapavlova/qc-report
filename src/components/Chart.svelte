@@ -1,51 +1,89 @@
 <script>
-  export let chartId, data;
+  export let chartId,
+    data,
+    label = '',
+    lineColor = '#e62334';
   import { onMount } from 'svelte';
   import Chart from 'chart.js';
 
   onMount(() => {
-    renderChart();
+    const intViewportWidth = window.innerWidth;
+    if (intViewportWidth < 670) {
+      renderChart(9, 6, 6, 2, true);
+    } else {
+      renderChart();
+    }
   });
-
-  const renderChart = () => {
+  const renderChart = (
+    fontSize = 13,
+    maxYTicksLimit = 10,
+    maxXTicksLimit = 11,
+    pointRadius = 5,
+    isSmall = false
+  ) => {
     const ctx = document.getElementById(chartId).getContext('2d');
     const chart = new Chart(ctx, {
       type: 'line',
+      plugins: [
+        {
+          afterDraw: (chart) => {
+            var ctx = chart.chart.ctx;
+            ctx.save();
+            ctx.font = `400 ${fontSize}px "Proxima Nova"`;
+            ctx.fillStyle = 'rgba(50,62,72,0.5)';
+            var y = 15;
+
+            ctx.textAlign = 'left';
+            ctx.fillText(label, 5, y);
+            ctx.restore();
+          },
+        },
+      ],
       data: {
         labels: data.labels,
         datasets: [
           {
-            backgroundColor: 'rgba(230,35,52,0.1)',
-            pointHoverBackgroundColor: '#F2DCDE',
-            borderColor: '#e62334',
+            // backgroundColor: 'rgba(230,35,52,0.1)',
+            backgroundColor: 'transparent',
+            // pointHoverBackgroundColor: '#F2DCDE',
+            borderColor: lineColor,
             data: data.values,
             lineTension: 0,
             pointBackgroundColor: '#fff',
-            pointBorderColor: '#e62334',
-            pointRadius: 5,
+            pointBorderColor: lineColor,
+            pointRadius,
             pointBorderWidth: 2,
-            borderWidth: 2,
+            borderWidth: 1,
             offsetGridLines: false,
             pointHoverRadius: 6,
           },
         ],
       },
-
       options: {
+        layout: {
+          padding: {
+            top: 40,
+          },
+        },
         scales: {
           xAxes: [
             {
               type: 'category',
+              offset: true,
               gridLines: {
                 drawOnChartArea: true,
                 zeroLineWidth: 0,
                 drawTicks: false,
                 drawBorder: false,
-                borderDash: [4, 4],
+                display: false,
               },
               ticks: {
+                fontSize,
                 padding: 10,
                 fontColor: '#3E4953',
+                maxRotation: 45,
+                minRotation: 45,
+                maxTicksLimit: maxXTicksLimit,
               },
             },
           ],
@@ -55,11 +93,15 @@
                 display: true,
                 drawTicks: false,
                 drawBorder: false,
+                offsetGridLines: false,
               },
               ticks: {
+                fontSize,
                 padding: 10,
+                maxTicksLimit: maxYTicksLimit,
                 fontColor: '#D8D8D8',
-                stepSize: 2500,
+                // stepSize: 2500,
+                beginAtZero: true,
               },
             },
           ],
@@ -79,20 +121,26 @@
             var chartInstance = this.chart,
               ctx = chartInstance.ctx;
             ctx.font = Chart.helpers.fontString(
-              Chart.defaults.global.defaultFontSize,
-              '600',
+              fontSize,
+              '500',
               Chart.defaults.global.defaultFontFamily
             );
             ctx.textAlign = 'center';
             ctx.textBaseline = 'bottom';
-
+            // ctx.rotate(0.1);
             this.data.datasets.forEach(function (dataset, i) {
               var meta = chartInstance.controller.getDatasetMeta(i);
               meta.data.forEach(function (bar, index) {
                 var data = dataset.data[index];
-                ctx.fillStyle = '#e62334';
+                ctx.fillStyle = lineColor;
                 if (data !== 0)
-                  ctx.fillText(data, bar._model.x, bar._model.y - 10);
+                  if (isSmall) {
+                    if (index % 2 === 0) {
+                      ctx.fillText(data, bar._model.x, bar._model.y - 5);
+                    }
+                  } else {
+                    ctx.fillText(data, bar._model.x, bar._model.y - 10);
+                  }
               });
             });
           },
