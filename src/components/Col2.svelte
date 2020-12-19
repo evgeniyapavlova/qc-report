@@ -1,4 +1,8 @@
-<div class="flex">
+<script>
+  export let isReverse = false;
+</script>
+
+<div class="flex {isReverse ? 'flex-reverse' : 'flex-normal'}">
   <div class="content">
     <slot name="right" />
   </div>
@@ -8,19 +12,29 @@
 </div>
 
 <style>
-
   @media only screen and (min-width: 960px) {
     .flex {
       display: flex;
       justify-content: space-between;
     }
-    .aside {
+    .flex-normal .aside {
       width: 310px;
-			padding-left: 30px;
+      padding-left: 30px;
     }
-    .content {
+    .flex-normal .content {
       max-width: 710px;
       flex-grow: 1;
+    }
+    .flex-reverse .content {
+      width: 310px;
+      padding-left: 30px;
+    }
+    .flex-reverse .aside {
+      max-width: 710px;
+      flex-grow: 1;
+    }
+    .flex-reverse {
+      flex-direction: row-reverse;
     }
   }
 </style>

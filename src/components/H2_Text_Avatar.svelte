@@ -8,9 +8,11 @@
     {@html h2}
   </h2>
   <div class="flex">
-    <div class="wrap-avatar">
-      <Avatar {...person} />
-    </div>
+    {#if person}
+      <div class="wrap-avatar">
+        <Avatar {...person} />
+      </div>
+    {/if}
     <h4>{text}</h4>
   </div>
 </div>
@@ -28,6 +30,7 @@
       display: flex;
       flex-direction: row-reverse;
       align-items: flex-start;
+      justify-content: flex-end;
     }
     h4 {
       margin-top: 0;
@@ -38,10 +41,10 @@
     .wrap-avatar {
       position: absolute;
       top: 0;
-			right: 0;
+      right: 0;
     }
     h4 {
-			width: calc(100% - 350px);
+      width: calc(100% - 350px);
     }
     .wrap {
       position: relative;

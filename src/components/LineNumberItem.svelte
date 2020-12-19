@@ -1,13 +1,19 @@
 <script>
-  export let period = 'Q1 <span>2020</span>',
+  export let period,
     number = '320 000',
-    caption = 'MAU';
+    caption = 'MAU',
+    icon;
 </script>
 
 <div class="item line-number-item">
-  <div class="period">
-    {@html period}
-  </div>
+  {#if icon}
+    <svelte:component this="{icon}" />
+  {/if}
+  {#if period}
+    <div class="period">
+      {@html period}
+    </div>
+  {/if}
   <div class="number">{number}</div>
   <div class="caption">{caption}</div>
 </div>
@@ -37,7 +43,7 @@
     }
   }
   @media only screen and (max-width: 959px) {
-    .period span {
+    :global(.line-number-item .period span) {
       font-size: 14px;
       line-height: 17px;
     }
