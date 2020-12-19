@@ -127,7 +127,6 @@
             );
             ctx.textAlign = 'center';
             ctx.textBaseline = 'bottom';
-            // ctx.rotate(0.1);
             this.data.datasets.forEach(function (dataset, i) {
               var meta = chartInstance.controller.getDatasetMeta(i);
               meta.data.forEach(function (bar, index) {

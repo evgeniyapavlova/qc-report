@@ -36,14 +36,6 @@
     font-weight: 400;
     max-width: 190px;
   }
-  .position:after {
-    content: '';
-    width: 44px;
-    height: 4px;
-    background-color: var(--red);
-    display: block;
-    margin-top: 13px;
-  }
 
   @media only screen and (min-width: 960px) {
     .text {
