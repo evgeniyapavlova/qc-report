@@ -50,9 +50,26 @@
   :global(h4.h4-title) {
     opacity: 1;
   }
+  :global(h2) {
+    font-weight: 700;
+    color: var(--dark-gray);
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 40px;
+    border-left: 4px solid var(--red);
+    padding-left: 15px;
+  }
+
+  :global(h2 span) {
+    opacity: 0.6;
+  }
   @media only screen and (min-width: 480px) {
     :global(h3) {
       font-size: 30px;
+    }
+    :global(h2) {
+      font-size: 36px;
+      margin-bottom: 60px;
     }
     :global(.quote) {
       font-size: 36px;
@@ -73,6 +90,9 @@
     :global(h3:after) {
       margin-top: 14px;
       width: 72px;
+    }
+    :global(h2) {
+      margin-bottom: 40px;
     }
   }
 </style>
