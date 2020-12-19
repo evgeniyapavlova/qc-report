@@ -14,44 +14,49 @@ export default {
     position: 'Chief of Global Compliance  and Back Office',
     photo: '/assets/avatars/francois.jpg',
   },
-  tychenko:{
-    name:'Evgeny Tychenko',
+  tychenko: {
+    name: 'Evgeny Tychenko',
     position: 'Chief of B2C',
     photo: '/assets/avatars/tychenko.jpg',
   },
   pachko: {
-    name:'Artem Pachko',
+    name: 'Artem Pachko',
     position: 'Chief of Acquisition  and Sales',
     photo: '/assets/avatars/pachko.jpg',
   },
   lopez: {
-    name:'Joan Lopez',
+    name: 'Joan Lopez',
     position: 'Regional Business Developer',
     photo: '/assets/avatars/lopez.jpg',
   },
   rentoumis: {
-    name:'Nikos Rentoumis',
+    name: 'Nikos Rentoumis',
     position: 'Regional Business Developer',
     photo: '/assets/avatars/rentoumis.jpg',
   },
   kokh: {
-    name:'Alexander Kokh',
+    name: 'Alexander Kokh',
     position: 'Regional Business Developer',
     photo: '/assets/avatars/kokh.jpg',
   },
   nescheret: {
-    name:'Boris Nescheret',
+    name: 'Boris Nescheret',
     position: 'Regional Business Developer',
     photo: '/assets/avatars/nescheret.jpg',
   },
   kulik: {
-    name:'Stepan Kulik',
+    name: 'Stepan Kulik',
     position: 'Regional Business Developer',
     photo: '/assets/avatars/kulik.jpg',
   },
-  kutkova:{
-    name:'Irina Kutkova',
-    position:'Chief of Customer Care',
+  kutkova: {
+    name: 'Irina Kutkova',
+    position: 'Chief of Customer Care',
     photo: '/assets/avatars/kutkova.jpg',
-  }
+  },
+  david: {
+    name: 'George David',
+    position: 'Product Owner Forex/CFD Products',
+    photo: '/assets/avatars/david.jpg',
+  },
 };

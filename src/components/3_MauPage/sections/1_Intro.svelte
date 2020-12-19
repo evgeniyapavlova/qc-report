@@ -49,7 +49,7 @@
 
 <style>
   section {
-    padding: 65px;
+    padding-top: 65px;
   }
   .content-right {
     margin-top: 48px;
@@ -59,7 +59,7 @@
   }
   @media only screen and (min-width: 960px) {
     section {
-      padding: 76px;
+      padding-top: 76px;
     }
   }
 </style>
