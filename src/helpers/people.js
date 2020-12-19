@@ -48,5 +48,10 @@ export default {
     name:'Stepan Kulik',
     position: 'Regional Business Developer',
     photo: '/assets/avatars/kulik.jpg',
+  },
+  kutkova:{
+    name:'Irina Kutkova',
+    position:'Chief of Customer Care',
+    photo: '/assets/avatars/kutkova.jpg',
   }
 };

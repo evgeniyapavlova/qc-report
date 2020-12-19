@@ -33,20 +33,6 @@
     margin-bottom: 32px;
   }
 
-  :global(h3:after, .quote:after) {
-    content: '';
-    height: 4px;
-    background-color: var(--red);
-    display: block;
-  }
-  :global(h3:after) {
-    margin-top: 10px;
-    width: 80px;
-  }
-  :global(.quote:after) {
-    margin-top: 15px;
-    width: 190px;
-  }
   :global(h4.h4-title) {
     opacity: 1;
   }
@@ -59,14 +45,30 @@
     border-left: 4px solid var(--red);
     padding-left: 15px;
   }
-
-  :global(h2 span) {
-    opacity: 0.6;
+  :global(.h2-no-border) {
+    font-weight: 700;
+    color: var(--dark-gray);
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 40px;
   }
-  @media only screen and (min-width: 480px) {
+  /*:global(h2 span) {*/
+  /*  opacity: 0.6;*/
+  /*}*/
+  :global(.red-link) {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: underline;
+    display: block;
+  }
+  @media only screen and (min-width: 400px) {
     :global(h3) {
       font-size: 30px;
     }
+  }
+  @media only screen and (min-width: 480px) {
     :global(h2) {
       font-size: 36px;
       margin-bottom: 60px;
@@ -76,6 +78,10 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    :global(.h2-no-border) {
+      font-size: 36px;
+      line-height: 36px;
+    }
     :global(p) {
       font-size: 16px;
     }
@@ -87,12 +93,12 @@
       font-size: 26px;
       line-height: 26px;
     }
-    :global(h3:after) {
-      margin-top: 14px;
-      width: 72px;
-    }
     :global(h2) {
       margin-bottom: 40px;
+    }
+    :global(.red-link) {
+      font-size: 13px;
+      line-height: 16px;
     }
   }
 </style>
