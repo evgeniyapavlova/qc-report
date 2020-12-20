@@ -66,8 +66,8 @@
             chartId="ebitda-chart"
             label="EBITDA projection"
           />
-          <div class="quote">{content[lang].quote}</div>
         </div>
+        <div class="quote">{content[lang].quote}</div>
       </div>
       <div slot="left">
         <p>{content[lang].p}</p>
@@ -100,7 +100,7 @@
   }
   .list {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

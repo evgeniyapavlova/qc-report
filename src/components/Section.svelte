@@ -4,6 +4,6 @@
 
 <style>
   section {
-		padding: 54px 0;
+		padding: 80px 0 53px;
   }
 </style>

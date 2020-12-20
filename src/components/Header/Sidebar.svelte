@@ -3,6 +3,7 @@
   const menu = [
     {
       name: 'EBITDA',
+      code: 'ebitda',
       items: [
         { name: 'Комментарий CEO', code: 'ceo' },
         { name: 'Движение по кварталам', code: 'quarters' },
@@ -45,13 +46,13 @@
   ];
 
   const handleClickMenuItem = (e) => {
-    open = !open;
-    const code = e.currentTarget.dataset.code;
+    const code = e.target.dataset.code;
     const scrollTo = document.querySelector(`[data-id="${code}"]`);
     scrollTo.scrollIntoView({
       block: 'start',
       behavior: 'smooth',
     });
+    open = !open;
   };
 </script>
 

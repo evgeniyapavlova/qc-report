@@ -106,6 +106,9 @@
 </section>
 
 <style>
+  section {
+    padding-top: 80px;
+  }
   .item {
     margin-bottom: 70px;
   }
@@ -174,7 +177,7 @@
     }
     .items-q1 .quote {
       max-width: 620px;
-			margin-bottom: 50px;
+      margin-bottom: 50px;
     }
   }
   @media only screen and (min-width: 960px) {

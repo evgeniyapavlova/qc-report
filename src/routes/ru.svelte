@@ -21,19 +21,24 @@
 </svelte:head>
 <Header />
 <Intro1 />
-<!--<span data-id="ebitda"></span>-->
-<!--<Intro lang="{lang}" />-->
-<!--<Quarters lang="{lang}" />-->
-<!--<span data-id="marginForex"></span>-->
-<!--<IntroMF lang="{lang}" />-->
-<!--<span data-id="mau"></span>-->
-<!--<IntroMAU lang="{lang}" />-->
-<!--<Marketing lang="{lang}" />-->
-<!--<Marketing_video lang="{lang}" />-->
-<!--<Marketing_influence lang="{lang}" />-->
-<!--<Regions lang="{lang}" />-->
-<!--<Users lang="{lang}" />-->
-<!--<Team lang="{lang}" />-->
-<!--<Verification lang="{lang}" />-->
-<!--<span data-id="b2b"></span>-->
-<!--<B2B />-->
+<span data-id="ebitda"></span><span data-id="ceo"></span>
+<Intro lang="{lang}" />
+<span data-id="quarters"></span>
+<Quarters lang="{lang}" />
+<span data-id="marginForex"></span>
+<IntroMF lang="{lang}" />
+<span data-id="mau"></span>
+<IntroMAU lang="{lang}" />
+<span data-id="marketing"></span>
+<Marketing lang="{lang}" />
+<Marketing_video lang="{lang}" />
+<Marketing_influence lang="{lang}" />
+<span data-id="regions"></span>
+<Regions lang="{lang}" />
+<span data-id="support"></span>
+<Users lang="{lang}" />
+<Team lang="{lang}" />
+<span data-id="verification"></span>
+<Verification lang="{lang}" />
+<span data-id="b2b"></span><span data-id="holding"></span>
+<B2B />

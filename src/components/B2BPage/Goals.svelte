@@ -38,9 +38,6 @@
 </div>
 
 <style>
-  .goals {
-    padding-bottom: 80px;
-  }
   p {
     max-width: 306px;
     margin: 0 auto;

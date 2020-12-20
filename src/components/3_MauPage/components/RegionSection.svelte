@@ -20,7 +20,11 @@
     </div>
     {#if title2}
       <div class="extra">
-        <img class="extra-img" src="ASSET_PREFIX/assets/countries/australia.jpg" alt="" />
+        <img
+          class="extra-img"
+          src="ASSET_PREFIX/assets/countries/australia.jpg"
+          alt=""
+        />
         <h3>{title2}</h3>
         <p>{text2}</p>
       </div>
@@ -205,6 +209,10 @@
     }
     .block {
       margin-bottom: 130px;
+    }
+
+    .block:last-child {
+      margin-bottom: 60px;
     }
     .quote {
       font-size: 30px;

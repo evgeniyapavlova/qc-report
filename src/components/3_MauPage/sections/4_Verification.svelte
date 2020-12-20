@@ -64,7 +64,7 @@
 
 <style>
   section {
-    padding: 100px 0;
+    padding: 100px 0 30px;
   }
   .h2-wrap {
     margin-bottom: 50px;

@@ -33,6 +33,7 @@
 
 <Layout>
   <Section>
+
     <H1_Text_Avatar
       h1="Создание B2B-бизнеса"
       person="{golubev}"
@@ -48,6 +49,7 @@
       бренда Quadcode:
     </p>
     <Goals />
+    <span data-id="saas"></span>
     <div class="h2-wrap">
       <H2_Text_Avatar
         h2="Развитие B2B направлений SaaS, Banking, Liquidity"
@@ -71,6 +73,7 @@
     max-width: 550px;
   }
   .h2-wrap {
+		padding-top: 80px;
     margin-bottom: 34px;
   }
   .tags-wrap {
