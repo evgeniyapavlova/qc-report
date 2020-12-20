@@ -1,5 +1,6 @@
 <script>
   const lang = 'ru';
+  import Header from '../components/Header/Header.svelte';
   import Intro1 from '../components/IndexPage/Intro.svelte';
   import Intro from '../components/1_EbitdaPage/sections/1_Intro.svelte';
   import Quarters from '../components/1_EbitdaPage/sections/2_Quarters.svelte';
@@ -16,22 +17,23 @@
 </script>
 
 <svelte:head>
-  <title>Quadcode - one year in review</title>
+  <title>Quadcode Annual Review 2020</title>
 </svelte:head>
+<Header />
 <Intro1 />
-<span data-id="ebitda"></span>
-<Intro lang="{lang}" />
-<Quarters lang="{lang}" />
-<span data-id="marginForex"></span>
-<IntroMF lang="{lang}" />
-<span data-id="mau"></span>
-<IntroMAU lang="{lang}" />
-<Marketing lang="{lang}" />
-<Marketing_video lang="{lang}" />
-<Marketing_influence lang="{lang}" />
-<Regions lang="{lang}" />
-<Users lang="{lang}" />
-<Team lang="{lang}" />
-<Verification lang="{lang}" />
-<span data-id="b2b"></span>
-<B2B />
+<!--<span data-id="ebitda"></span>-->
+<!--<Intro lang="{lang}" />-->
+<!--<Quarters lang="{lang}" />-->
+<!--<span data-id="marginForex"></span>-->
+<!--<IntroMF lang="{lang}" />-->
+<!--<span data-id="mau"></span>-->
+<!--<IntroMAU lang="{lang}" />-->
+<!--<Marketing lang="{lang}" />-->
+<!--<Marketing_video lang="{lang}" />-->
+<!--<Marketing_influence lang="{lang}" />-->
+<!--<Regions lang="{lang}" />-->
+<!--<Users lang="{lang}" />-->
+<!--<Team lang="{lang}" />-->
+<!--<Verification lang="{lang}" />-->
+<!--<span data-id="b2b"></span>-->
+<!--<B2B />-->

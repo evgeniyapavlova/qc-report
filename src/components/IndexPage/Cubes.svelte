@@ -1,5 +1,9 @@
 {#each [1, 2, 3, 4] as i}
-  <img src="ASSET_PREFIX/assets/intro/cube{i}.png" alt="" class="cube cube{i}" />
+  <img
+    src="ASSET_PREFIX/assets/intro/cube{i}.png"
+    alt=""
+    class="cube cube{i}"
+  />
 {/each}
 
 <style>
@@ -16,8 +20,8 @@
     animation-name: cube1;
   }
   .cube2 {
-    top: 5%;
-    left: 50%;
+    top: 10%;
+    left: 45%;
     animation-duration: 6s;
     animation-name: cube2;
   }
@@ -57,11 +61,28 @@
     }
 
     50% {
-      transform: translateY(-50px);
+      transform: translateY(50px);
     }
 
     100% {
       transform: translateY(0);
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .cube1 {
+      width: 92px;
+    }
+    .cube2,
+    .cube3 {
+      width: 83px;
+    }
+    .cube4 {
+      width: 65px;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .cube4 {
+      display: none;
     }
   }
 </style>

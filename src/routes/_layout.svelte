@@ -35,6 +35,7 @@
     line-height: 1.5;
     color: #323e48;
     background-color: #f5f5f5;
+    min-width: 320px;
   }
   :root {
     --dark-gray: #323e48;

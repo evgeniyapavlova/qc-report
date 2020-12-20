@@ -25,13 +25,15 @@
 </script>
 
 <section>
+  <Img2020 />
+  <Cubes />
   <div class="wrap">
     <Layout>
       <Logo />
       <div class="caption">ONE YEAR<br /> IN REVIEW</div>
       <div class="menu">
         {#each menuItems as item, index}
-          <div data-code='{item.code}' class="row" on:click="{scrollDown}">
+          <div data-code="{item.code}" class="row" on:click="{scrollDown}">
             <div class="item">{item.name}</div>
             <div class="number">0{index + 1}</div>
           </div>
@@ -39,18 +41,18 @@
       </div>
     </Layout>
   </div>
-  <Img2020 />
-  <Cubes />
 </section>
 
 <style>
   section {
-    padding: 66px 0;
+    padding: 136px 0;
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 70px);
+    overflow: hidden;
   }
   .wrap {
     z-index: 2;
+    position: relative;
   }
   .caption {
     color: rgba(0, 0, 0, 0.06);
@@ -109,5 +111,10 @@
   .item {
     width: 270px;
     cursor: pointer;
+  }
+  @media only screen and (max-width: 960px) {
+    section {
+      padding: 100px 0 60px;
+    }
   }
 </style>
