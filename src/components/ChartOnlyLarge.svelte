@@ -1,7 +1,6 @@
 <script>
   export let chartId,
     data,
-    label = '',
     lineColor = '#e62334';
   import { onMount } from 'svelte';
   import Chart from 'chart.js';
