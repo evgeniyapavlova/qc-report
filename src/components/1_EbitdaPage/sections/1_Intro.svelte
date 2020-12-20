@@ -111,6 +111,7 @@
   }
   .quote {
     margin-top: 65px;
+		margin-bottom: 65px;
   }
   @media only screen and (min-width: 480px) {
     .item {
@@ -121,6 +122,7 @@
   @media only screen and (min-width: 960px) {
     .quote {
       margin-top: 80px;
+			margin-bottom: 0;
     }
     section {
       padding-top: 76px;
