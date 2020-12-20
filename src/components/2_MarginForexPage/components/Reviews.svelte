@@ -27,10 +27,10 @@
     en: {},
   };
   const reviewsEmoji = [
-    '/assets/emoji/emoji1.jpg',
-    '/assets/emoji/emoji2.jpg',
-    '/assets/emoji/emoji3.jpg',
-    '/assets/emoji/emoji4.jpg',
+    'ASSET_PREFIX/assets/emoji/emoji1.jpg',
+    'ASSET_PREFIX/assets/emoji/emoji2.jpg',
+    'ASSET_PREFIX/assets/emoji/emoji3.jpg',
+    'ASSET_PREFIX/assets/emoji/emoji4.jpg',
   ];
   const list = [
     { icon: icon1, title: '7,8' },
@@ -69,13 +69,13 @@
           <img
             class="bgr"
             alt="Bubble"
-            src="/assets/margin_forex/bubble_right.jpg"
+            src="ASSET_PREFIX/assets/margin_forex/bubble_right.jpg"
           />
         {:else}
           <img
             alt="Bubble"
             class="bgr"
-            src="/assets/margin_forex/bubble_left.jpg"
+            src="ASSET_PREFIX/assets/margin_forex/bubble_left.jpg"
           />
         {/if}
 
