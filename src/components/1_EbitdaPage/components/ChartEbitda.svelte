@@ -27,7 +27,6 @@
         {
           afterDraw: (chart) => {
             const ctx = chart.chart.ctx;
-            console.log('chart.annotation.elements', chart.width);
             ctx.save();
             ctx.font = `400 14px "Proxima Nova"`;
             ctx.fillStyle = 'rgba(50,62,72,0.5)';
