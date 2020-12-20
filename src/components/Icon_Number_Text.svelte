@@ -3,17 +3,21 @@
 </script>
 
 <div class="item">
-  <svelte:component this="{icon}" />
-  <div class="h2-no-border">{title}</div>
+  <div class="icon">
+    <svelte:component this="{icon}" />
+  </div>
+  {#if title}
+    <div class="h2-no-border">{title}</div>
+  {/if}
   <div class="caption">{text}</div>
 </div>
 
 <style>
-  .h2-no-border {
-    margin-top: 15px;
-    margin-bottom: 8px;
+  .icon {
+    margin-bottom: 15px;
   }
   .caption {
+    margin-top: 8px;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;

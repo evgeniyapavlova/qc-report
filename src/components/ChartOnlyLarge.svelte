@@ -9,7 +9,7 @@
   onMount(() => {
     const intViewportWidth = window.innerWidth;
     if (intViewportWidth < 670) {
-      renderChart(9, 6, 6, 2, true);
+      renderChart(13, 6, 6, 5);
     } else {
       renderChart();
     }
@@ -18,33 +18,16 @@
     fontSize = 13,
     maxYTicksLimit = 10,
     maxXTicksLimit = 11,
-    pointRadius = 5,
-    isSmall = false
+    pointRadius = 5
   ) => {
     const ctx = document.getElementById(chartId).getContext('2d');
     const chart = new Chart(ctx, {
       type: 'line',
-      plugins: [
-        {
-          afterDraw: (chart) => {
-            const ctx = chart.chart.ctx;
-            ctx.save();
-            ctx.font = `400 14px "Proxima Nova"`;
-            ctx.fillStyle = 'rgba(50,62,72,0.5)';
-            const y = 15;
-            ctx.textAlign = 'left';
-            ctx.fillText(label, 5, y);
-            ctx.restore();
-          },
-        },
-      ],
       data: {
         labels: data.labels,
         datasets: [
           {
-            // backgroundColor: 'rgba(230,35,52,0.1)',
             backgroundColor: 'transparent',
-            // pointHoverBackgroundColor: '#F2DCDE',
             borderColor: lineColor,
             data: data.values,
             lineTension: 0,
@@ -59,6 +42,7 @@
         ],
       },
       options: {
+        maintainAspectRatio: false,
         layout: {
           padding: {
             top: 40,
@@ -99,8 +83,7 @@
                 padding: 10,
                 maxTicksLimit: maxYTicksLimit,
                 fontColor: '#D8D8D8',
-                // stepSize: 2500,
-                // beginAtZero: true,
+                stepSize: 25,
               },
             },
           ],
@@ -131,14 +114,9 @@
               meta.data.forEach(function (bar, index) {
                 var data = dataset.data[index];
                 ctx.fillStyle = lineColor;
-                if (data !== 0)
-                  if (isSmall) {
-                    if (index % 2 === 0) {
-                      ctx.fillText(data, bar._model.x, bar._model.y - 5);
-                    }
-                  } else {
-                    ctx.fillText(data, bar._model.x, bar._model.y - 10);
-                  }
+                if (data !== 0) {
+                  ctx.fillText(data, bar._model.x, bar._model.y - 10);
+                }
               });
             });
           },

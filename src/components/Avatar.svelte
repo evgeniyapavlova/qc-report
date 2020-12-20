@@ -34,7 +34,7 @@
   }
   .position {
     font-weight: 400;
-    max-width: 190px;
+    max-width: 160px;
   }
 
   @media only screen and (min-width: 960px) {

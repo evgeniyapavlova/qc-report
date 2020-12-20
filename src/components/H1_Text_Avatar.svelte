@@ -22,6 +22,7 @@
   }
   h1 {
     max-width: 710px;
+    margin-right: 40px;
   }
   @media only screen and (min-width: 800px) {
     .flex {
@@ -38,16 +39,24 @@
     .wrap-avatar {
       position: absolute;
       top: 0;
-			right: 0;
+      right: 0;
     }
     h4 {
-			width: calc(100% - 350px);
+      width: calc(100% - 350px);
+    }
+    h1 {
+      max-width: 550px;
     }
     .wrap {
       position: relative;
     }
     .flex {
       display: block;
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    h1 {
+      max-width: 620px;
     }
   }
 </style>

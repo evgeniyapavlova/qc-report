@@ -9,7 +9,7 @@
   onMount(() => {
     const intViewportWidth = window.innerWidth;
     if (intViewportWidth < 670) {
-      renderChart(9, 6, 6, 2, true);
+      renderChart(9, 6, 6, 2);
     } else {
       renderChart();
     }
@@ -19,7 +19,6 @@
     maxYTicksLimit = 10,
     maxXTicksLimit = 11,
     pointRadius = 5,
-    isSmall = false
   ) => {
     const ctx = document.getElementById(chartId).getContext('2d');
     const chart = new Chart(ctx, {
@@ -28,12 +27,17 @@
         {
           afterDraw: (chart) => {
             const ctx = chart.chart.ctx;
+            console.log('chart.annotation.elements', chart.width);
             ctx.save();
             ctx.font = `400 14px "Proxima Nova"`;
             ctx.fillStyle = 'rgba(50,62,72,0.5)';
             const y = 15;
             ctx.textAlign = 'left';
             ctx.fillText(label, 5, y);
+            ctx.textAlign = 'right';
+            ctx.fillText('forecast', chart.width, y);
+            ctx.fillStyle = '#E62334';
+            ctx.fillText('*', chart.width - 52, y);
             ctx.restore();
           },
         },
@@ -79,7 +83,7 @@
               ticks: {
                 fontSize,
                 padding: 10,
-                fontColor: '#3E4953',
+                fontColor: 'rgba(50,62,72,1)',
                 maxRotation: 45,
                 minRotation: 45,
                 maxTicksLimit: maxXTicksLimit,
@@ -95,12 +99,14 @@
                 offsetGridLines: false,
               },
               ticks: {
+                callback: function (value, index, values) {
+                  return value + 'M';
+                },
                 fontSize,
                 padding: 10,
                 maxTicksLimit: maxYTicksLimit,
                 fontColor: '#D8D8D8',
-                // stepSize: 2500,
-                // beginAtZero: true,
+                stepSize: 25,
               },
             },
           ],
@@ -130,15 +136,12 @@
               var meta = chartInstance.controller.getDatasetMeta(i);
               meta.data.forEach(function (bar, index) {
                 var data = dataset.data[index];
+                if (index === dataset.data.length - 1) {
+                  data = data + '*';
+                }
                 ctx.fillStyle = lineColor;
                 if (data !== 0)
-                  if (isSmall) {
-                    if (index % 2 === 0) {
-                      ctx.fillText(data, bar._model.x, bar._model.y - 5);
-                    }
-                  } else {
-                    ctx.fillText(data, bar._model.x, bar._model.y - 10);
-                  }
+                  ctx.fillText(data, bar._model.x, bar._model.y - 10);
               });
             });
           },
