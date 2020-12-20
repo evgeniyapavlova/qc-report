@@ -5,7 +5,7 @@
 </script>
 
 <div class="block block-{img} {reverse ? 'block-reverse' : 'block-normal'}">
-  <img src="{`/assets/countries/${img}.jpg`}" alt="" />
+  <img src="{`ASSET_PREFIX/assets/countries/${img}.jpg`}" alt="" />
   <div class="content">
     <h3>{title}</h3>
     <div class="avatar-wrap">
@@ -20,7 +20,7 @@
     </div>
     {#if title2}
       <div class="extra">
-        <img class="extra-img" src="/assets/countries/australia.jpg" alt="" />
+        <img class="extra-img" src="ASSET_PREFIX/assets/countries/australia.jpg" alt="" />
         <h3>{title2}</h3>
         <p>{text2}</p>
       </div>

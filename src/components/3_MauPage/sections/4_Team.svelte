@@ -88,7 +88,7 @@
       </div>
       <div slot="left" class="flex-reverse">
         <div class="quote">{content[lang].quote}</div>
-        <img src="/assets/mau/pie-chart.jpg" alt="" class="chart-img" />
+        <img src="ASSET_PREFIX/assets/mau/pie-chart.jpg" alt="" class="chart-img" />
       </div>
     </Col2>
     <div class="caption">{content[lang].caption}</div>
@@ -134,7 +134,7 @@
     margin-bottom: 35px;
   }
   .map {
-    background: url('/assets/mau/map_mobile.jpg') no-repeat center center;
+    background: url('ASSET_PREFIX/assets/mau/map_mobile.jpg') no-repeat center center;
     background-size: 100% auto;
     padding-bottom: 51%;
     width: 100%;
@@ -142,7 +142,7 @@
   }
   @media only screen and (min-width: 750px) {
     .map {
-      background-image: url('/assets/mau/map.jpg');
+      background-image: url('ASSET_PREFIX/assets/mau/map.jpg');
       padding-bottom: 55%;
     }
   }

@@ -34,7 +34,7 @@
       </div>
       <div class="aff-content">
         <img
-          src="/assets/mau/new_aff_prog.png"
+          src="ASSET_PREFIX/assets/mau/new_aff_prog.png"
           alt="Сайт новой партнерской программы"
           class="new-aff-pro"
         />
@@ -46,7 +46,7 @@
       </div>
       <div class="land-content">
         <img
-          src="/assets/mau/best_landing.png"
+          src="ASSET_PREFIX/assets/mau/best_landing.png"
           alt="Наш лучший лендинг"
           class="best-land"
         />
