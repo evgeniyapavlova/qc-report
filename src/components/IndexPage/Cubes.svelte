@@ -1,5 +1,5 @@
 {#each [1, 2, 3, 4] as i}
-  <img src="/assets/intro/cube{i}.png" alt="" class="cube cube{i}" />
+  <img src="ASSET_PREFIX/assets/intro/cube{i}.png" alt="" class="cube cube{i}" />
 {/each}
 
 <style>

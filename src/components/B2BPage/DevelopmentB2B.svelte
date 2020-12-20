@@ -2,27 +2,27 @@
   const items = [
     {
       title: 'SaaS',
-      img: '/assets/b2b/saas.jpg',
+      img: 'ASSET_PREFIX/assets/b2b/saas.jpg',
       text:
         'Software as a Service — это предоставление программного обеспечения как услуги. В нашем случае мы предоставляем мобильную, десктоп и веб-версии трейдинговой платформы нашим клиентам: банкам, будущим и нынешним брокерам и финтех компаниям.',
       title2: 'Что нужно знать о нашем SaaS-решении?',
       subitems: [
         {
-          icon: '/assets/b2b/saas1.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/saas1.jpg',
           text: 'Безотказное время работы нашей платформы составляет 99,95%',
         },
         {
-          icon: '/assets/b2b/saas2.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/saas2.jpg',
           text:
             'Мы берем на себя техническое обслуживание, поэтому клиент может не тратить на это свое время.',
         },
         {
-          icon: '/assets/b2b/saas3.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/saas3.jpg',
           text:
             'Наша платформа кастомизируема, то есть настраивается под требования клиента.',
         },
         {
-          icon: '/assets/b2b/saas4.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/saas4.jpg',
           text:
             'Приложения, которые мы предоставляем, отвечают всем требованиям маркетплейсов.',
         },
@@ -30,23 +30,23 @@
     },
     {
       title: 'Banking',
-      img: '/assets/b2b/banking.jpg',
+      img: 'ASSET_PREFIX/assets/b2b/banking.jpg',
       text:
         'В 2020 году мы начали работу над созданием банковской инфраструктуры как для нашей группы компаний, так и для наших B2B-клиентов. ',
       title2: 'Почему банкинг?',
       subitems: [
         {
-          icon: '/assets/b2b/banking1.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/banking1.jpg',
           text:
             'С помощью банков Amaiz, Westiva и Westiva Brazil мы сможем значительно снизить расходы компании на банковские комиссии и биллинг.',
         },
         {
-          icon: '/assets/b2b/banking2.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/banking2.jpg',
           text:
             'Обеспечим B2C-клиентов наших брокеров возможностью пополнять баланс платформы и выводить средства с помощью банковской карты.',
         },
         {
-          icon: '/assets/b2b/banking3.jpg',
+          icon: 'ASSET_PREFIX/assets/b2b/banking3.jpg',
           text:
             'Регулируемые и нерегулируемые партнеры (трафик-провайдеры) получат удобный инструмент для вывода заработанных средств и реинвестирования в рекламу нашей платформы.',
         },
@@ -54,11 +54,11 @@
     },
     {
       title: 'Liquidity',
-      img: '/assets/b2b/liquidity.jpg',
+      img: 'ASSET_PREFIX/assets/b2b/liquidity.jpg',
       text:
         'Одна из целей Quadcode — стать не только разработчиком программного обеспечения, но и поставщиком ликвидности для наших клиентов. Когда компания Quadcode Markets получит лицензию FCA, она сможет предоставлять ликвидность всем компаниям нашей группы, а также всем нашим B2B-клиентам.',
-      quote: 'Мы сделаем все возможное, чтобы каждое направление B2B круто работало,  а клиент получал максимально позитивный опыт',
-      laptop: '/assets/b2b/laptop.jpg',
+      quote: 'Мы сделаем все возможное, чтобы каждое направление B2B круто работало, а клиент получал максимально позитивный опыт',
+      laptop: 'ASSET_PREFIX/assets/b2b/laptop.jpg',
     },
   ];
 </script>

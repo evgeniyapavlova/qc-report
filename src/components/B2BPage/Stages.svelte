@@ -1,8 +1,8 @@
 <script>
   const stages = [
-    { img: '/assets/b2b/stage1.jpg', year: '2019', title: 'Mission' },
-    { img: '/assets/b2b/stage2.jpg', year: '2020', title: 'White Label' },
-    { img: '/assets/b2b/stage3.jpg', year: '2022', title: 'B2B clients' },
+    { img: 'ASSET_PREFIX/assets/b2b/stage1.jpg', year: '2019', title: 'Mission' },
+    { img: 'ASSET_PREFIX/assets/b2b/stage2.jpg', year: '2020', title: 'White Label' },
+    { img: 'ASSET_PREFIX/assets/b2b/stage3.jpg', year: '2022', title: 'B2B clients' },
   ];
 </script>
 
@@ -31,7 +31,7 @@
   .arrow {
     width: 100%;
     height: 150px;
-    background: url(/assets/svg/arrow.svg) no-repeat center top;
+    background: url(ASSET_PREFIX/assets/svg/arrow.svg) no-repeat center top;
   }
   .stages {
     margin-top: 120px;
@@ -89,7 +89,7 @@
     .arrow {
       height: 16px;
       width: calc(100% - 140px);
-      background: url(/assets/svg/arrow-h.svg) no-repeat right center;
+      background: url(ASSET_PREFIX/assets/svg/arrow-h.svg) no-repeat right center;
     }
     .stages {
       margin-top: 70px;

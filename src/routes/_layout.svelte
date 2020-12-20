@@ -1,6 +1,41 @@
 <slot />
 
 <style>
+  @font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    src: url('ASSET_PREFIX/assets/fonts/proximanova-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    src: url('ASSET_PREFIX/assets/fonts/proximanova-medium.woff2')
+      format('woff2');
+    font-weight: 500;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    src: url('ASSET_PREFIX/assets/fonts/proximanova-regular.woff2')
+      format('woff2');
+    font-weight: 400;
+    font-display: swap;
+  }
+  :global(body) {
+    margin: 0;
+    font-family: Proxima Nova, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #323e48;
+    background-color: #f5f5f5;
+  }
   :root {
     --dark-gray: #323e48;
     --red: #e62334;

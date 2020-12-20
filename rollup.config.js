@@ -21,6 +21,8 @@ const onwarn = (warning, onwarn) =>
     /[/\\]@sapper[/\\]/.test(warning.message)) ||
   onwarn(warning);
 
+const assetPrefix = dev ? '' : '/qc-report';
+
 export default {
   client: {
     input: config.client.input(),
@@ -29,6 +31,7 @@ export default {
       replace({
         'process.browser': true,
         'process.env.NODE_ENV': JSON.stringify(mode),
+        ASSET_PREFIX: assetPrefix,
       }),
       svelte({
         dev,
@@ -83,6 +86,7 @@ export default {
       replace({
         'process.browser': false,
         'process.env.NODE_ENV': JSON.stringify(mode),
+        ASSET_PREFIX: assetPrefix,
       }),
       svelte({
         generate: 'ssr',

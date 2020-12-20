@@ -2,6 +2,7 @@
   import Section from '../Section.svelte';
   import Layout from '../Layout.svelte';
   import Tags from '../Tags.svelte';
+  import H1_Text_Avatar from '../H1_Text_Avatar.svelte';
   import H2_Text_Avatar from '../H2_Text_Avatar.svelte';
   import Stages from '../B2BPage/Stages.svelte';
   import Goals from '../B2BPage/Goals.svelte';
@@ -32,9 +33,8 @@
 
 <Layout>
   <Section>
-    <h1>Создание B2B-бизнеса</h1>
-    <H2_Text_Avatar
-      h2="Холдинг <span>Quadcode</span>"
+    <H1_Text_Avatar
+      h1="Создание B2B-бизнеса"
       person="{golubev}"
       text="В Mission Action Plan в 2019 году топ-менеджмент компании определил
         вектор развития до 2022 года. Миссия и план, заложенные тогда,

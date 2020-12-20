@@ -2,71 +2,71 @@ export default {
   golubev: {
     name: 'Vladimir Golubev',
     position: 'Chief of Strategic Finance and Legal',
-    photo: '/assets/avatars/golubev.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/golubev.jpg',
   },
   bolotov: {
     name: 'Kirill Bolotov',
     position: 'Chief of B2B',
-    photo: '/assets/avatars/bolotov.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/bolotov.jpg',
   },
   francois: {
     name: 'Maxime François',
-    position: 'Chief of Global Compliance  and Back Office',
-    photo: '/assets/avatars/francois.jpg',
+    position: 'Chief of Global Compliance and Back Office',
+    photo: 'ASSET_PREFIX/assets/avatars/francois.jpg',
   },
   tychenko: {
     name: 'Evgeny Tychenko',
     position: 'Chief of B2C',
-    photo: '/assets/avatars/tychenko.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/tychenko.jpg',
   },
   pachko: {
     name: 'Artem Pachko',
-    position: 'Chief of Acquisition  and Sales',
-    photo: '/assets/avatars/pachko.jpg',
+    position: 'Chief of Acquisition and Sales',
+    photo: 'ASSET_PREFIX/assets/avatars/pachko.jpg',
   },
   lopez: {
     name: 'Joan Lopez',
     position: 'Regional Business Developer',
-    photo: '/assets/avatars/lopez.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/lopez.jpg',
   },
   rentoumis: {
     name: 'Nikos Rentoumis',
     position: 'Regional Business Developer',
-    photo: '/assets/avatars/rentoumis.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/rentoumis.jpg',
   },
   kokh: {
     name: 'Alexander Kokh',
     position: 'Regional Business Developer',
-    photo: '/assets/avatars/kokh.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/kokh.jpg',
   },
   nescheret: {
     name: 'Boris Nescheret',
     position: 'Regional Business Developer',
-    photo: '/assets/avatars/nescheret.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/nescheret.jpg',
   },
   kulik: {
     name: 'Stepan Kulik',
     position: 'Regional Business Developer',
-    photo: '/assets/avatars/kulik.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/kulik.jpg',
   },
   kutkova: {
     name: 'Irina Kutkova',
     position: 'Chief of Customer Care',
-    photo: '/assets/avatars/kutkova.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/kutkova.jpg',
   },
   david: {
     name: 'George David',
     position: 'Product Owner Forex/CFD Products',
-    photo: '/assets/avatars/david.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/david.jpg',
   },
   rabinovich: {
     name: 'Anton Rabinovich',
     position: 'CEO',
-    photo: '/assets/avatars/rabinovich.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/rabinovich.jpg',
   },
   gitsis: {
     name: 'Michael Gitsis',
     position: 'Chief of Administration  and Group CFO',
-    photo: '/assets/avatars/gitsis.jpg',
+    photo: 'ASSET_PREFIX/assets/avatars/gitsis.jpg',
   },
 };

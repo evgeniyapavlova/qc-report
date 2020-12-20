@@ -1,4 +1,4 @@
-<div class="wrap2020"><img src="/assets/intro/2020.jpg?1" alt="" /></div>
+<div class="wrap2020"><img src="ASSET_PREFIX/assets/intro/2020.jpg?1" alt="" /></div>
 
 <style>
   .wrap2020 {
