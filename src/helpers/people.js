@@ -59,4 +59,14 @@ export default {
     position: 'Product Owner Forex/CFD Products',
     photo: '/assets/avatars/david.jpg',
   },
+  rabinovich: {
+    name: 'Anton Rabinovich',
+    position: 'CEO',
+    photo: '/assets/avatars/rabinovich.jpg',
+  },
+  gitsis: {
+    name: 'Michael Gitsis',
+    position: 'Chief of Administration  and Group CFO',
+    photo: '/assets/avatars/gitsis.jpg',
+  },
 };
