@@ -24,3 +24,9 @@
     <MarketingInfo lang="{lang}" />
   </Layout>
 </section>
+
+<style>
+  section {
+    padding-top: 120px;
+  }
+</style>

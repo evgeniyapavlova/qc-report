@@ -1,5 +1,5 @@
 <script>
-  import Intro from '../../components/2_MarginForexPage/sections/1_Intro.svelte';
+  import IntroMF from '../../components/2_MarginForexPage/sections/1_Intro.svelte';
   const lang = 'ru';
 </script>
 
@@ -7,4 +7,4 @@
   <title>Запуск Margin Forex</title>
 </svelte:head>
 
-<Intro lang="{lang}" />
+<IntroMF lang="{lang}" />

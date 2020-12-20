@@ -70,32 +70,37 @@
   };
 </script>
 
-<Layout>
-  <Col2>
-    <div slot="right">
-      {#each content[lang].items as item}
-        <h5>{item.title}</h5>
-        <p>{item.text}</p>
-        <div class="list">
-          {#each item.list as iconItem}
-            <div class="list-item">
-              <Icon_Number_Text {...iconItem} />
-            </div>
-          {/each}
-        </div>
-      {/each}
-    </div>
-    <div slot="left" class="flex-reverse">
-      <div class="quote">{content[lang].quote}</div>
-      <img src="/assets/mau/pie-chart.jpg" alt="" class="chart-img" />
-    </div>
-  </Col2>
-  <div class="caption">{content[lang].caption}</div>
-  <div class="map"></div>
-  <Countries />
-</Layout>
+<section>
+  <Layout>
+    <Col2>
+      <div slot="right">
+        {#each content[lang].items as item}
+          <h5>{item.title}</h5>
+          <p>{item.text}</p>
+          <div class="list">
+            {#each item.list as iconItem}
+              <div class="list-item">
+                <Icon_Number_Text {...iconItem} />
+              </div>
+            {/each}
+          </div>
+        {/each}
+      </div>
+      <div slot="left" class="flex-reverse">
+        <div class="quote">{content[lang].quote}</div>
+        <img src="/assets/mau/pie-chart.jpg" alt="" class="chart-img" />
+      </div>
+    </Col2>
+    <div class="caption">{content[lang].caption}</div>
+    <div class="map"></div>
+    <Countries />
+  </Layout>
+</section>
 
 <style>
+  section {
+    padding-top: 100px;
+  }
   .chart-img {
     width: 100%;
     max-width: 437px;
