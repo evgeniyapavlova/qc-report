@@ -69,4 +69,19 @@ export default {
     position: 'Chief of Administration  and Group CFO',
     photo: 'ASSET_PREFIX/assets/avatars/gitsis.jpg',
   },
+  khimchenko: {
+    name: 'Tatyana Khimchenko',
+    position: 'Head of International Legal',
+    photo: 'ASSET_PREFIX/assets/avatars/khimchenko.jpg',
+  },
+  kurbatov: {
+    name: 'Evgenii Kurbatov',
+    position: 'Head of Office System Administration',
+    photo: 'ASSET_PREFIX/assets/avatars/kurbatov.jpg',
+  },
+  abdukarimova: {
+    name: 'Vera-Nika Abdukarimova',
+    position: 'Head of Office Administration',
+    photo: 'ASSET_PREFIX/assets/avatars/abdukarimova.jpg',
+  },
 };
