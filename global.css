@@ -17,26 +17,3 @@ section {
 a {
   color: inherit;
 }
-
-h1 {
-  color: var(--dark-gray);
-  font-size: 30px;
-  line-height: 1;
-  font-weight: 700;
-  margin-bottom: 40px;
-  border-left: 4px solid var(--red);
-  padding-left: 22px;
-}
-
-@media only screen and (min-width: 480px) {
-  h1 {
-    font-size: 48px;
-    margin-bottom: 60px;
-  }
-}
-
-@media only screen and (min-width: 960px) {
-  h1 {
-    margin-bottom: 60px;
-  }
-}
