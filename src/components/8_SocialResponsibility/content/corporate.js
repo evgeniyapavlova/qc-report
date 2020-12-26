@@ -77,3 +77,5 @@ export const tags = [
   'Charity',
   'Travel',
 ];
+
+export default content;
