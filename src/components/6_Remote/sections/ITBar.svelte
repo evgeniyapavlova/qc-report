@@ -1,59 +1,76 @@
 <script>
-  import icon1_1 from '../img/slack.svg';
-  import icon1_2 from '../img/helpdesk.svg';
-  import icon1_3 from '../img/traffic.svg';
-  import icon1_4 from '../img/laptop.svg';
-
-  import icon2_1 from '../img/replicate_data.svg';
-  import icon2_2 from '../img/vpn.svg';
-  import icon2_3 from '../img/printer.svg';
-  import icon2_4 from '../img/tech_service.svg';
-
-  const content = {
-    ru: {
-      h2: 'IT Bar',
-      desc:
-        ' Вначале карантина были лишь туманные прогнозы и избыток дезинформации. Что происходит сейчас? Что будет завтра? До перехода сотрудников на удаленную работу оставались считанные дни.',
-      text:
-        'На проработке кейсов мы начали с хардкорного варианта — полного локдауна. Благодаря усилиям и сплоченности всех команд, которые участвовали в переходе на удаленку, мы успешно справились с вызовами пандемии. Работать с такими людьми — большая удача!',
-      quote:
-        'Благодаря усилиям и сплоченности всех команд, которые участвовали в переходе на удаленку, мы успешно справились с вызовами пандемии',
-      items: [
-        'сообщений в канале #admins',
-        'заявок в Helpdesk в IT Bar в России и на Кипре',
-        'объем входящего трафика в офис',
-        'новых ноутбуков выдано сотрудникам',
-      ],
-      title2:
-        'Чтобы переход на удаленную работу прошел гладко, Office System Administration:',
-      items2: [
-        {
-          title: 'Репликация данных',
-          text:
-            'В течение считанных часов сделали репликации данных серверов петербургского и кипрского офисов. Таким образом, сотрудник мог получить доступ к внутренним сервисам в случае полного отсутствия доступов к офисам.',
-        },
-        {
-          title: 'Нагрузка VPN',
-          text:
-            'Удостоверились, что VPN выдержит нагрузку вплоть до одновременного подключения всех сотрудников.',
-        },
-        {
-          title: 'Принтеры и сканеры',
-          text:
-            'В считанные дни закупили принтеры и сканеры для сотрудников административной ветки, которые занимаются документооборотом. Всей командой, в конвейерном режиме, настраивали и проверяли их, чтобы у сотрудников не было проблем с подключение их дома.',
-        },
-        {
-          title: 'Дежурство в офисе',
-          text:
-            'Поработали процессы выхода новых сотрудников, оффлайн-поддержки и составили план дежурств в офисе.',
-        },
-      ],
-      finalText1: 'Как мы работаем сейчас и что ждет нас впереди?',
-      finalText2:
-        'На данный момент у нас ежедневно дежурят по два бойца, готовых помочь тем, кто приходит в офис и обслуживающие инфраструктуру. В это же время остальные ребята оказывают удаленную поддержку. У нас еще много планов и идей, которые будут реализованы в 2021.',
-    },
-    en: { h2: '' },
-  };
-  const icons1 = [icon1_1, icon1_2, icon1_3, icon1_4];
-  const icons2 = [icon2_1, icon2_2, icon2_3, icon2_4];
+  export let lang;
+  import { content, icons1, icons2, numbers } from '../content/itbar';
+  import Layout from '../../Layout.svelte';
+  import H2_Text_Avatar from '../../H2_Text_Avatar_Reverse.svelte';
+  import Icon_Number_Text from '../../Icon_Number_Text.svelte';
+  import Col2 from '../../Col2_Reverse.svelte';
+  import people from '../../../helpers/people';
+  const { kurbatov } = people;
 </script>
+
+<section>
+  <Layout>
+    <H2_Text_Avatar
+      h2="IT Bar"
+      text="{content[lang].desc}"
+      person="{kurbatov}"
+      isReverse="{true}"
+    />
+    <Col2>
+      <div slot="right">
+        <div class="list">
+          {#each content[lang].items as item, index}
+            <div class="item-wrap">
+              <Icon_Number_Text
+                icon="{icons1[index]}"
+                title="{numbers[index]}"
+                text="{item}"
+              />
+            </div>
+          {/each}
+        </div>
+      </div>
+      <div slot="left">
+        <div class="quote">{content[lang].quote}</div>
+      </div>
+    </Col2>
+  </Layout>
+</section>
+
+<style>
+  section {
+    padding-top: 100px;
+  }
+  .list {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .item-wrap {
+    width: 50%;
+    padding: 0 17px;
+    margin-bottom: 40px;
+    max-width: 204px;
+  }
+  .quote {
+    max-width: 530px;
+  }
+  @media only screen and (min-width: 960px) {
+    .list {
+      text-align: left;
+      margin-top: 0;
+			margin-bottom: 0;
+    }
+    .quote {
+      margin-top: 105px;
+    }
+    .item-wrap {
+      margin-bottom: 60px;
+      padding: 0 20px 0 0;
+    }
+  }
+</style>
