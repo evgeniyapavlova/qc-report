@@ -20,6 +20,7 @@
   <title>Quadcode Annual Review 2020</title>
 </svelte:head>
 <Header />
+<span data-id="intro"></span>
 <Intro1 />
 <span data-id="ebitda"></span><span data-id="ceo"></span>
 <Intro lang="{lang}" />
