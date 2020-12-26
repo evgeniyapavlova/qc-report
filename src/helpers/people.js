@@ -84,4 +84,19 @@ export default {
     position: 'Head of Office Administration',
     photo: 'ASSET_PREFIX/assets/avatars/abdukarimova.jpg',
   },
+  latokhin: {
+    name: 'Kirill Latokhin',
+    position: 'Charity Team Leader',
+    photo: 'ASSET_PREFIX/assets/avatars/latokhin.jpg',
+  },
+  galak: {
+    name: 'Olga Galak',
+    position: 'Charity PR manager',
+    photo: 'ASSET_PREFIX/assets/avatars/galak.jpg',
+  },
+  bykova: {
+    name: 'Olga Bykova',
+    position: 'Charity document manager',
+    photo: 'ASSET_PREFIX/assets/avatars/bykova.jpg',
+  },
 };
