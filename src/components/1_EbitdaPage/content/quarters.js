@@ -100,7 +100,7 @@ export const numbers = [
     caption: 'EBITDA',
   },
   {
-    number: '$215M',
+    number: '$204M',
     caption: 'EBITDA',
   },
 ];
