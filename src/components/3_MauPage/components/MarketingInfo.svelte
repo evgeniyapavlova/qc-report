@@ -90,10 +90,10 @@
 </script>
 
 <div class="wrap">
-  <Col2>
-    <div slot="right">
+  <div class="flex">
+    <div class="content">
       <div class="text-content">
-        {#each content[lang] as item}
+        {#each [content[lang][0], content[lang][1]] as item}
           <div class="item {item.numbers ? 'with-numbers' : ''}">
             <h5>{item.title}</h5>
             <p>
@@ -110,8 +110,30 @@
         {/each}
       </div>
     </div>
-    <div slot="left">
-      <h5>Оценка в Google Play</h5>
+  </div>
+
+  <div class="flex">
+    <div class="content">
+      <div class="text-content">
+        {#each [content[lang][2], content[lang][3]] as item}
+          <div class="item {item.numbers ? 'with-numbers' : ''}">
+            <h5>{item.title}</h5>
+            <p>
+              {@html item.text}
+            </p>
+            {#if item.numbers}
+              <div class="numbers">
+                {#each item.numbers as numberBlock}
+                  <LineNumberItem {...numberBlock} />
+                {/each}
+              </div>
+            {/if}
+          </div>
+        {/each}
+      </div>
+    </div>
+    <div class="aside">
+      <h6>Оценка в Google Play</h6>
       <div class="apps">
         {#each apps as app}
           <div class="app">
@@ -129,7 +151,29 @@
         {/each}
       </div>
     </div>
-  </Col2>
+  </div>
+
+  <div class="flex">
+    <div class="content">
+      <div class="text-content">
+        {#each [content[lang][4], content[lang][5]] as item}
+          <div class="item {item.numbers ? 'with-numbers' : ''}">
+            <h5>{item.title}</h5>
+            <p>
+              {@html item.text}
+            </p>
+            {#if item.numbers}
+              <div class="numbers">
+                {#each item.numbers as numberBlock}
+                  <LineNumberItem {...numberBlock} />
+                {/each}
+              </div>
+            {/if}
+          </div>
+        {/each}
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -150,6 +194,9 @@
     font-size: 26px;
     line-height: 1;
     text-align: center;
+  }
+  h6 {
+    margin-bottom: 40px;
   }
   .logo {
     margin-bottom: 20px;
@@ -197,9 +244,9 @@
       justify-content: space-between;
     }
     .item {
-      width: 48%;
-
+      width: 50%;
       position: relative;
+      padding-right: 10%;
     }
     .with-numbers {
       padding-bottom: 180px;
@@ -214,9 +261,21 @@
       margin-right: 20px;
     }
   }
-  @media only screen and (min-width: 1120px) {
-    .item {
-      width: calc(50% - 30px);
+  @media only screen and (max-width: 959px) {
+    .aside {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 960px) {
+    .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    .aside {
+      width: 16%;
+    }
+    .content {
+      width: 83%;
     }
   }
 </style>

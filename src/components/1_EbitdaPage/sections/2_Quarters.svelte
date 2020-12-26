@@ -18,7 +18,7 @@
       {#if index === 0}
         <div class="item">
           <div class="row row-reverse">
-            <div class="col col-chart">
+            <div class="col col-chart col-gitsis">
               <div class="avatar-wrap">
                 <Avatar {...gitsis} />
               </div>
@@ -36,6 +36,7 @@
                 <Chart
                   data="{charts[index]}"
                   chartId="{`q-${index - 1}-chart`}"
+                  label="EBITDA Projection"
                 />
               </div>
             </div>
@@ -71,6 +72,7 @@
             <div class="col col-chart">
               <div class="chart-wrap">
                 <Chart
+                  label="EBITDA Projection"
                   data="{charts[index]}"
                   chartId="{`q-${index - 1}-chart`}"
                 />
@@ -148,6 +150,8 @@
     }
     .avatar-wrap {
       margin-bottom: 0;
+      display: flex;
+      justify-content: flex-end;
     }
     .row-reverse {
       flex-direction: row-reverse;
@@ -181,6 +185,9 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .item {
+      margin-bottom: 100px;
+    }
     .col-text {
       width: 57%;
     }

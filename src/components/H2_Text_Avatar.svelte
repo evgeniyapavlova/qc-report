@@ -20,10 +20,10 @@
 <style>
   h4 {
     margin-top: 40px;
-    max-width: 710px;
+    max-width: 618px;
   }
   h2 {
-    max-width: 530px;
+    max-width: 618px;
   }
   @media only screen and (min-width: 800px) {
     .flex {

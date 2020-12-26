@@ -4,10 +4,10 @@
     {
       name: 'EBITDA',
       code: 'ebitda',
-      items: [
-        { name: 'Комментарий CEO', code: 'ceo' },
-        { name: 'Движение по кварталам', code: 'quarters' },
-      ],
+      // items: [
+      //   { name: 'Комментарий CEO', code: 'ceo' },
+      //   { name: 'Движение по кварталам', code: 'quarters' },
+      // ],
     },
 
     { name: 'Запуск Margin Forex', code: 'marginForex' },
@@ -15,20 +15,20 @@
     {
       name: 'Эпик по MAU выполнен',
       code: 'mau',
-      items: [
-        { name: 'Маркетинг', code: 'marketing' },
-        { name: 'Развитие регионов', code: 'regions' },
-        { name: 'Поддержка клиентов', code: 'support' },
-        { name: 'Верификация пользователей', code: 'verification' },
-      ],
+      // items: [
+      //   { name: 'Маркетинг', code: 'marketing' },
+      //   { name: 'Развитие регионов', code: 'regions' },
+      //   { name: 'Поддержка клиентов', code: 'support' },
+      //   { name: 'Верификация пользователей', code: 'verification' },
+      // ],
     },
     {
       name: 'Создание B2B-бизнеса ',
       code: 'b2b',
-      items: [
-        { name: 'Создание Холдинга Quadcode', code: 'holding' },
-        { name: 'SaaS, Banking, Liquidity', code: 'saas' },
-      ],
+      // items: [
+      //   { name: 'Создание Холдинга Quadcode', code: 'holding' },
+      //   { name: 'SaaS, Banking, Liquidity', code: 'saas' },
+      // ],
     },
     { name: 'Технические и продуктовые апдейты', code: 'updates' },
     { name: 'Переход на удалёнку', code: 'remote' },
@@ -37,11 +37,11 @@
     {
       name: 'Благодарности',
       code: 'thanks',
-      items: [
-        { name: 'Образовательные проекты в России', code: 'russia' },
-        { name: 'Фишкошоп и экоофис', code: 'ecooffice' },
-        { name: 'Благотворительный фонд в Руанде', code: 'rwanda' },
-      ],
+      // items: [
+      //   { name: 'Образовательные проекты в России', code: 'russia' },
+      //   { name: 'Фишкошоп и экоофис', code: 'ecooffice' },
+      //   { name: 'Благотворительный фонд в Руанде', code: 'rwanda' },
+      // ],
     },
   ];
 
@@ -67,17 +67,6 @@
         >
           {item.name}
         </div>
-        {#if item.items}
-          {#each item.items as subitem}
-            <div
-              on:click="{handleClickMenuItem}"
-              class="subitem item"
-              data-code="{subitem.code}"
-            >
-              {subitem.name}
-            </div>
-          {/each}
-        {/if}
       </div>
     {/each}
   </div>
@@ -95,10 +84,9 @@
   .sidebar {
     transition: transform ease-out 0.3s;
     background-color: #000;
-    color: #fff;
+    color: #666;
     font-size: 16px;
     line-height: 19px;
-
     min-height: calc(100vh - 70px);
     right: 100%;
     transform: none;
@@ -127,12 +115,14 @@
     cursor: pointer;
     margin-bottom: 6px;
     position: relative;
+    transition: color ease-out 0.2s;
   }
   .item:hover:before {
     background-color: var(--red);
   }
   .item:hover {
     font-weight: bold;
+    color: #fff;
   }
 
   .item:before {
@@ -145,9 +135,6 @@
     content: '';
     display: block;
     transition: background-color ease-out 0.2s;
-  }
-  .subitem {
-    color: rgba(255, 255, 255, 0.4);
   }
   .block {
     margin-bottom: 20px;

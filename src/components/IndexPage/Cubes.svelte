@@ -16,13 +16,13 @@
     width: 115px;
     left: 5%;
     top: 70%;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-name: cube1;
   }
   .cube2 {
     top: 10%;
     left: 45%;
-    animation-duration: 6s;
+    animation-duration: 7s;
     animation-name: cube2;
   }
   .cube2,
@@ -32,7 +32,7 @@
   .cube3 {
     right: 20%;
     bottom: 10%;
-    animation-duration: 7s;
+    animation-duration: 9s;
     animation-name: cube2;
   }
   .cube4 {
@@ -40,7 +40,7 @@
     right: 5%;
     top: 20%;
     animation-name: cube1;
-    animation-duration: 4s;
+    animation-duration: 6s;
   }
   @keyframes cube1 {
     0% {
@@ -61,7 +61,7 @@
     }
 
     50% {
-      transform: translateY(50px);
+      transform: translateY(20px);
     }
 
     100% {
@@ -80,9 +80,27 @@
       width: 65px;
     }
   }
+  @media only screen and (max-width: 639px) {
+    .cube1 {
+      top: 500px;
+    }
+    .cube2 {
+      left: auto;
+      right: 24px;
+    }
+    .cube3 {
+      top: 700px;
+      right: 10%;
+    }
+  }
   @media only screen and (max-width: 560px) {
     .cube4 {
       display: none;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .cube1 {
+      top: 410px;
     }
   }
 </style>

@@ -14,10 +14,10 @@
 
 <style>
   .icon {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .caption {
-    margin-top: 8px;
+    margin-top: 6px;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;

@@ -18,10 +18,10 @@
 <style>
   h4 {
     margin-top: 40px;
-    max-width: 710px;
+    max-width: 618px;
   }
   h1 {
-    max-width: 710px;
+    max-width: 618px;
     margin-right: 40px;
   }
   @media only screen and (min-width: 800px) {
@@ -40,23 +40,19 @@
       position: absolute;
       top: 0;
       right: 0;
+      width: 33%;
+      display: flex;
+      justify-content: flex-end;
     }
-    h4 {
-      width: calc(100% - 350px);
-    }
+    h4,
     h1 {
-      max-width: 550px;
+      width: 58%;
     }
     .wrap {
       position: relative;
     }
     .flex {
       display: block;
-    }
-  }
-  @media only screen and (min-width: 1100px) {
-    h1 {
-      max-width: 620px;
     }
   }
 </style>

@@ -18,19 +18,17 @@
       justify-content: space-between;
     }
     .flex-normal .aside {
-      width: 310px;
-      padding-left: 30px;
+      width: 33%;
     }
     .flex-normal .content {
-      max-width: 710px;
+      max-width: 58%;
       flex-grow: 1;
     }
     .flex-reverse .content {
-      width: 310px;
-      padding-left: 30px;
+      width: 33%;
     }
     .flex-reverse .aside {
-      max-width: 710px;
+      max-width: 58%;
       flex-grow: 1;
     }
     .flex-reverse {

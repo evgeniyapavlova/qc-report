@@ -57,17 +57,17 @@
   .caption {
     color: rgba(0, 0, 0, 0.06);
     text-transform: uppercase;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 80px;
+    line-height: 0.87;
     font-weight: 700;
-    max-width: 250px;
+    max-width: 350px;
     margin: 30px 0 38px;
   }
   .menu {
-    max-width: 300px;
+    max-width: 440px;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 34px;
   }
   .row {
     display: flex;
@@ -109,12 +109,27 @@
     color: var(--red);
   }
   .item {
-    width: 270px;
+    width: 350px;
     cursor: pointer;
   }
   @media only screen and (max-width: 960px) {
     section {
       padding: 100px 0 60px;
+    }
+  }
+  @media only screen and (max-width: 639px) {
+    .caption {
+      margin-bottom: 450px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .caption {
+      margin-bottom: 350px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .caption {
+			font-size: 65px;
     }
   }
 </style>

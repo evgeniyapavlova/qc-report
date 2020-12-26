@@ -1,6 +1,7 @@
 <script>
   export let chartId,
     data,
+    label = '',
     lineColor = '#e62334';
   import { onMount } from 'svelte';
   import Chart from 'chart.js';
@@ -22,6 +23,20 @@
     const ctx = document.getElementById(chartId).getContext('2d');
     const chart = new Chart(ctx, {
       type: 'line',
+      plugins: [
+        {
+          afterDraw: (chart) => {
+            const ctx = chart.chart.ctx;
+            ctx.save();
+            ctx.font = `400 14px "Proxima Nova"`;
+            ctx.fillStyle = 'rgba(50,62,72,0.5)';
+            const y = 15;
+            ctx.textAlign = 'left';
+            ctx.fillText(label, 5, y);
+            ctx.restore();
+          },
+        },
+      ],
       data: {
         labels: data.labels,
         datasets: [

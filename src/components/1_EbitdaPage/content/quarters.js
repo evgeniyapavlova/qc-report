@@ -36,7 +36,7 @@ export const content = {
       {
         title: 'Четвертый квартал',
         text:
-          'Волатильность на рынках в октябре значительно снизилась по сравнению с сентябрем, и соответственно, наша прибыль тоже снизилась на 8%. Тем не менее, проекция EBITDA на год составила $215M. Расходы преимущественно также снизились, за исключением расходов на маркетинг  — ожидаем, что это должно принести результат в последующие месяцы. <br><br>Ноябрь также был отмечен снижением трейдинговой активности, расходы при этом остались на прежнем уровне. Согласно прогнозу, составленному на основе данных первой половины декабря, последний месяц года сулит нам некоторое оживление активности и рост доходов. При этом стоит ожидать, что расходы также вырастут – это связано с выплатами бонусов по итогам года, а также некоторыми крупными ежеквартальными выплатами',
+          'Волатильность на рынках в октябре значительно снизилась по сравнению с сентябрем, и соответственно, наша прибыль тоже снизилась на 8%. Тем не менее, проекция EBITDA на год составила $204M. Расходы преимущественно также снизились, за исключением расходов на маркетинг  — ожидаем, что это должно принести результат в последующие месяцы. <br><br>Ноябрь также был отмечен снижением трейдинговой активности, расходы при этом остались на прежнем уровне. Согласно прогнозу, составленному на основе данных первой половины декабря, последний месяц года сулит нам некоторое оживление активности и рост доходов. При этом стоит ожидать, что расходы также вырастут – это связано с выплатами бонусов по итогам года, а также некоторыми крупными ежеквартальными выплатами',
         quote:
           'Последний месяц года сулит нам некоторое оживление активности и рост доходов',
         list: ['Расходы комании преимущественно снизились'],
@@ -69,7 +69,7 @@ export const content = {
       {
         title: 'Q4',
         text:
-          'Volatility in the markets in October decreased significantly compared to September, and accordingly, our profits also decreased by 8%. Nevertheless, the EBITDA projection for the year was $215M. Expenditures were also mostly down, except for marketing costs; we expect that this should bring results in the coming months. <br><br>November was also marked by a decrease in trading activity, while expenditures remained at the same level. According to the forecast, based on data from the first half of December, the last month of the year promises us a slight revival of activity and income growth. At the same time, we should expect that expenses will also increase due to year-end bonus payments, as well as some large quarterly payments.',
+          'Volatility in the markets in October decreased significantly compared to September, and accordingly, our profits also decreased by 8%. Nevertheless, the EBITDA projection for the year was $204M. Expenditures were also mostly down, except for marketing costs; we expect that this should bring results in the coming months. <br><br>November was also marked by a decrease in trading activity, while expenditures remained at the same level. According to the forecast, based on data from the first half of December, the last month of the year promises us a slight revival of activity and income growth. At the same time, we should expect that expenses will also increase due to year-end bonus payments, as well as some large quarterly payments.',
         quote:
           'Volatility in the markets in October decreased significantly compared to September',
       },

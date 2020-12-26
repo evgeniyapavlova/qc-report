@@ -53,11 +53,13 @@
 
 <section>
   <Layout>
-    <H1_Text_Avatar
-      person="{rabinovich}"
-      h1="{content[lang].h1}"
-      text="{content[lang].desc}"
-    />
+    <div class="h1-wrap">
+      <H1_Text_Avatar
+        person="{rabinovich}"
+        h1="{content[lang].h1}"
+        text="{content[lang].desc}"
+      />
+    </div>
     <Col2>
       <div slot="right">
         <div class="chart-wrap">
@@ -111,7 +113,7 @@
   }
   .quote {
     margin-top: 65px;
-		margin-bottom: 65px;
+    margin-bottom: 65px;
   }
   @media only screen and (min-width: 480px) {
     .item {
@@ -120,9 +122,15 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .chart-wrap {
+      margin: 120px 0 65px;
+    }
+    .h1-wrap {
+      margin-bottom: -50px;
+    }
     .quote {
       margin-top: 80px;
-			margin-bottom: 0;
+      margin-bottom: 0;
     }
     section {
       padding-top: 76px;

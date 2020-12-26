@@ -8,11 +8,17 @@
     left: 40%;
     bottom: 50%;
     height: 704px;
-    transform: translateY(50%);
-    animation-duration: 3s;
-    animation-name: a2020;
     overflow: hidden;
-    animation-iteration-count: 1;
+  }
+
+  @media only screen and (min-width: 640px) {
+    .wrap2020 {
+      transform: translateY(50%);
+      animation-duration: 3s;
+      animation-name: a2020;
+
+      animation-iteration-count: 1;
+    }
   }
   img {
     width: 614px;
@@ -37,23 +43,37 @@
       bottom: 37%;
     }
   }
+
   @media only screen and (max-width: 850px) {
     .wrap2020 {
-      bottom: 30%;
-    }
-  }
-  @media only screen and (max-width: 560px) {
-    img {
+      bottom: 50%;
+      left: auto;
+      right: 50px;
+      height: auto;
       width: 300px;
     }
-  }
-  @media only screen and (max-width: 450px) {
     img {
-      width: 200px;
+      width: 100%;
     }
+  }
+  @media only screen and (max-width: 700px) {
     .wrap2020 {
-      left: auto;
-      right: 0;
+      width: 250px;
+    }
+  }
+  @media only screen and (max-width: 639px) {
+    .wrap2020 {
+      right: auto;
+      bottom: auto;
+      top: 470px;
+      left: 24px;
+      width: calc(100% - 48px);
+      max-width: 450px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .wrap2020 {
+      top: 420px;
     }
   }
 </style>
