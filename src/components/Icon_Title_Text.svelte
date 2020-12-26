@@ -7,9 +7,9 @@
     <svelte:component this="{icon}" />
   </div>
   {#if title}
-    <h5>{title}</h5>
+    <h5>{@html title}</h5>
   {/if}
-  <p>{text}</p>
+  <p>{@html text}</p>
 </div>
 
 <style>

@@ -9,7 +9,7 @@
   {#if title}
     <div class="h2-no-border">{title}</div>
   {/if}
-  <div class="caption">{text}</div>
+  <div class="caption">{@html text}</div>
 </div>
 
 <style>
