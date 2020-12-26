@@ -26,7 +26,7 @@
 
 <style>
   .text-wrap {
-    margin: 66px auto;
+    margin: 66px 0;
     max-width: 300px;
   }
   @media only screen and (max-width: 959px) {
@@ -37,6 +37,7 @@
     }
     .text-wrap {
       text-align: center;
+      margin: 66px auto;
     }
   }
   @media only screen and (min-width: 430px) and (max-width: 959px) {

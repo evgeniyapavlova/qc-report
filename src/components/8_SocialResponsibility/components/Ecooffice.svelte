@@ -28,9 +28,6 @@
 </Col2_5_6>
 
 <style>
-  h5 {
-    margin-bottom: 19px;
-  }
   .title-wrap {
     margin-bottom: 100px;
   }

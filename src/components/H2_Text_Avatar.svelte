@@ -13,7 +13,7 @@
         <Avatar {...person} />
       </div>
     {/if}
-    <h4>{text}</h4>
+    <h4>{@html text}</h4>
   </div>
 </div>
 

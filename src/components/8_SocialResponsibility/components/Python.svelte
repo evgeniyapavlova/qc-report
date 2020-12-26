@@ -40,6 +40,7 @@
 <style>
   .wrap1 {
     position: relative;
+		margin-bottom: 120px;
   }
   h5 {
     color: var(--red);

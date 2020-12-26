@@ -18,11 +18,16 @@
   />
   <p>{content[lang].p}</p>
   <FishkoShop lang="{lang}" />
-  <Ecooffice lang="{lang}" />
+  <div class="wrap">
+    <Ecooffice lang="{lang}" />
+  </div>
   <Hospitals lang="{lang}" />
 </Layout>
 
 <style>
+  .wrap {
+    margin-top: 80px;
+  }
   p {
     margin: 80px 0 125px;
   }

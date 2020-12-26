@@ -41,7 +41,7 @@
               </div>
             </div>
             <div class="col col-text items-q1">
-              <div class="quote">{item.quote}</div>
+              <div class="quote">{@html item.quote}</div>
               <div class="items">
                 <div class="number">
                   <LineNumberItem {...numbers[index]} />
@@ -81,7 +81,7 @@
           </div>
           <div class="row {item.isReverse ? 'row-reverse' : 'row-direct'}">
             <div class="col col-text">
-              <div class="quote">{item.quote}</div>
+              <div class="quote">{@html item.quote}</div>
             </div>
             <div class="col col-chart">
               <div class="items">

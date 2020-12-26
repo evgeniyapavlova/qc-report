@@ -80,7 +80,7 @@
     color: var(--dark-gray);
     font-size: 24px;
     line-height: 1;
-    margin-bottom: 40px;
+    margin-bottom: 68px;
     border-left: 4px solid var(--red);
     padding-left: 15px;
   }
@@ -129,7 +129,7 @@
       line-height: 26px;
     }
     :global(h2) {
-      margin-bottom: 40px;
+      margin-bottom: 55px;
     }
     :global(h4) {
       font-size: 20px;
