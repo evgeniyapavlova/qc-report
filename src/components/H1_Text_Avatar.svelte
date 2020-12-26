@@ -9,7 +9,9 @@
   </h1>
   <div class="flex">
     <div class="wrap-avatar">
-      <Avatar {...person} />
+      {#if person}
+        <Avatar {...person} />
+      {/if}
     </div>
     <h4>{text}</h4>
   </div>

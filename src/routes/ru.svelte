@@ -14,20 +14,31 @@
   import Team from '../components/3_MauPage/sections/4_Team.svelte';
   import Verification from '../components/3_MauPage/sections/4_Verification.svelte';
   import B2B from '../components/B2BPage/Page.svelte';
+  import Remote_Intro from '../components/6_Remote/sections/Intro.svelte';
+  import Legal from '../components/6_Remote/sections/Legal.svelte';
+  import ITBar from '../components/6_Remote/sections/ITBar.svelte';
+  import OfficeTeam from '../components/6_Remote/sections/OfficeTeam.svelte';
+  import SocialIntro from '../components/8_SocialResponsibility/sections/Intro.svelte';
+  import Fund from '../components/8_SocialResponsibility/sections/2_Fund.svelte';
+  import Corporate from '../components/8_SocialResponsibility/sections/3_Corporate.svelte';
 </script>
 
 <svelte:head>
   <title>Quadcode Annual Review 2020</title>
 </svelte:head>
+
 <Header />
 <span data-id="intro"></span>
 <Intro1 />
-<span data-id="ebitda"></span><span data-id="ceo"></span>
+
+<span data-id="ebitda"></span>
 <Intro lang="{lang}" />
 <span data-id="quarters"></span>
 <Quarters lang="{lang}" />
+
 <span data-id="marginForex"></span>
 <IntroMF lang="{lang}" />
+
 <span data-id="mau"></span>
 <IntroMAU lang="{lang}" />
 <span data-id="marketing"></span>
@@ -41,5 +52,17 @@
 <Team lang="{lang}" />
 <span data-id="verification"></span>
 <Verification lang="{lang}" />
+
 <span data-id="b2b"></span><span data-id="holding"></span>
 <B2B />
+
+<span data-id="remote"></span>
+<Remote_Intro lang="{lang}" />
+<Legal lang="{lang}" />
+<ITBar lang="{lang}" />
+<OfficeTeam lang="{lang}" />
+
+<span data-id="responsibility"></span>
+<SocialIntro lang="{lang}" />
+<Fund lang="{lang}" />
+<Corporate lang="{lang}" />

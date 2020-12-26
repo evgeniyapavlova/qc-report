@@ -47,6 +47,9 @@
     line-height: 22px;
     color: rgba(50, 62, 72, 0.5);
   }
+  :global(h5.red) {
+    color: var(--red);
+  }
   :global(h5) {
     font-size: 20px;
     line-height: 24px;
@@ -161,6 +164,10 @@
   }
   :global(h6) {
     font-size: 14px;
-		font-weight: bold;
+    font-weight: bold;
+  }
+  :global(.p-with-links a) {
+    color: var(--red);
+    font-weight: bold;
   }
 </style>

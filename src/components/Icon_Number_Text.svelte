@@ -3,13 +3,17 @@
 </script>
 
 <div class="item">
-  <div class="icon">
-    <svelte:component this="{icon}" />
-  </div>
+  {#if icon}
+    <div class="icon">
+      <svelte:component this="{icon}" />
+    </div>
+  {/if}
   {#if title}
     <div class="h2-no-border">{title}</div>
   {/if}
-  <div class="caption">{@html text}</div>
+  <div class="caption">
+    {@html text}
+  </div>
 </div>
 
 <style>

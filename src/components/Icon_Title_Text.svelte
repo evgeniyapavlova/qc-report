@@ -9,7 +9,7 @@
   {#if title}
     <h5>{@html title}</h5>
   {/if}
-  <p>{@html text}</p>
+  <p class="p-with-links">{@html text}</p>
 </div>
 
 <style>
