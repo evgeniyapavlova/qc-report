@@ -2,18 +2,16 @@
   export let icon, title, text;
 </script>
 
-<div class="item">
-  {#if icon}
-    <div class="icon">
-      <svelte:component this="{icon}" />
-    </div>
-  {/if}
-  {#if title}
-    <div class="h2-no-border">{title}</div>
-  {/if}
-  <div class="caption">
-    {@html text}
+{#if icon}
+  <div class="icon">
+    <svelte:component this="{icon}" />
   </div>
+{/if}
+{#if title}
+  <div class="h2-no-border">{title}</div>
+{/if}
+<div class="caption">
+  {@html text}
 </div>
 
 <style>

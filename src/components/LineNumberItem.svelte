@@ -16,7 +16,7 @@
     </div>
   {/if}
   <div class="number">{number}</div>
-  <div class="caption">{caption}</div>
+  <div class="caption">{@html caption}</div>
 </div>
 
 <style>
