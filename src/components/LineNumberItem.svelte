@@ -2,10 +2,11 @@
   export let period,
     number = '320 000',
     caption = 'MAU',
-    icon;
+    icon,
+    color = '';
 </script>
 
-<div class="item line-number-item">
+<div class="item line-number-item line-number-{color}">
   {#if icon}
     <svelte:component this="{icon}" />
   {/if}
@@ -30,6 +31,9 @@
     line-height: 24px;
     margin-bottom: 4px;
   }
+  .line-number-gray .period {
+    color: rgba(50, 62, 72, 0.5);
+  }
   .number {
     color: var(--dark-gray);
     font-size: 30px;
@@ -42,16 +46,21 @@
       font-size: 36px;
     }
   }
-  @media only screen and (max-width: 959px) {
-    :global(.line-number-item .period span) {
-      font-size: 14px;
-      line-height: 17px;
-    }
+  :global(.line-number-item .period span) {
+    font-size: 14px;
+    line-height: 17px;
   }
   .caption {
-    opacity: 0.5;
+    color: rgba(50, 62, 72, 0.5);
     font-size: 18px;
     line-height: 22px;
     margin-top: 9px;
+  }
+  .line-number-red .number {
+    border-color: var(--red);
+  }
+  .line-number-red .caption,
+  .line-number-red .number {
+    color: var(--red);
   }
 </style>
