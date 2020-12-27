@@ -99,4 +99,24 @@ export default {
     position: 'Charity document manager',
     photo: 'ASSET_PREFIX/assets/avatars/bykova.jpg',
   },
+  bezrodnaya: {
+    name: 'Anna Bezrodnaya',
+    position: 'Chief Organization Development Officer',
+    photo: 'ASSET_PREFIX/assets/avatars/bezrodnaya.jpg',
+  },
+  samburova: {
+    name: 'Eva Samburova',
+    position: 'Head of Strategic HR',
+    photo: 'ASSET_PREFIX/assets/avatars/samburova.jpg',
+  },
+  mikhaylova: {
+    name: 'Tatyana Mikhaylova',
+    position: 'HR Business Partner',
+    photo: 'ASSET_PREFIX/assets/avatars/mikhaylova.jpg',
+  },
+  romashkina: {
+    name: 'Natalia Romashkina',
+    position: 'Head of  Corporate Culture',
+    photo: 'ASSET_PREFIX/assets/avatars/romashkina.jpg',
+  },
 };
