@@ -170,4 +170,9 @@
     color: var(--red);
     font-weight: bold;
   }
+  :global(.chart-label) {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(50, 62, 72, 0.5);
+  }
 </style>

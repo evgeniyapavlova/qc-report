@@ -34,7 +34,17 @@ const content = {
       'собеседований в<br />поисках нового PP',
     ],
   },
-  en: {},
+  en: {
+    h5: 'Launch of People Partners',
+    p1:
+      'People Partners is&nbsp;a&nbsp;new step in&nbsp;the development of&nbsp;the Case-managers team. The team was originally set up&nbsp;to&nbsp;deal with difficult situations, but gradually began to&nbsp;cover an&nbsp;ever-increasing pool of&nbsp;tasks. Now, as&nbsp;People Partners, we&nbsp;work not only with problems, but also with many very positive areas, such as&nbsp;coaching, identifying potential, or&nbsp;supporting promotions. The main objective of&nbsp;our team is&nbsp;to&nbsp;help the company achieve its business goals by&nbsp;building processes within and between teams. Our mission is&nbsp;to&nbsp;create a&nbsp;harmonious space for employees to&nbsp;reach their potential in&nbsp;the interests of&nbsp;the company.',
+    items3:[
+      'successful<br />onboardings',
+      'exit<br />interviews',
+      'assessments<br />(jointly with T&D)',
+      'interviews in search<br />of a new PP'
+    ]
+  },
 };
 
 export const numbers = [
@@ -42,7 +52,5 @@ export const numbers = [
   { period: '30% <span>goal</span>', number: '57%' },
   { period: '18,47% <span>2019</span>', number: '5,81%' },
 ];
-
-
 
 export default content;

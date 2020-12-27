@@ -54,11 +54,6 @@
 </Col2>
 
 <style>
-  .chart-label {
-    font-size: 13px;
-    line-height: 16px;
-    color: rgba(50, 62, 72, 0.5);
-  }
   .chart-wrap {
     position: relative;
     width: 100%;
@@ -69,7 +64,7 @@
   }
   @media only screen and (min-width: 960px) {
     .wrap {
-			margin-top: 0;
+      margin-top: 0;
       padding-right: 16%;
     }
   }

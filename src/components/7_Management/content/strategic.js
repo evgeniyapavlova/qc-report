@@ -23,7 +23,24 @@ const content = {
     text:
       '&laquo;За&nbsp;последние 7&nbsp;дней мне была объявлена благодарность&raquo;',
   },
-  en: {},
+  en: {
+    h2: 'NEED_TRANSLATION',
+    h5: "We're increasing engagement",
+    h4: 'NEED_TRANSLATION',
+    p:
+      'This year, we&nbsp;continued to&nbsp;work on&nbsp;engagement: in&nbsp;both the second and fourth quarters, we&nbsp;saw an&nbsp;increase in&nbsp;the number of&nbsp;respondents and average values for most questions. Analysis of&nbsp;the responses will allow&nbsp;us to&nbsp;work on&nbsp;precisely those areas that require attention. After all, in&nbsp;answering the Q12 survey questions, employees highlight those aspects of&nbsp;their work in&nbsp;which they feel uncomfortable or&nbsp;dissatisfied. This is&nbsp;in&nbsp;line with the Data-driven approach: any decision must be&nbsp;justified by&nbsp;the impact on&nbsp;the company&rsquo;s business objectives and backed up&nbsp;by&nbsp;numbers.',
+    quote:
+      'Any decision must be&nbsp;justified by&nbsp;the impact on&nbsp;the company&rsquo;s business objectives',
+    itemsTitle: 'Why is this important for the company?',
+    items: [
+      'An engaged employee is interested in their tasks',
+      "They're willing to work hard to achieve results",
+      'They take initiative and are proactive',
+    ],
+    p1:
+      'The greatest progress was made on the question of &laquo;In the last seven days I have been shown gratitude&raquo;',
+    text: '&laquo;In the last seven days I have been shown gratitude&raquo;',
+  },
 };
 
 export const numbers = [
