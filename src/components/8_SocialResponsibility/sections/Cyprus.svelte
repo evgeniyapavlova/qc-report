@@ -10,6 +10,7 @@
   import icon2 from '../img/wall.svg';
   import icon3 from '../img/water.svg';
   const icons = [icon1, icon2, icon3];
+  import Carousel from '../../Carousel.svelte';
 </script>
 
 <Layout>
@@ -35,6 +36,10 @@
       </div>
     {/each}
   </div>
+  <Carousel
+    folder="rwanda"
+    imagesSrc="{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}"
+  />
 </Layout>
 
 <style>
