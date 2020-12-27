@@ -2,7 +2,9 @@
   export let chartId,
     data,
     label = '',
-    lineColor = '#e62334';
+    lineColor = '#e62334',
+    topPadding = 40;
+
   import { onMount } from 'svelte';
   import Chart from 'chart.js';
 
@@ -59,7 +61,7 @@
         maintainAspectRatio: false,
         layout: {
           padding: {
-            top: 40,
+            top: topPadding,
           },
         },
         scales: {
