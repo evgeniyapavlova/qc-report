@@ -60,6 +60,7 @@
   ];
 </script>
 
+<span data-id="marginForex"></span>
 <section>
   <Layout>
     <H1_Text_Avatar

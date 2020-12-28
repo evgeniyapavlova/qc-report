@@ -31,9 +31,9 @@
   ];
 </script>
 
+<span data-id="b2b"></span>
 <Layout>
   <Section>
-
     <H1_Text_Avatar
       h1="Создание B2B-бизнеса"
       person="{golubev}"
@@ -73,7 +73,7 @@
     max-width: 550px;
   }
   .h2-wrap {
-		padding-top: 80px;
+    padding-top: 80px;
     margin-bottom: 34px;
   }
   .tags-wrap {

@@ -24,6 +24,7 @@
   };
 </script>
 
+<span data-id="intro"></span>
 <section>
   <Img2020 />
   <Cubes />
@@ -129,7 +130,7 @@
   }
   @media only screen and (max-width: 400px) {
     .caption {
-			font-size: 65px;
+      font-size: 65px;
     }
   }
 </style>
