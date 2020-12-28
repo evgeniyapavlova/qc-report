@@ -67,6 +67,7 @@
     width: 33%;
     background: rgba(245, 245, 245, 0.65);
     cursor: pointer;
+		z-index: 2 !important;
   }
   :global(.carousel-wrap button.right) {
     right: 0 !important;

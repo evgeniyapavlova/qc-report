@@ -5,7 +5,7 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Layout from '../../Layout.svelte';
-  import Carousel from '../../Carousel2.svelte';
+  import Carousel from '../../Carousel.svelte';
   import Col2 from '../../Col2.svelte';
   import people from '../../../helpers/people';
   const { abdukarimova } = people;
