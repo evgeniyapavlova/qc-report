@@ -10,6 +10,7 @@
   import Section_6_Remote from '../components/6_Remote/Section_6_Remote.svelte';
   import Section_7_Management from '../components/7_Management/Section_7_Management.svelte';
   import Section_8_SocialResponsibility from '../components/8_SocialResponsibility/Section_8_SocialResponsibility.svelte';
+  import Section_9_Gratitude from '../components/9_Gratitude/Section_9_Gratitude.svelte';
 </script>
 
 <svelte:head>
@@ -17,7 +18,6 @@
 </svelte:head>
 
 <Header />
-
 
 <Section_0_Intro />
 
@@ -36,3 +36,5 @@
 <Section_7_Management lang="{lang}" />
 
 <Section_8_SocialResponsibility lang="{lang}" />
+
+<Section_9_Gratitude lang="{lang}" />
