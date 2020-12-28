@@ -5,7 +5,9 @@
   import Release from '../components/Release.svelte';
   import Reviews from '../components/Reviews.svelte';
   import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
+  import H5_p from '../../H5_p.svelte';
   import Tags from '../../Tags.svelte';
+  import Col2 from '../../Col2_6_5.svelte';
   import people from '../../../helpers/people';
   import icon1 from '../img/icon1.svg';
   import icon2 from '../img/icon2.svg';
@@ -65,8 +67,8 @@
       h1="{content[lang].h1}"
       text="{content[lang].text}"
     />
-    <div class="wrap">
-      <div class="left">
+    <Col2>
+      <div slot="right" class="right">
         <h5 class="h5-center">{content[lang].q}</h5>
         <div class="list">
           {#each content[lang].list as item, index}
@@ -76,10 +78,18 @@
             </div>
           {/each}
         </div>
-        <div class="quote">{content[lang].quote}</div>
-        <h5 class="h5">{content[lang].plan}</h5>
-        <p>{content[lang].planText}</p>
       </div>
+      <div slot="left" class="left">
+        <div class="quote">{content[lang].quote}</div>
+      </div>
+    </Col2>
+
+    <div class="h5-wrap">
+      <H5_p
+        red="{true}"
+        h5="{content[lang].plan}"
+        p="{content[lang].planText}"
+      />
     </div>
     <PlanningList lang="{lang}" />
 
@@ -102,9 +112,6 @@
 </section>
 
 <style>
-  .wrap {
-    position: relative;
-  }
   .desc {
     font-weight: bold;
     font-size: 16px;
@@ -127,9 +134,6 @@
   }
   .list-item {
     margin-top: 48px;
-  }
-  .h5 {
-    margin-bottom: 19px;
   }
   .release {
     font-weight: bold;
@@ -181,17 +185,12 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .h5-wrap {
+      margin: 45px 0 90px;
+      width: 58%;
+    }
     section {
       padding-top: 76px;
-    }
-    .left {
-      width: 57%;
-    }
-    .quote {
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 40%;
     }
     .text {
       position: absolute;
@@ -199,8 +198,16 @@
       top: 47%;
       text-align: left;
     }
-    .wrap p {
-      max-width: 520px;
+    .h5-center {
+      margin-top: 0;
+    }
+    .list-item {
+      margin-top: 80px;
+      width: 33%;
+    }
+    .right,
+    .left {
+      margin-top: 115px;
     }
   }
 </style>

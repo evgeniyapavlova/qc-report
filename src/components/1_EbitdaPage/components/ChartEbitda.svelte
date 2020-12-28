@@ -18,7 +18,7 @@
     fontSize = 13,
     maxYTicksLimit = 10,
     maxXTicksLimit = 11,
-    pointRadius = 5,
+    pointRadius = 5
   ) => {
     const ctx = document.getElementById(chartId).getContext('2d');
     const chart = new Chart(ctx, {
@@ -62,9 +62,10 @@
         ],
       },
       options: {
+        maintainAspectRatio: false,
         layout: {
           padding: {
-            top: 40,
+            top: 50,
           },
         },
         scales: {
@@ -151,4 +152,11 @@
   Chart.defaults.global.defaultFontFamily = 'Montserrat';
 </script>
 
-<canvas id="{chartId}"></canvas>
+<div class="chart-wrap"><canvas id="{chartId}"></canvas></div>
+
+<style>
+  .chart-wrap {
+		height: 400px;
+    position: relative;
+  }
+</style>

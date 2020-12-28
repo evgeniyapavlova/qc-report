@@ -41,7 +41,7 @@
 </script>
 
 <Layout>
-  <div class="block1 mark-influence" style="display: none">
+  <div class="block1 mark-influence">
     <div class="text-content">
       <h5>Influence Marketing</h5>
       <p class="p1">{content[lang].text_1}</p>
@@ -52,7 +52,9 @@
       </div>
       <div class="items">
         {#each itemsIcon as item}
-          <Icon_Number_Text {...item} text="{item.text[lang]}" />
+          <div class="item-wrap">
+            <Icon_Number_Text {...item} text="{item.text[lang]}" />
+          </div>
         {/each}
       </div>
     </div>
@@ -115,7 +117,7 @@
     justify-content: center;
     text-align: center;
   }
-  :global(.mark-influence .items .item) {
+  .item-wrap {
     width: 180px;
   }
   @media only screen and (min-width: 440px) {
@@ -169,7 +171,7 @@
       margin-bottom: 35px;
     }
     .numbers {
-      margin-bottom: 32px;
+      margin-bottom: 0;
     }
   }
 </style>

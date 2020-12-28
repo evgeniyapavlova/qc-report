@@ -22,6 +22,12 @@
   import Fund from '../components/8_SocialResponsibility/sections/2_Fund.svelte';
   import Corporate from '../components/8_SocialResponsibility/sections/3_Corporate.svelte';
   import Cyprus from '../components/8_SocialResponsibility/sections/Cyprus.svelte';
+  import ManagementIntro from '../components/7_Management/sections/Intro.svelte';
+  import Strategic from '../components/7_Management/sections/Strategic.svelte';
+  import PeoplePartners from '../components/7_Management/sections/PeoplePartners.svelte';
+  import Development from '../components/7_Management/sections/Development.svelte';
+  import Operational from '../components/7_Management/sections/Operational.svelte';
+  import CorporateCulture from '../components/7_Management/sections/Corporate.svelte';
 </script>
 
 <svelte:head>
@@ -29,42 +35,50 @@
 </svelte:head>
 
 <Header />
-<!--<span data-id="intro"></span>-->
-<!--<Intro1 />-->
+<span data-id="intro"></span>
+<Intro1 />
 
-<!--<span data-id="ebitda"></span>-->
-<!--<Intro lang="{lang}" />-->
-<!--<span data-id="quarters"></span>-->
-<!--<Quarters lang="{lang}" />-->
+<span data-id="ebitda"></span>
+<Intro lang="{lang}" />
+<span data-id="quarters"></span>
+<Quarters lang="{lang}" />
 
-<!--<span data-id="marginForex"></span>-->
-<!--<IntroMF lang="{lang}" />-->
+<span data-id="marginForex"></span>
+<IntroMF lang="{lang}" />
 
-<!--<span data-id="mau"></span>-->
-<!--<IntroMAU lang="{lang}" />-->
-<!--<span data-id="marketing"></span>-->
-<!--<Marketing lang="{lang}" />-->
-<!--<Marketing_video lang="{lang}" />-->
-<!--<Marketing_influence lang="{lang}" />-->
-<!--<span data-id="regions"></span>-->
-<!--<Regions lang="{lang}" />-->
-<!--<span data-id="support"></span>-->
-<!--<Users lang="{lang}" />-->
-<!--<Team lang="{lang}" />-->
-<!--<span data-id="verification"></span>-->
-<!--<Verification lang="{lang}" />-->
+<span data-id="mau"></span>
+<IntroMAU lang="{lang}" />
+<span data-id="marketing"></span>
+<Marketing lang="{lang}" />
+<Marketing_video lang="{lang}" />
+<Marketing_influence lang="{lang}" />
+<span data-id="regions"></span>
+<Regions lang="{lang}" />
+<span data-id="support"></span>
+<Users lang="{lang}" />
+<Team lang="{lang}" />
+<span data-id="verification"></span>
+<Verification lang="{lang}" />
 
-<!--<span data-id="b2b"></span><span data-id="holding"></span>-->
-<!--<B2B />-->
+<span data-id="b2b"></span><span data-id="holding"></span>
+<B2B />
 
-<!--<span data-id="remote"></span>-->
-<!--<Remote_Intro lang="{lang}" />-->
-<!--<Legal lang="{lang}" />-->
-<!--<ITBar lang="{lang}" />-->
-<!--<OfficeTeam lang="{lang}" />-->
+<span data-id="remote"></span>
+<Remote_Intro lang="{lang}" />
+<Legal lang="{lang}" />
+<ITBar lang="{lang}" />
+<OfficeTeam lang="{lang}" />
 
-<!--<span data-id="responsibility"></span>-->
-<!--<SocialIntro lang="{lang}" />-->
-<!--<Fund lang="{lang}" />-->
-<!--<Corporate lang="{lang}" />-->
+<span data-id="improvement"></span>
+<ManagementIntro lang="{lang}" />
+<Strategic lang="{lang}" />
+<PeoplePartners lang="{lang}" />
+<Development lang="{lang}" />
+<Operational lang="{lang}" />
+<CorporateCulture lang="{lang}" />
+
+<span data-id="responsibility"></span>
+<SocialIntro lang="{lang}" />
+<Fund lang="{lang}" />
+<Corporate lang="{lang}" />
 <Cyprus lang="{lang}" />

@@ -18,6 +18,7 @@
       person="{kurbatov}"
       isReverse="{true}"
     />
+    <p class="p1">{content[lang].text}</p>
     <Col2>
       <div slot="right">
         <div class="list">
@@ -96,6 +97,9 @@
   .final-text h5 {
     margin-bottom: 20px;
   }
+  .p1 {
+    margin-top: 45px;
+  }
   @media only screen and (min-width: 600px) {
     .item-wrap2 {
       width: 50%;
@@ -132,6 +136,10 @@
     .final-text {
       width: 58%;
       margin: 0 0 0 auto;
+    }
+    .p1 {
+			width: 58%;
+			margin: 80px 0 0 auto;
     }
   }
 </style>

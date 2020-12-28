@@ -147,7 +147,7 @@
       margin-right: auto;
     }
     p {
-      margin-bottom: 35px;
+      margin-bottom: 60px;
     }
   }
 </style>

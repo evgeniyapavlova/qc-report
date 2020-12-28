@@ -37,11 +37,14 @@
                   data="{charts[index]}"
                   chartId="{`q-${index - 1}-chart`}"
                   label="EBITDA Projection"
+                  topPadding="{60}"
                 />
               </div>
             </div>
             <div class="col col-text items-q1">
-              <div class="quote">{@html item.quote}</div>
+              <div class="quote">
+                {@html item.quote}
+              </div>
               <div class="items">
                 <div class="number">
                   <LineNumberItem {...numbers[index]} />
@@ -75,13 +78,16 @@
                   label="EBITDA Projection"
                   data="{charts[index]}"
                   chartId="{`q-${index - 1}-chart`}"
+                  topPadding="{60}"
                 />
               </div>
             </div>
           </div>
           <div class="row {item.isReverse ? 'row-reverse' : 'row-direct'}">
             <div class="col col-text">
-              <div class="quote">{@html item.quote}</div>
+              <div class="quote">
+                {@html item.quote}
+              </div>
             </div>
             <div class="col col-chart">
               <div class="items">

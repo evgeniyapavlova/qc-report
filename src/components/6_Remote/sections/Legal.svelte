@@ -45,7 +45,6 @@
 <style>
   section {
     padding-top: 80px;
-    padding-bottom: 100px;
   }
   p {
     margin-bottom: 65px;

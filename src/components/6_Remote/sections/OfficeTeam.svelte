@@ -5,7 +5,7 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Layout from '../../Layout.svelte';
-  // import Carousel from '../../Carousel.svelte';
+  import Carousel from '../../Carousel2.svelte';
   import Col2 from '../../Col2.svelte';
   import people from '../../../helpers/people';
   const { abdukarimova } = people;
@@ -42,7 +42,10 @@
         </div>
       {/each}
     </div>
-    <!--    <Carousel images="{photos}" />-->
+    <Carousel
+      folder="office_team"
+      imagesSrc="{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}"
+    />
     <div class="list2">
       {#each content[lang].items2 as item, index}
         <div class="item-wrap2">
@@ -58,10 +61,6 @@
 </section>
 
 <style>
-  .slide-content img {
-    width: 345px;
-    height: 345px;
-  }
   section {
     padding-top: 200px;
   }

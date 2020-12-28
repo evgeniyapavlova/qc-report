@@ -3,9 +3,6 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Col2 from '../../Col2.svelte';
   import Layout from '../../Layout.svelte';
-  import speedIcon from '../img/speed.svg';
-  import smileIcon from '../img/smile.svg';
-  import langIcon from '../img/lang.svg';
   import changeIcon from '../img/change.svg';
   import change2Icon from '../img/change2.svg';
   import Countries from '../components/Countries.svelte';
@@ -19,15 +16,6 @@
           title: 'Наша команда',
           text:
             'Департамент Customer Care насчитывает 179 человек. И более 75% нашей команды — удаленные сотрудники. Чтобы собрать многонациональную команду в 18 странах мира и разных часовых поясах мы посмотрели 3041 видеоинтервью, прочли 1884 эссе, провели больше 400 тестовых дней и обработали 52 новых иностранных сайта по поиску работы.',
-          list: [
-            {
-              icon: speedIcon,
-              title: '1 мин',
-              text: 'скорость обработки обращения',
-            },
-            { icon: smileIcon, title: '7,89', text: 'средний NPS' },
-            { icon: langIcon, title: '13', text: 'языков' },
-          ],
         },
         {
           title: 'Возможности роста',
@@ -77,27 +65,36 @@
         {#each content[lang].items as item}
           <h5>{item.title}</h5>
           <p>{item.text}</p>
-          <div class="list">
-            {#each item.list as iconItem}
-              <div class="list-item">
-                <Icon_Number_Text {...iconItem} />
-              </div>
-            {/each}
-          </div>
+          {#if item.list}
+            <div class="list">
+              {#each item.list as iconItem}
+                <div class="list-item">
+                  <Icon_Number_Text {...iconItem} />
+                </div>
+              {/each}
+            </div>
+          {/if}
         {/each}
       </div>
       <div slot="left" class="flex-reverse">
         <div class="quote">{content[lang].quote}</div>
-        <img src="ASSET_PREFIX/assets/mau/pie-chart.jpg" alt="" class="chart-img" />
+        <img
+          src="ASSET_PREFIX/assets/mau/pie-chart.jpg"
+          alt=""
+          class="chart-img"
+        />
       </div>
     </Col2>
-    <div class="caption">{content[lang].caption}</div>
+    <div class="chart-label">{content[lang].caption}</div>
     <div class="map"></div>
     <Countries />
   </Layout>
 </section>
 
 <style>
+  p {
+    margin-bottom: 70px;
+  }
   section {
     padding-top: 100px;
   }
@@ -113,7 +110,7 @@
   .list {
     display: flex;
     text-align: center;
-    margin-top: 65px;
+
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -126,15 +123,9 @@
     max-width: 347px;
     margin: 40px auto 0;
   }
-  .caption {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    opacity: 0.5;
-    margin-bottom: 35px;
-  }
   .map {
-    background: url('ASSET_PREFIX/assets/mau/map_mobile.jpg') no-repeat center center;
+    background: url('ASSET_PREFIX/assets/mau/map_mobile.jpg') no-repeat center
+      center;
     background-size: 100% auto;
     padding-bottom: 51%;
     width: 100%;
@@ -147,12 +138,16 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .chart-label {
+			margin-top: 60px;
+    }
     .flex-reverse {
       flex-direction: column-reverse;
       display: flex;
     }
     .chart-img {
       margin-bottom: 70px;
+			margin-top: 0;
     }
     .list {
       text-align: left;

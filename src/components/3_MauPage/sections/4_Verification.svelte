@@ -46,6 +46,9 @@
           его до 4000, а в мае количество документов вновь поднялось до 9500,
           потому что первая волна пандемии принесла нам очень много клиентов.
         </p>
+        <div class="chart-label">
+          Количество пользователей, ожидающих верификации
+        </div>
         <div class="chart-wrap">
           <Chart chartId="ver-chart" data="{data}" />
         </div>
@@ -72,8 +75,13 @@
   h4 {
     margin-bottom: 15px;
   }
+  .chart-label {
+    margin-top: 50px;
+  }
   .chart-wrap {
-    margin: 50px 0;
+    margin-bottom: 50px;
+    height: 350px;
+    position: relative;
   }
   .content {
     max-width: 620px;

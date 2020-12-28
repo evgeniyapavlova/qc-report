@@ -87,13 +87,13 @@
       </div>
     </div>
   </Col2_3>
+  <Tags tags="{tags}" />
 </div>
-<Tags tags="{tags}" />
 
 <style>
   .wrap {
     margin-top: 135px;
-		margin-bottom: 60px;
+    margin-bottom: 120px;
   }
   .list2,
   .rel {
@@ -124,8 +124,8 @@
     left: -16px;
     top: -10px;
     height: 320px;
-    background: url(ASSET_PREFIX/assets/responsibility/map_small.jpg) no-repeat center
-      center;
+    background: url(ASSET_PREFIX/assets/responsibility/map_small.jpg) no-repeat
+      center center;
     background-size: auto 320px;
   }
   .list3 {
@@ -163,6 +163,9 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .wrap {
+      margin-bottom: 150px;
+    }
     .list {
       margin-top: 0;
       margin-bottom: 0;
