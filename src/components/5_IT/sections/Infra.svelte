@@ -69,6 +69,9 @@
   p {
     margin-bottom: 44px;
   }
+  .flex {
+    margin-bottom: 150px;
+  }
   @media only screen and (min-width: 960px) {
     :global(.infra-h3-avatar h3, .infra-h3-avatar p) {
       width: 58%;
@@ -123,7 +126,7 @@
     }
     .quote {
       margin-top: 75px;
-			margin-right: -50%;
+      margin-right: -50%;
     }
   }
 </style>
