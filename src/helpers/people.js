@@ -119,4 +119,24 @@ export default {
     position: 'Head of  Corporate Culture',
     photo: 'ASSET_PREFIX/assets/avatars/romashkina.jpg',
   },
+  laskin: {
+    name: 'Victor Laskin',
+    position: 'Chief Technical Officer',
+    photo: 'ASSET_PREFIX/assets/avatars/laskin.jpg',
+  },
+  ivanov: {
+    name: 'Aleksandr Ivanov',
+    position: 'Chief of System Architecture',
+    photo: 'ASSET_PREFIX/assets/avatars/ivanov.jpg',
+  },
+  votintsev: {
+    name: 'Dmitriy Votintsev',
+    position: 'Chief of IT Operations',
+    photo: 'ASSET_PREFIX/assets/avatars/votintsev.jpg',
+  },
+  dubov: {
+    name: 'Ilya Dubov',
+    position: 'Head of Secuity & Risk Management',
+    photo: 'ASSET_PREFIX/assets/avatars/dubov.jpg',
+  },
 };
