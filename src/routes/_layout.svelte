@@ -65,13 +65,15 @@
     font-size: 30px;
     line-height: 1.05;
   }
+  :global(h3 span) {
+    color: var(--red);
+  }
   :global(h3) {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 32px;
   }
-
   :global(h4.h4-title) {
     color: rgba(50, 62, 72, 1);
   }
