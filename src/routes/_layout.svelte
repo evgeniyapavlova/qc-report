@@ -70,7 +70,7 @@
   }
   :global(h3) {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.2;
     margin-bottom: 32px;
   }
