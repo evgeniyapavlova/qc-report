@@ -3,7 +3,19 @@
   import Layout from '../../Layout.svelte';
   import Col2 from '../../Col2_5_7.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
+  import Tags from '../../Tags.svelte';
   import content, { icons } from '../content/amaiz';
+  const tags = [
+    'Cloud Development',
+    'Infrastructure',
+    'Network',
+    'Security',
+    'Mobile',
+    'Service Desk',
+    'Web',
+    'Architecture Teams',
+    'Product managers',
+  ];
 </script>
 
 <div class="wrap">
@@ -31,6 +43,7 @@
         </div>
       {/each}
     </div>
+    <Tags tags="{tags}" />
   </Layout>
 </div>
 

@@ -40,6 +40,9 @@
 </Layout>
 
 <style>
+  .flex {
+    margin-bottom: 100px;
+  }
   h5 {
     margin-bottom: 160px;
   }

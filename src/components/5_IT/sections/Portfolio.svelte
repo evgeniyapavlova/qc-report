@@ -10,11 +10,13 @@
 </script>
 
 <Layout>
-  <H3_Text_Avatar
-    h3="{content[lang].h3}"
-    person="{ivanov}"
-    text="{content[lang].p}"
-  />
+  <div class="relative-2 relative">
+    <H3_Text_Avatar
+      h3="{content[lang].h3}"
+      person="{ivanov}"
+      text="{content[lang].p}"
+    />
+  </div>
   <div class="relative">
     <Col2>
       <div slot="right">
@@ -31,6 +33,10 @@
 </Layout>
 
 <style>
+  .relative-2 {
+    z-index: 2;
+    margin-top: 180px;
+  }
   .red-item-number-text {
     margin: 100px auto 95px;
     text-align: center;
@@ -63,6 +69,9 @@
     img {
       margin-top: -100px;
     }
+    .quote {
+      margin-bottom: 200px;
+    }
   }
   @media only screen and (min-width: 730px) {
     img {
@@ -79,14 +88,20 @@
     }
   }
   @media only screen and (min-width: 960px) {
-    .red-item-number-text {
-    }
     .quote {
       margin-bottom: 0;
     }
     img {
       max-width: 750px;
-			top: -120px;
+      top: -120px;
+    }
+    .quote {
+      margin-bottom: 300px;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .quote {
+      margin-bottom: 350px;
     }
   }
 </style>

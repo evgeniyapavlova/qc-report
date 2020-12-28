@@ -7,18 +7,23 @@
   import content from '../content/intro';
 </script>
 
-<Layout>
-  <H2_Text_Avatar
-    h2="{content[lang].h2}"
-    person="{laskin}"
-    text="{content[lang].h4}"
-  />
-  <p>
-    {@html content[lang].p}
-  </p>
-</Layout>
+<section>
+  <Layout>
+    <H2_Text_Avatar
+      h2="{content[lang].h2}"
+      person="{laskin}"
+      text="{content[lang].h4}"
+    />
+    <p>
+      {@html content[lang].p}
+    </p>
+  </Layout>
+</section>
 
 <style>
+  section {
+    padding-top: 200px;
+  }
   p {
     margin: 100px 0 170px;
   }
