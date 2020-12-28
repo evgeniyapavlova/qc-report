@@ -139,4 +139,49 @@ export default {
     position: 'Head of Secuity & Risk Management',
     photo: 'ASSET_PREFIX/assets/avatars/dubov.jpg',
   },
+  taklalsingh: {
+    name: 'Steve Taklalsingh',
+    position: 'Director UK',
+    photo: 'ASSET_PREFIX/assets/avatars/taklalsingh.jpg',
+  },
+  dudukina: {
+    name: 'Alina Dudukina',
+    position: 'Head of Insights & Experiments',
+    photo: 'ASSET_PREFIX/assets/avatars/dudukina.jpg',
+  },
+  kvashnin: {
+    name: 'Vladimir Kvashnin',
+    position: 'C++ developer',
+    photo: 'ASSET_PREFIX/assets/avatars/kvashnin.jpg',
+  },
+  zhdanovskaya: {
+    name: 'Anna Zhdanovskaya',
+    position: 'Educational events manager',
+    photo: 'ASSET_PREFIX/assets/avatars/zhdanovskaya.jpg',
+  },
+  terekhova: {
+    name: 'Anastasiya Terekhova',
+    position: 'Billing support officer',
+    photo: 'ASSET_PREFIX/assets/avatars/terekhova.jpg',
+  },
+  zaytseva: {
+    name: 'Nadezhda Zaytseva',
+    position: 'Billing manager',
+    photo: 'ASSET_PREFIX/assets/avatars/zaytseva.jpg',
+  },
+  kertling: {
+    name: 'Rodion Kertling',
+    position: 'Chief Data & Analysis Officer',
+    photo: 'ASSET_PREFIX/assets/avatars/kertling.jpg',
+  },
+  golikov: {
+    name: 'Sergey Golikov',
+    position: 'Product owner',
+    photo: 'ASSET_PREFIX/assets/avatars/golikov.jpg',
+  },
+  kuklina: {
+    name: 'Hristina Kuklina',
+    position: 'UX/UI designer',
+    photo: 'ASSET_PREFIX/assets/avatars/kuklina.jpg',
+  },
 };
