@@ -13,7 +13,9 @@
         <Avatar {...person} />
       </div>
     {/if}
-    <p>{@html text}</p>
+    <p>
+      {@html text}
+    </p>
   </div>
 </div>
 
@@ -24,7 +26,7 @@
   }
   h3 {
     max-width: 618px;
-		margin-bottom: 60px;
+    margin-bottom: 60px;
   }
   @media only screen and (min-width: 800px) {
     .flex {
@@ -46,13 +48,16 @@
     }
     p {
       width: calc(100% - 350px);
-			margin-top: 18px;
+      margin-top: 18px;
     }
     .wrap {
       position: relative;
     }
     .flex {
       display: block;
+    }
+    h3 {
+      margin-bottom: 18px;
     }
   }
 </style>
