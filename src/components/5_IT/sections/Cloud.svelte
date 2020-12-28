@@ -1,10 +1,7 @@
 <script>
   export let lang;
-  // import icon1 from '../img/separate.svg';
   import Layout from '../../Layout.svelte';
-  import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
-  import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Col2 from '../../Col2_5_6.svelte';
   import content, { icons } from '../content/cloud';
 </script>
