@@ -10,33 +10,33 @@ export const content = {
       {
         title: 'Первый квартал',
         text:
-          'Первый квартал заложил основу успешного начала 2020 года&nbsp;&mdash; рос объем торговли на&nbsp;нашей платформе, а&nbsp;также число активных трейдеров. Основной рост и&nbsp;наибольший объем торговли пришелся на&nbsp;Turbo- и&nbsp;Digital-опционы, в&nbsp;разрезе регионов&nbsp;&mdash; на&nbsp;Азию и&nbsp;Латинскую Америку, в&nbsp;которой особняком стоит Бразилия, продолжающая лидировать по&nbsp;объему торговли. <br><br>Март ознаменовался началом пандемии COVID-19, финансовым кризисом и&nbsp;высокой волатильностью на&nbsp;рынках, что в&nbsp;итоге обеспечило компании рекордную доходность. Среди инструментов к&nbsp;предыдущим лидерам добавились Forex-опционы, из&nbsp;регионов заметный рост также показала Европа. Проекция EBITDA на&nbsp;конец квартала составила $142М.',
+          'Первый квартал заложил основу успешного начала 2020 года&nbsp;&mdash; рос объем торговли на&nbsp;нашей платформе, а&nbsp;также число активных трейдеров. Основной рост и&nbsp;наибольший объем торговли пришелся на&nbsp;Turbo- и&nbsp;Digital-опционы, в&nbsp;разрезе регионов&nbsp;&mdash; на&nbsp;Азию и&nbsp;Латинскую Америку, в&nbsp;которой особняком стоит Бразилия, продолжающая лидировать по&nbsp;объему торговли. <br><br>Март ознаменовался началом пандемии COVID-19, финансовым кризисом и&nbsp;высокой волатильностью на&nbsp;рынках, что в&nbsp;итоге обеспечило компании рекордную доходность. Среди инструментов к&nbsp;предыдущим лидерам добавились Forex-опционы, из&nbsp;регионов заметный рост показала Европа. Проекция EBITDA на&nbsp;конец квартала составила $142М.',
         quote:
           'Март ознаменовался началом пандемии COVID-19, что в&nbsp;итоге обеспечило компании рекордную доходность',
         list: [
-          'заметный рост также показала Европа',
+          'Заметный рост показала Европа',
           'Бразилия продолжает лидировать по&nbsp;объему торговли',
         ],
       },
       {
         title: 'Второй квартал',
         text:
-          'Второй квартал начался для компании удачно&nbsp;&mdash; преобладающая на&nbsp;рынке ситуация с&nbsp;высокой волатильностью и&nbsp;кризисом на&nbsp;рынке позволила обеспечить большой объем торговли и&nbsp;сохранить уровень доходов на&nbsp;уровне марта. При этом выросли расходы на&nbsp;маркетинг, что стало возможно благодаря улучшению динамики окупаемости маркетинговых расходов. <br><br>После небольшого снижения доходов в&nbsp;мае, когда был зафиксирован спад трейдинговой активности, июнь вновь стал одним из&nbsp;самых успешных месяцев в&nbsp;истории компании. Основной рост пришелся на&nbsp;Turbo-опционы и&nbsp;Forex, из&nbsp;регионов лидером роста вновь стала Латинская Америка. Проекция EBITDA по&nbsp;итогам 2&nbsp;квартала увеличилась на&nbsp;18% до&nbsp;168M&nbsp;USD.',
+          'Второй квартал начался для компании удачно&nbsp;&mdash; ситуация с&nbsp;высокой волатильностью и&nbsp;кризисом на&nbsp;рынке позволила обеспечить большой объем торговли и&nbsp;сохранить уровень доходов на&nbsp;уровне марта. При этом выросли расходы на&nbsp;маркетинг, что стало возможно благодаря улучшению динамики окупаемости маркетинговых расходов. <br><br>После небольшого снижения доходов в&nbsp;мае, когда был зафиксирован спад трейдинговой активности, июнь вновь стал одним из&nbsp;самых успешных месяцев в&nbsp;истории компании. Основной рост пришелся на&nbsp;Turbo-опционы и&nbsp;Forex, из&nbsp;регионов лидером роста вновь стала Латинская Америка. Проекция EBITDA по&nbsp;итогам 2&nbsp;квартала увеличилась на&nbsp;18% до&nbsp;$168M.',
         quote: 'Лидером роста вновь стала Латинская Америка',
-        list: ['выросли расходы на&nbsp;маркетинг'],
+        list: ['Выросли расходы на&nbsp;маркетинг'],
       },
       {
         isReverse: true,
         title: 'Третий квартал',
         text:
-          'Июль стал самым прибыльным месяцем в&nbsp;истории компании. Активно рос объем торгов на&nbsp;Digital-опционах и&nbsp;Forex. Если рассматривать регионы, основной рост пришелся на&nbsp;Латинскую Америку, Азию и&nbsp;Африку. Август был отмечен небольшим падением доходов. При этом были и&nbsp;положительные новости&nbsp;&mdash; удалось договориться с&nbsp;Pay Retailers о&nbsp;снижении комиссии за&nbsp;вывод средств клиентов в&nbsp;Латинской Америке. Сентябрь прошел достаточно удачно по&nbsp;сравнению с&nbsp;предыдущим месяцем, трейдинговая активность увеличилась, были отмечены первые результаты по&nbsp;снижению расходов на&nbsp;PSP-комиссии. Проекция EBITDA по&nbsp;итогам квартала составила 210M&nbsp;USD, что на&nbsp;25% больше, чем в&nbsp;предыдущем квартале',
+          'Июль стал самым прибыльным месяцем в&nbsp;истории компании. Активно рос объем торгов на&nbsp;Digital-опционах и&nbsp;Forex. Если рассматривать регионы, основной рост пришелся на&nbsp;Латинскую Америку, Азию и&nbsp;Африку. Август был отмечен небольшим падением доходов. При этом были и&nbsp;положительные новости&nbsp;&mdash; удалось договориться с&nbsp;Pay Retailers о&nbsp;снижении комиссии за&nbsp;вывод средств клиентов в&nbsp;Латинской Америке. Сентябрь прошел достаточно удачно по&nbsp;сравнению с&nbsp;предыдущим месяцем, трейдинговая активность увеличилась, были отмечены первые результаты по&nbsp;снижению расходов на&nbsp;PSP-комиссии. Проекция EBITDA по&nbsp;итогам квартала составила $210M, что на&nbsp;25% больше, чем в&nbsp;предыдущем квартале.',
         quote: 'Июль стал самым прибыльным месяцем в&nbsp;истории компании',
         list: ['снижении комиссии за&nbsp;вывод средств клиентов с&nbsp;Pay Retailers'],
       },
       {
         title: 'Четвертый квартал',
         text:
-          'Волатильность на&nbsp;рынках в&nbsp;октябре значительно снизилась по&nbsp;сравнению с&nbsp;сентябрем, и&nbsp;соответственно, наша прибыль тоже снизилась на&nbsp;8%. Тем не&nbsp;менее, проекция EBITDA на&nbsp;год составила $204M. Расходы преимущественно также снизились, за&nbsp;исключением расходов на&nbsp;маркетинг&nbsp;&mdash; ожидаем, что это должно принести результат в&nbsp;последующие месяцы. <br><br>Ноябрь также был отмечен снижением трейдинговой активности, расходы при этом остались на&nbsp;прежнем уровне. Согласно прогнозу, составленному на&nbsp;основе данных первой половины декабря, последний месяц года сулит нам некоторое оживление активности и&nbsp;рост доходов. При этом стоит ожидать, что расходы также вырастут&nbsp;&mdash; это связано с&nbsp;выплатами бонусов по&nbsp;итогам года, а&nbsp;также некоторыми крупными ежеквартальными выплатами',
+          'Волатильность на&nbsp;рынках в&nbsp;октябре значительно снизилась по&nbsp;сравнению с&nbsp;сентябрем, и&nbsp;соответственно, наша прибыль тоже снизилась на&nbsp;8%. Тем не&nbsp;менее, проекция EBITDA на&nbsp;год составила $204M. Расходы преимущественно также снизились, за&nbsp;исключением расходов на&nbsp;маркетинг&nbsp;&mdash; ожидаем, что это должно принести результат в&nbsp;последующие месяцы. <br><br>Ноябрь также был отмечен снижением трейдинговой активности, расходы при этом остались на&nbsp;прежнем уровне. Согласно прогнозу, составленному на&nbsp;основе данных первой половины декабря, последний месяц года сулит нам некоторое оживление активности и&nbsp;рост доходов. При этом стоит ожидать, что расходы также вырастут&nbsp;&mdash; это связано с&nbsp;выплатами бонусов по&nbsp;итогам года, а&nbsp;также некоторыми крупными ежеквартальными выплатами.',
         quote:
           'Последний месяц года сулит нам некоторое оживление активности и&nbsp;рост доходов',
         list: ['Расходы комании преимущественно снизились'],
@@ -55,7 +55,7 @@ export const content = {
       {
         title: 'Q2',
         text:
-          'The second quarter began successfully for the company. The prevailing market situation with its high volatility and the crisis in the market provided a large volume of trade and allowed maintaining income at the level of March. At the same time, marketing expenses increased, which became possible due to the improvement in the dynamics of return on marketing expenses. <br><br>After a slight decline in income in May, when there was a decline in trading activity, June was again one of the most successful months in the history of the company. The main growth came from Turbo options and Forex, while Latin America was again the growth leader in the regions. Q2 EBITDA projection increased by 18% to 168M USD.',
+          'The second quarter began successfully for the company. The prevailing market situation with its high volatility and the crisis in the market provided a large volume of trade and allowed maintaining income at the level of March. At the same time, marketing expenses increased, which became possible due to the improvement in the dynamics of return on marketing expenses. <br><br>After a slight decline in income in May, when there was a decline in trading activity, June was again one of the most successful months in the history of the company. The main growth came from Turbo options and Forex, while Latin America was again the growth leader in the regions. Q2 EBITDA projection increased by 18% to $168M.',
         quote:
           'June was again one of the most successful months in the history of the company',
       },
@@ -63,7 +63,7 @@ export const content = {
         isReverse: true,
         title: 'Q3',
         text:
-          "July became the most profitable month in the company's history. The volume of trades on Digital Options and Forex was actively growing. As for regions, the main growth came from Latin America, Asia and Africa. August was marked by a slight drop in income. But there was positive news—we managed to agree on lowering withdrawal fees for clients in Latin America with Pay Retailers, one of the most important payment systems for us. September was quite successful compared to the previous month; trading activity increased, and the first results were noted on the reduction of costs for PSP-commissions. EBITDA projection for the quarter was 210M USD, up 25% from the previous quarter.",
+          "July became the most profitable month in the company's history. The volume of trades on Digital Options and Forex was actively growing. As for regions, the main growth came from Latin America, Asia and Africa. August was marked by a slight drop in income. But there was positive news—we managed to agree on lowering withdrawal fees for clients in Latin America with Pay Retailers, one of the most important payment systems for us. September was quite successful compared to the previous month; trading activity increased, and the first results were noted on the reduction of costs for PSP-commissions. EBITDA projection for the quarter was $210M, up 25% from the previous quarter.",
         quote: "July became the most profitable month in the company's history",
       },
       {

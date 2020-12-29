@@ -13,12 +13,18 @@
       caption:
         'Наша рекламная интеграция попала в тренды YouTube в Индии.<br /> Впереди нас ждут интеграции в клипах латиноамериканских групп.',
     },
+    en: {
+      text_1:
+        'From January 2020 to&nbsp;date, the area has attracted 137,000&nbsp;registrations, 19,000&nbsp;FTDs and deposits worth $2.8M. We&rsquo;ve produced more than 1,100 spots and covered around 300&nbsp;channels.',
+      caption:
+        'Our ad integration has hit YouTube trends in India.<br /> Ahead of us are integrations in music videos of Latin American bands.',
+    },
   };
 
   const numbers_1 = [
     {
       period: '2480 <span>2019</span>',
-      number: '19 000',
+      number: lang === 'en' ? '19,000' : '19 000',
       caption: {
         ru: 'FTD',
         en: 'FTD',
@@ -29,14 +35,18 @@
       number: '$2,8M',
       caption: {
         ru: 'Сумма депозитов',
-        en: 'deposit amount',
+        en: 'Total deposits',
       },
     },
   ];
 
   const itemsIcon = [
-    { icon: clipsIcon, title: '1100', text: { ru: 'роликов', en: '' } },
-    { icon: channelsIcon, title: '300', text: { ru: 'каналов', en: '' } },
+    { icon: clipsIcon, title: '1100', text: { ru: 'роликов', en: 'videos' } },
+    {
+      icon: channelsIcon,
+      title: '300',
+      text: { ru: 'каналов', en: 'channels' },
+    },
   ];
 </script>
 
@@ -44,7 +54,7 @@
   <div class="block1 mark-influence">
     <div class="text-content">
       <h5>Influence Marketing</h5>
-      <p class="p1">{content[lang].text_1}</p>
+      <p class="p1">{@html content[lang].text_1}</p>
       <div class="numbers">
         {#each numbers_1 as number}
           <LineNumberItem {...number} caption="{number.caption[lang]}" />

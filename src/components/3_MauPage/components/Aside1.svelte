@@ -4,13 +4,21 @@
   import LineNumberItem from '../../LineNumberItem.svelte';
   import ContentWithIcon from '../../ContentWithIcon.svelte';
   const items = [
-    { period: 'Q1 <span>2020</span>', number: '320 000', caption: 'MAU' },
-    { period: 'Q1 <span>2020</span>', number: '100 000', caption: 'FTD' },
+    {
+      period: 'Q1 <span>2020</span>',
+      number: lang === 'en' ? '320,000' : '320 000',
+      caption: 'MAU',
+    },
+    {
+      period: 'Q1 <span>2020</span>',
+      number: lang === 'en' ? '100,000' : '100 000',
+      caption: 'FTD',
+    },
   ];
   const text = {
     ru:
       'Мы планировали достигнуть до конца года показателей 320 000 Monthly Active Users и 100 000 First Time Depositors в месяц. И уже в первом квартале обе эти цели были достигнуты.',
-    en: '',
+    en: 'We planned to reach 320 000 Monthly Active Users and 100 000 First Time Depositors per month by the end of the year. And already in the first quarter, both of these goals had been achieved.',
   };
 </script>
 

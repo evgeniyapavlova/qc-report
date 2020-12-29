@@ -4,10 +4,6 @@
     {
       name: 'EBITDA',
       code: 'ebitda',
-      // items: [
-      //   { name: 'Комментарий CEO', code: 'ceo' },
-      //   { name: 'Движение по кварталам', code: 'quarters' },
-      // ],
     },
 
     { name: 'Запуск Margin Forex', code: 'marginForex' },
@@ -15,20 +11,10 @@
     {
       name: 'Эпик по MAU выполнен',
       code: 'mau',
-      // items: [
-      //   { name: 'Маркетинг', code: 'marketing' },
-      //   { name: 'Развитие регионов', code: 'regions' },
-      //   { name: 'Поддержка клиентов', code: 'support' },
-      //   { name: 'Верификация пользователей', code: 'verification' },
-      // ],
     },
     {
       name: 'Создание B2B-бизнеса ',
       code: 'b2b',
-      // items: [
-      //   { name: 'Создание Холдинга Quadcode', code: 'holding' },
-      //   { name: 'SaaS, Banking, Liquidity', code: 'saas' },
-      // ],
     },
     { name: 'Технические и продуктовые апдейты', code: 'updates' },
     { name: 'Переход на удалёнку', code: 'remote' },
@@ -37,11 +23,6 @@
     {
       name: 'Благодарности',
       code: 'thanks',
-      // items: [
-      //   { name: 'Образовательные проекты в России', code: 'russia' },
-      //   { name: 'Фишкошоп и экоофис', code: 'ecooffice' },
-      //   { name: 'Благотворительный фонд в Руанде', code: 'rwanda' },
-      // ],
     },
   ];
 

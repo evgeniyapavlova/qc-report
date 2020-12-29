@@ -16,6 +16,11 @@
       text:
         'В начале года перед нам стояла цель — Увеличить базу активных клиентов. Чтобы достигнуть ее, компания работала в нескольких направлениях: развитие продукта, маркетинговые решения, поддержка клиентов, продвижение платформы в регионах. ',
     },
+    en: {
+      h1: 'Epic for MAU completed',
+      text:
+        'At the beginning of the year we had a goal—Increase active client base. To achieve this, the company has worked in several areas: product development, marketing solutions, customer support, and promotion of the platform in the regions.',
+    },
   };
 </script>
 

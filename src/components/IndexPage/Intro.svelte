@@ -1,19 +1,49 @@
 <script>
+  export let lang;
   import Layout from '../../components/Layout.svelte';
   import Logo from './logo_black.svg';
   import Cubes from './Cubes.svelte';
   import Img2020 from './2020.svelte';
-  const menuItems = [
-    { name: 'Проекция EBITDA за год', code: 'ebitda' },
-    { name: 'Проект года — Margin Forex', code: 'marginForex' },
-    { name: 'Эпик по MAU выполнен', code: 'mau' },
-    { name: 'Наши первые B2B-клиенты', code: 'b2b' },
-    { name: 'Технические и продуктовые апдейты', code: 'updates' },
-    { name: 'Переход на удалёнку', code: 'remote' },
-    { name: 'Улучшение подходов к менеджменту', code: 'improvement' },
-    { name: 'Social responsibility', code: 'responsibility' },
-    { name: 'Благодарности', code: 'thanks' },
+  const codes = [
+    'ebitda',
+    'marginForex',
+    'mau',
+    'b2b',
+    'updates',
+    'remote',
+    'improvement',
+    'responsibility',
+    'thanks',
   ];
+
+  const content = {
+    ru: {
+      items: [
+        'Уверенно приближаемся к цели EBITDA',
+        'Запуск Margin Forex',
+        'Эпик по MAU выполнен',
+        'Создание B2B-бизнеса',
+        'Повышение технологического уровня компании',
+        'Переход на удаленную работу',
+        'Улучшение подходов к HR и менеджменту',
+        'Благотворительные и эко-инициативы',
+        'Благодарности',
+      ],
+    },
+    en: {
+      items: [
+        "We're steadily approaching our EBITDA target",
+        'Launch of Margin Forex',
+        'Epic for MAU completed',
+        'Creation of B2B business',
+        'Raising the technological level of the company',
+        'Transition to remote work',
+        'Improve approaches to HR and management',
+        'Charity and eco-initiatives',
+        'Thanks',
+      ],
+    },
+  };
   const scrollDown = (e) => {
     const code = e.currentTarget.dataset.code;
     const scrollTo = document.querySelector(`[data-id="${code}"]`);
@@ -33,9 +63,9 @@
       <Logo />
       <div class="caption">ONE YEAR<br /> IN REVIEW</div>
       <div class="menu">
-        {#each menuItems as item, index}
-          <div data-code="{item.code}" class="row" on:click="{scrollDown}">
-            <div class="item">{item.name}</div>
+        {#each content[lang].items as item, index}
+          <div data-code="{codes[index]}" class="row" on:click="{scrollDown}">
+            <div class="item">{item}</div>
             <div class="number">0{index + 1}</div>
           </div>
         {/each}
@@ -68,11 +98,13 @@
     max-width: 440px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 34px;
+
+    line-height: 20px;
   }
   .row {
     display: flex;
     position: relative;
+    margin-bottom: 14px;
   }
   .row {
     color: rgba(50, 62, 72, 0.3);

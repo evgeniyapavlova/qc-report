@@ -10,9 +10,17 @@
       title: 'Video and Web Design',
       text:
         'Мы сделали более 5000 баннеров на 15 языках. Разработали более 20 сайтов и лендингов для компаний всего холдинга — постоянно следим за качеством и стремимся улучшать конверсию.<br><br>Более 350 писем было отрисовано за этот год на различные тематики. Обновили около 25 роликов в видеоразделе обучения IQ Option на всех языках платформы.<br><br>В маркетинге вышло более 3700 новых видео, большинство из которых и привело нам большую часть наших трейдеров.',
-      site: 'Сайт новой партнерской программы ',
+      site: 'Сайт новой партнерской программы',
       land: 'Наш лучший лендинг',
       items: ['Баннеров', 'Видео', 'Дизайнов рассылок'],
+    },
+    en: {
+      title: 'Video and Web Design',
+      text:
+        'We&rsquo;ve made over 5000 banners in&nbsp;15&nbsp;languages. We&rsquo;ve developed more than 20&nbsp;websites and webpages for companies throughout the holding company. We&rsquo;re constantly monitoring quality and striving to&nbsp;improve conversion rates.<br /><br />More than 350 letters have been depicted this year on&nbsp;a&nbsp;variety of&nbsp;subjects. We&rsquo;ve updated about 25&nbsp;videos in&nbsp;the IQ&nbsp;Option training video section in&nbsp;all languages of&nbsp;the platform.<br /><br />More than 3,700 new videos were released in&nbsp;marketing, most of&nbsp;which brought&nbsp;us a&nbsp;large proportion of&nbsp;our traders.',
+      site: 'Website of the new affiliate programme',
+      land: 'Our best landing',
+      items: ['Banners', 'Videos', 'Letters'],
     },
   };
 
@@ -35,7 +43,7 @@
       <div class="aff-content">
         <img
           src="ASSET_PREFIX/assets/mau/new_aff_prog.png"
-          alt="Сайт новой партнерской программы"
+          alt="content[lang].site}"
           class="new-aff-pro"
         />
         <a
