@@ -23,7 +23,25 @@ const content = {
       },
     ],
   },
-  en: {},
+  en: {
+    h3: 'Development of <span>data platform</span>',
+    p:
+      'This year, we&nbsp;made great strides in&nbsp;the development of&nbsp;the data platform, the Data Platform. Whereas once it&nbsp;was just GreenPlum with data replication through the logical&nbsp;PG replication capabilities, it&rsquo;s now a&nbsp;whole package, enabling a&nbsp;variety of&nbsp;tasks from reporting to&nbsp;sophisticated analytics.',
+    quote:
+      'We&rsquo;re able to&nbsp;detect problems before users even see them',
+    items: [
+      {
+        title: 'Upgrade',
+        text:
+          'We&nbsp;upgraded the&nbsp;GP cluster to&nbsp;the latest version. We&nbsp;improved the data infrastructure into the platform; it&rsquo;s now reliable and most importantly, we&rsquo;re able to&nbsp;detect problems before users even see them.',
+      },
+      {
+        title: 'Data preparing',
+        text:
+          'Processes have been put in place to prepare data and showcases for specific purposes, thereby producing quality results for users.',
+      },
+    ],
+  },
 };
 
 export default content;
