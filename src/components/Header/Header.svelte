@@ -1,5 +1,6 @@
 <script>
   import Sidebar from './Sidebar.svelte';
+  import ScrollTop from './ScrollTop.svelte';
   import Burger from './Burger.svelte';
   import Logo from './Logo.svelte';
   import Lang from './Lang.svelte';
@@ -16,6 +17,7 @@
   </section>
 </header>
 <Sidebar bind:open />
+<ScrollTop />
 
 <style>
   header {
@@ -28,7 +30,6 @@
   }
   section {
     margin: 0 auto;
-    /*max-width: 1488px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
