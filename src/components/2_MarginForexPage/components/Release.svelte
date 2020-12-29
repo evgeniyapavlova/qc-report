@@ -83,7 +83,7 @@
     <p>
       {@html content[lang].desc}
     </p>
-    <div class="chart1-wrap">
+    <div class="chart-wrap chart1-wrap">
       <Chart
         chartId="mf-countries-chart"
         data="{chart1Data}"
@@ -91,7 +91,7 @@
         lineColor="#323E48"
       />
     </div>
-    <div class="chart2-wrap">
+    <div class="chart2-wrap chart-wrap ">
       <Chart
         chartId="mf-users-chart"
         data="{chart2Data}"
@@ -132,8 +132,13 @@
     flex-wrap: wrap;
   }
   .item {
-    margin-bottom: 29px;
+    margin-bottom: 40px;
     width: 50%;
+  }
+  .chart-wrap {
+    height: 300px;
+    position: relative;
+		width: 100%;
   }
   @media only screen and (min-width: 400px) {
     .item {

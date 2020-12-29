@@ -64,8 +64,9 @@
 
 <div class="wrap">
   <div class="content">
-    <H5_p h5="{content[lang].title}" p="{content[lang].desc}" />
-
+    <div class="text-cont">
+      <H5_p h5="{content[lang].title}" p="{content[lang].desc}" />
+    </div>
     <div class="list">
       {#each content[lang].list as item, index}
         <div class="item">
@@ -163,7 +164,7 @@
       margin-top: 120px;
     }
     .reviews {
-      min-width: 350px;
+      width: 33%;
     }
     .list {
       text-align: left;
@@ -183,6 +184,10 @@
     }
     .content {
       padding-right: 20px;
+      width: 66%;
+    }
+    .text-cont {
+      width: 87%;
     }
   }
 </style>
