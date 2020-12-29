@@ -32,7 +32,27 @@ const content = {
       'Мы&nbsp;работаем над тем, чтобы политики IT&nbsp;Compliance были полезны и&nbsp;были не&nbsp;просто документами для внешних потребителей',
     caption: 'Работаем над соответствием стандартам самых строгих регуляций',
   },
-  en: {},
+  en: {
+    h3: 'Towards <span>regulatory compliance</span>',
+    p:
+      'This year we&rsquo;ve worked hard to&nbsp;meet the standards set by&nbsp;the most stringent regulators. Not only the way our B2B solutions and financial logic work, but also our internal work processes need to&nbsp;be&nbsp;of&nbsp;the highest calibre in&nbsp;order for&nbsp;us to&nbsp;realise our strategy of&nbsp;entering markets like the&nbsp;UK and Australia.',
+    h5: 'What have we done this year?',
+    titles: [
+      'Analyzing processes',
+      'Policies developing',
+      'IT Compliance',
+      'New practices',
+    ],
+    texts: [
+      'Analyzed current processes in the IT branch and identified weaknesses that need to be strengthened and places that need to be corrected.',
+      'Developed a large number of policies and processes that cover the weaknesses identified in the first phase.',
+      'We created the internal IT Compliance Department, whose specialists are involved in the development and implementation of policies, train employees and monitor the execution of processes by performing internal checks, audits, collecting and analyzing the necessary evidence.',
+      'Actively introduced new practices to provide the necessary evidence for regulators.',
+    ],
+    quote:
+      'We&nbsp;work to&nbsp;ensure that IT&nbsp;Compliance policies are useful to&nbsp;us, rather than becoming mere documents for external users',
+    caption: 'Worked hard to meet the standards set by the most stringent regulators',
+  },
 };
 
 export default content;
