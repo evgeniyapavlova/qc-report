@@ -1,5 +1,5 @@
 <script>
-  const lang = 'ru';
+  const lang = 'en';
   import Header from '../components/Header/Header.svelte';
   import Section_0_Intro from '../components/IndexPage/Intro.svelte';
   import Section_2_MarginForex from '../components/2_MarginForexPage/sections/1_Intro.svelte';
@@ -29,12 +29,12 @@
 
 <Section_3_B2B lang="{lang}" />
 
-<Section_5_IT lang="{lang}" />
+<!--<Section_5_IT lang="{lang}" />-->
 
 <Section_6_Remote lang="{lang}" />
 
 <Section_7_Management lang="{lang}" />
 
-<Section_8_SocialResponsibility lang="{lang}" />
+<!--<Section_8_SocialResponsibility lang="{lang}" />-->
 
-<Section_9_Gratitude lang="{lang}" />
+<!--<Section_9_Gratitude lang="{lang}" />-->
