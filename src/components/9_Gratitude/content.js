@@ -79,12 +79,13 @@ const content = {
       quote:
         'Huge thanks to all of the Quadcode and IQ teams that have worked so hard to ensure that Amaiz in integrated into the Group of Companies',
       text:
-        "I would like to express a huge thanks to all of the Quadcode and IQ teams that have worked so hard to ensure that Amaiz in integrated into the Group of Companies. It was down to everyone’s hard work that we were able to perform the complete migration and ensure that as a FCA regulated business we were able to provide uninterrupted service to all our clients and their deposits with us, continue to increase month on month.<br /><br />I'd like to give a special thanks to my immediate team, Francesca Dowling and Matt Goddard, for making this happen.",
+        'I&nbsp;would like to&nbsp;express a&nbsp;huge thanks to&nbsp;all of&nbsp;the Quadcode and&nbsp;IQ teams that have worked so&nbsp;hard to&nbsp;ensure that Amaiz in&nbsp;integrated into the Group of&nbsp;Companies. It&nbsp;was down to&nbsp;everyone&rsquo;s hard work that we&nbsp;were able to&nbsp;perform the complete migration and ensure that as&nbsp;a&nbsp;FCA regulated business we&nbsp;were able to&nbsp;provide uninterrupted service to&nbsp;all our clients and their deposits with&nbsp;us, continue to&nbsp;increase month on&nbsp;month.<br /><br />I&rsquo;d like to&nbsp;give a&nbsp;special thanks to&nbsp;my&nbsp;immediate team, Francesca Dowling and Matt Goddard, for making this happen.',
     },
     {
-      quote: "Their professionalism doesn't even leave room for questions",
+      quote:
+        'Their professionalism doesn&rsquo;t even leave room for questions',
       text:
-        'Thank you to our Office team and the guys who organize our leisure time. Now there\'s a challenge—try to organize a corporate party online! And they pull it off great <3.<br /><br />Also, all our HR team —  for hire! Their professionalism doesn\'t even leave room for questions: "Does our company exist?" and "Is there an office?"',
+        'Thank you to&nbsp;our Office team and the guys who organize our leisure time. Now there&rsquo;s a&nbsp;challenge&mdash;try to&nbsp;organize a&nbsp;corporate party online! And they pull it&nbsp;off great &lt;3.<br /><br />Also, all our&nbsp;HR team&nbsp;&mdash; for hire! Their professionalism doesn&rsquo;t even leave room for questions: &laquo;Does our company exist?&raquo; and &laquo;Is&nbsp;there an&nbsp;office?&raquo;',
     },
     {
       quote: 'Thanks to whoever came up with the idea of remote work!',
@@ -106,13 +107,13 @@ const content = {
       quote:
         'Thanks to whom we have the opportunity to work (and not just work, but enjoy working)',
       text:
-        "I'd like to say a huge thank you first of all to Anton, thanks to whom we have the opportunity to work (and not just work, but enjoy working) in these difficult times..<br/><br/>Of course, to our dear Artur, for listening to his staff and for his willingness to help in any situation (One love!)..<br/><br/>To all the folks and teams I got to interact with during this time (there are just soooo many of them)..<br/><br/>I'd like to say a special thank you to all the guys at Billing; thank you for being there and for working with me!.<br/><br/>And, of course, to the people who make our lives so much more beautiful, interesting and healthy! Thank you for the sports challenges, the delicious workshops, the insanely interesting travel quizzes and lectures, the English lessons and the charity projects.",
+        'I&rsquo;d like to&nbsp;say a&nbsp;huge thank you first of&nbsp;all to&nbsp;Anton, thanks to&nbsp;whom we&nbsp;have the opportunity to&nbsp;work (and not just work, but enjoy working) in&nbsp;these difficult times..<br/><br/>Of&nbsp;course, to&nbsp;our dear Artur, for listening to&nbsp;his staff and for his willingness to&nbsp;help in&nbsp;any situation (One love!)..<br/><br/>To&nbsp;all the folks and teams&nbsp;I got to&nbsp;interact with during this time (there are just soooo many of&nbsp;them)..<br/><br/>I&rsquo;d like to&nbsp;say a&nbsp;special thank you to&nbsp;all the guys at&nbsp;Billing; thank you for being there and for working with&nbsp;me!.<br/><br/>And, of&nbsp;course, to&nbsp;the people who make our lives so&nbsp;much more beautiful, interesting and healthy! Thank you for the sports challenges, the delicious workshops, the insanely interesting travel quizzes and lectures, the English lessons and the charity projects.',
     },
     {
       quote:
         "I want to thank you for a great time with everyone at IQQC. I've learned something from everyone!",
       text:
-        "I want to thank you for a great time with everyone at IQQC.<br><br>To the IT team for an unforgettable overnight strategy session; good and productive working with you. <br><br>To the Data Platform team for persevering towards the goal, bright thoughts and belief in yourself; you've done great work and this is only the beginning!<br><br>The HR+PP+TD team for helping to develop the team and each of the staff; conversations with you are deep and heartfelt.<br><br>To the Agile Coach team for their comfortable facilitation and relentless chasing; with you it's possible to achieve more and strengthen teams.<br><br>To the Insights & Experiments & Analytics team for their patience, valuable feedback and fun Fridays; you help a business to see and understand itself.<br><br>To the Architecture and Development team for their in-depth knowledge and real expertise; you can handle any technology.<br><br>To the Product team for their inexhaustible courage to manage and handle the intricacies; I believe that our future products will be loved by traders around the world.<br><br>Thank you to everyone I've worked with this year; I've learned something from everyone!",
+        'I&nbsp;want to&nbsp;thank you for a&nbsp;great time with everyone at&nbsp;IQQC.<br><br>To&nbsp;the&nbsp;IT team for an&nbsp;unforgettable overnight strategy session; good and productive working with you. <br><br>To&nbsp;the Data Platform team for persevering towards the goal, bright thoughts and belief in&nbsp;yourself; you&rsquo;ve done great work and this is&nbsp;only the beginning!<br><br>The HR+PP+TD team for helping to&nbsp;develop the team and each of&nbsp;the staff; conversations with you are deep and heartfelt.<br><br>To&nbsp;the Agile Coach team for their comfortable facilitation and relentless chasing; with you it&rsquo;s possible to&nbsp;achieve more and strengthen teams.<br><br>To&nbsp;the Insights &amp;&nbsp;Experiments &amp;&nbsp;Analytics team for their patience, valuable feedback and fun Fridays; you help a&nbsp;business to&nbsp;see and understand itself.<br><br>To&nbsp;the Architecture and Development team for their in-depth knowledge and real expertise; you can handle any technology.<br><br>To&nbsp;the Product team for their inexhaustible courage to&nbsp;manage and handle the intricacies; I&nbsp;believe that our future products will be&nbsp;loved by&nbsp;traders around the world.<br><br>Thank you to&nbsp;everyone I&rsquo;ve worked with this year; I&rsquo;ve learned something from everyone!',
     },
     {
       quote:
@@ -124,7 +125,7 @@ const content = {
       quote:
         'Thank you all for being so different, so special in your own way, so enthusiastic!',
       text:
-        "Guys, I want to thank you all for being so different, so special in your own way, so enthusiastic! I've lived in St Petersburg for 5 and a half years and most of the people I know and my close friends in this city are you guys! Be happy!",
+        'Guys, I&nbsp;want to&nbsp;thank you all for being so&nbsp;different, so&nbsp;special in&nbsp;your own way, so&nbsp;enthusiastic! I&rsquo;ve lived in&nbsp;St&nbsp;Petersburg for 5&nbsp;and a&nbsp;half years and most of&nbsp;the people&nbsp;I know and my&nbsp;close friends in&nbsp;this city are you guys! Be&nbsp;happy!',
     },
     {
       quote:
