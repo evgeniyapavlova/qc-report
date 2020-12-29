@@ -1,7 +1,7 @@
 import icon1 from '../img/infrastructure.svg';
-import icon2 from "../img/architecture.svg";
-import icon3 from "../img/interaction.svg";
-import icon4 from "../img/fixing.svg";
+import icon2 from '../img/architecture.svg';
+import icon3 from '../img/interaction.svg';
+import icon4 from '../img/fixing.svg';
 
 const content = {
   ru: {
@@ -17,7 +17,19 @@ const content = {
       'Успешно справляемся с проблемами и асапами по проекту',
     ],
   },
-  en: {},
+  en: {
+    h3: 'Integration of <span>Amaiz</span>',
+    p:
+      'This summer, our group of&nbsp;companies was joined by&nbsp;the Amaiz project&nbsp;&mdash; digital banking for entrepreneurs and small businesses in&nbsp;the UK. Thanks to&nbsp;this, we&rsquo;ve been granted an&nbsp;EMI licence in&nbsp;the&nbsp;UK with passporting for the whole&nbsp;EU area. Amaiz is&nbsp;a&nbsp;complex financial project with its own infrastructure. It&nbsp;has complex integrations with bank processors, its own PCI&nbsp;DSS zone which imposes certain requirements on&nbsp;processes, and of&nbsp;course its own history.<br /><br />Thanks to&nbsp;the coordinated work of&nbsp;the infrastructure, development and security teams, we&nbsp;were able to&nbsp;get the project up&nbsp;and running as&nbsp;quickly as&nbsp;possible and without major disruption. We&nbsp;successfully integrated it&nbsp;into our infrastructure, organized interaction between the helpdesk and Service Desk and are successfully coping with the tasks and problems that arise.',
+    quote:
+      'This is a good starting point for the Banking line of business',
+    items: [
+      'Figured out the infrastructure',
+      'Analyzed and described the project architecture',
+      'Facilitated interaction between the helpdesk, technical support and development teams',
+      'Successfully managed problems and asaps on the project',
+    ],
+  },
 };
 
 export const icons = [icon1, icon2, icon3, icon4];
