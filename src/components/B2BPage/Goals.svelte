@@ -32,7 +32,7 @@
         icon: 'ASSET_PREFIX/assets/b2b/goal1.jpg',
         title: 'Trademark',
         text:
-          "To achieve the goals set by the company's top management, the Legal department has done a lot of work to form our holding company and to legally protect the Quadcode brand. In 2020, we registered our trademark in Russia, the European Union, Hong Kong and other countries and legally rebranded the companies.",
+          "In 2020, we registered our trademark in Russia, the European Union, Hong Kong and other countries and legally rebranded the companies.",
       },
       {
         icon: 'ASSET_PREFIX/assets/b2b/goal2.jpg',

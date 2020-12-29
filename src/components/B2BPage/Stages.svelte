@@ -1,8 +1,8 @@
 <script>
   const stages = [
     { img: 'ASSET_PREFIX/assets/b2b/stage1.jpg', year: '2019', title: 'Mission' },
-    { img: 'ASSET_PREFIX/assets/b2b/stage2.jpg', year: '2020', title: 'SaaS' },
-    { img: 'ASSET_PREFIX/assets/b2b/stage3.jpg', year: '2022', title: 'Ready for IPO' },
+    { img: 'ASSET_PREFIX/assets/b2b/saas.jpg', year: '2020', title: 'SaaS' },
+    { img: 'ASSET_PREFIX/assets/b2b/ipo.jpg', year: '2022', title: 'Ready for IPO' },
   ];
 </script>
 

@@ -95,6 +95,7 @@
   @media only screen and (min-width: 960px) {
     .p-goals {
       margin-bottom: 60px;
+			margin-top: 150px;
     }
     .h2-wrap {
       margin-bottom: 48px;
