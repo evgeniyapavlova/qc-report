@@ -50,9 +50,10 @@
 
 <style>
   .aside {
-    width: 310px;
+    width: 100%;
     font-size: 14px;
     line-height: 17px;
+    text-align: center;
   }
   .time {
     color: var(--red);
@@ -69,8 +70,18 @@
     opacity: 0.6;
     font-weight: 600;
     max-width: 170px;
+    margin: 0 auto;
   }
   .arrow-wrap {
     margin: 20px 0 18px;
+  }
+  @media only screen and (min-width: 960px) {
+    .aside {
+      width: 25%;
+      text-align: left;
+    }
+    .text {
+      margin-left: 0;
+    }
   }
 </style>

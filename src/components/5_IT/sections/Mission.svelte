@@ -109,9 +109,10 @@
     height: 100%;
     background-color: var(--red);
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 2px;
   }
   @media only screen and (min-width: 480px) {
     .title {

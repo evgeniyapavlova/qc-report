@@ -66,7 +66,7 @@ export default {
   },
   gitsis: {
     name: 'Michael Gitsis',
-    position: 'Chief of Administration  and Group CFO',
+    position: 'Chief of Administration and Group CFO',
     photo: 'ASSET_PREFIX/assets/avatars/gitsis.jpg',
   },
   khimchenko: {
@@ -116,7 +116,7 @@ export default {
   },
   romashkina: {
     name: 'Natalia Romashkina',
-    position: 'Head of  Corporate Culture',
+    position: 'Head of Corporate Culture',
     photo: 'ASSET_PREFIX/assets/avatars/romashkina.jpg',
   },
   laskin: {

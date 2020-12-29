@@ -83,7 +83,7 @@
             icon="{covid_test}"
           />
         </div>
-        <p>{content[lang].bought.text}</p>
+        <p class="p2">{content[lang].bought.text}</p>
       </div>
     </div>
   </Col2_3>
@@ -91,6 +91,9 @@
 </div>
 
 <style>
+  .p2 {
+    margin-bottom: 120px;
+  }
   .wrap {
     margin-top: 135px;
     margin-bottom: 120px;
@@ -163,6 +166,9 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .p2 {
+      margin-bottom: 0;
+    }
     .wrap {
       margin-bottom: 150px;
     }

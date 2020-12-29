@@ -37,7 +37,7 @@ export const texts1 = [
   'Dev teams',
   'Product designers',
   'Product owner and Product managers',
-  'Analyst  and System Analyst',
+  'Analyst and System Analyst',
 ];
 
 export const numbers = [23, 7, 8, 9];

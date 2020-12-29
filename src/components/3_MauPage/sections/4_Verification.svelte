@@ -84,10 +84,17 @@
     position: relative;
   }
   .content {
-    max-width: 620px;
+    width: 100%;
+    margin-bottom: 80px;
   }
-  .flex {
-    display: flex;
-    justify-content: space-between;
+  @media only screen and (min-width: 960px) {
+    .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    .content {
+      width: 58%;
+      margin-bottom: 0;
+    }
   }
 </style>

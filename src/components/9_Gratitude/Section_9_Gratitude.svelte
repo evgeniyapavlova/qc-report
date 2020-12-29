@@ -5,7 +5,7 @@
   import Block from './components/Block.svelte';
   import people from '../../helpers/people';
   import Layout from '../Layout.svelte';
-  import H2_Text_Avatar from '../H2_Text_Avatar.svelte';
+  import H1_Text_Avatar from '../H1_Text_Avatar.svelte';
   const {
     rabinovich,
     taklalsingh,
@@ -36,24 +36,30 @@
   ];
 </script>
 
-<Layout>
-  <H2_Text_Avatar h2="{content1[lang].h2}" text="{content1[lang].h4}" />
-  <div class="list">
-    {#each content[lang] as item, index}
-      <Block {...item} index="{index}" person="{persons[index]}" />
-    {/each}
-  </div>
-  <div class="final">
-    <p>{content1[lang].finalP}</p>
-    <div class="quote">{content1[lang].finalQuote}</div>
-    <h5 class="red">
-      {@html content1[lang].finalRed}
-    </h5>
-    <svelte:component this="{logo}" />
-  </div>
-</Layout>
+<span data-id="thanks"></span>
+<section>
+  <Layout>
+    <H1_Text_Avatar h1="{content1[lang].h2}" text="{content1[lang].h4}" />
+    <div class="list">
+      {#each content[lang] as item, index}
+        <Block {...item} index="{index}" person="{persons[index]}" />
+      {/each}
+    </div>
+    <div class="final">
+      <p>{content1[lang].finalP}</p>
+      <div class="quote">{content1[lang].finalQuote}</div>
+      <h5 class="red">
+        {@html content1[lang].finalRed}
+      </h5>
+      <svelte:component this="{logo}" />
+    </div>
+  </Layout>
+</section>
 
 <style>
+  section {
+    padding-top: 200px;
+  }
   .list {
     margin-top: 135px;
   }

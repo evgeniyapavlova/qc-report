@@ -1,7 +1,7 @@
 <script>
   export let lang;
   import Layout from '../../Layout.svelte';
-  import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
+  import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
   import people from '../../../helpers/people';
   const { laskin } = people;
   import content from '../content/intro';
@@ -9,8 +9,8 @@
 
 <section>
   <Layout>
-    <H2_Text_Avatar
-      h2="{content[lang].h2}"
+    <H1_Text_Avatar
+      h1="{content[lang].h2}"
       person="{laskin}"
       text="{content[lang].h4}"
     />
