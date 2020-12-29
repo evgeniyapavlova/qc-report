@@ -10,7 +10,7 @@ const content = {
   ru: {
     h5: 'Развитие сотрудников',
     p1:
-      'В&nbsp;начале года компания поставила для себя важную цель&nbsp;&mdash; создать еще больше возможностей для профессионального развития сотрудников и&nbsp;выделила бюджет в&nbsp;$1&nbsp;000&nbsp;000&nbsp;на обучение.',
+      'В&nbsp;начале года компания поставила для себя важную цель&nbsp;&mdash; создать еще больше возможностей для профессионального развития сотрудников&nbsp;&mdash; и&nbsp;выделила бюджет в&nbsp;$1&nbsp;000&nbsp;000&nbsp;на обучение.',
     p2:
       'Нашей задачей было налаживать и&nbsp;поддерживать процессы, связанные с&nbsp;оценкой, обучением и&nbsp;развитием сотрудников:',
     quote:
@@ -28,7 +28,27 @@ const content = {
       'Запустили процесс ассессмента для поддержки повышения ребят с линейных позиций на руководящие',
     ],
   },
-  en: {},
+  en: {
+    h5: 'Employee development',
+    p1:
+      'At the beginning of the year, the company set itself the important goal of creating even more professional development opportunities for its employees and allocated a budget of $1,000,000 for training.',
+    p2:
+      'Our task was to set up and maintain processes related to employee appraisal, training and development.',
+    quote:
+      "A strong team with a high level of expertise is the basis of the company's success and the achievement of common goals",
+    item1: 'budget 2020 for training',
+    items1: [
+      'trainings<br />undergone',
+      'of employees have undergone training',
+      'contractors provided us with training',
+      'conferences were attended by employees',
+    ],
+    titles2: ['360 surveys', 'Assessment'],
+    texts2: [
+      'We ran two 360 surveys for N-2, N-3 managers',
+      'Launched an assessment process to support the promotion of people from line positions to management positions',
+    ],
+  },
 };
 
 export default content;

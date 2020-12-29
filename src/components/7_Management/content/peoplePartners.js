@@ -36,14 +36,26 @@ const content = {
   },
   en: {
     h5: 'Launch of People Partners',
+    quote:
+      'We help the company achieve its business goals by building processes within and between teams',
     p1:
       'People Partners is&nbsp;a&nbsp;new step in&nbsp;the development of&nbsp;the Case-managers team. The team was originally set up&nbsp;to&nbsp;deal with difficult situations, but gradually began to&nbsp;cover an&nbsp;ever-increasing pool of&nbsp;tasks. Now, as&nbsp;People Partners, we&nbsp;work not only with problems, but also with many very positive areas, such as&nbsp;coaching, identifying potential, or&nbsp;supporting promotions. The main objective of&nbsp;our team is&nbsp;to&nbsp;help the company achieve its business goals by&nbsp;building processes within and between teams. Our mission is&nbsp;to&nbsp;create a&nbsp;harmonious space for employees to&nbsp;reach their potential in&nbsp;the interests of&nbsp;the company.',
-    items3:[
+    items1: ['Coaching', 'Identifying<br />potential', 'Supporting<br />promotions'],
+    h5_2: 'Our success in achieving our goals',
+    p2:
+      'This year we started working on direct requests from business customers: CEOs, N-1, N-2 executives. By collaborating with the business, we\'re always focused on solving the most pressing problems for the company.',
+    items2: [
+      'Increase management competence of N-2, N-3',
+      'Reduce the buss factor in N-1, N-2 in key positions',
+      'Reduce turnover of staff in the IT department',
+    ],
+    caption: 'This year we conducted:',
+    items3: [
       'successful<br />onboardings',
       'exit<br />interviews',
       'assessments<br />(jointly with T&D)',
-      'interviews in search<br />of a new PP'
-    ]
+      'interviews in search<br />of a new PP',
+    ],
   },
 };
 
