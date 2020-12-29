@@ -128,7 +128,7 @@ const content = {
         'respirators',
         'inhaler units',
       ],
-      covid: 'тестов на COVID-19<br /> в Лимассоле',
+      covid: 'COVID-19 tests<br /> in Limassol',
       text:
         'Gloves, drinking water, toilet paper, hand cream, disposable utensils and cutlery were also purchased.',
     },
