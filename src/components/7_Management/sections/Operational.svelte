@@ -35,7 +35,7 @@
       <img
         class="chart1"
         src="ASSET_PREFIX/assets/management/operation_graphs_1.jpg"
-        alt="106 people was hired in Russia"
+        alt="106 people were hired in Russia"
       />
       <div class="chart-label">
         26 people was hired in Cyprus, Gibraltar, UK
@@ -43,7 +43,7 @@
       <img
         class="chart2"
         src="ASSET_PREFIX/assets/management/operation_graphs_2.jpg"
-        alt="26 people was hired in Cyprus, Gibraltar, UK"
+        alt="26 people were hired in Cyprus, Gibraltar, UK"
       />
     </div>
     <div slot="left">
@@ -123,6 +123,7 @@
     }
     p {
       margin: 65px 0 95px;
+			width: 58%;
     }
     .item-wrap {
       margin-bottom: 76px;

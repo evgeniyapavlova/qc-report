@@ -51,6 +51,7 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    margin-bottom: 100px;
   }
   .item-wrap {
     margin-bottom: 70px;
@@ -68,16 +69,17 @@
     .list {
       justify-content: flex-start;
       text-align: left;
+      margin-bottom: 150px;
     }
     .item-wrap {
       width: 33%;
       min-width: 33%;
       padding: 0 8% 0 0;
-			margin-bottom: 80px;
+      margin-bottom: 80px;
     }
     .quote {
       max-width: 33%;
-			margin-top: 0;
+      margin-top: 0;
     }
   }
 </style>

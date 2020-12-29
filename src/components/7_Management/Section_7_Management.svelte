@@ -10,8 +10,20 @@
 
 <span data-id="improvement"></span>
 <ManagementIntro lang="{lang}" />
-<Strategic lang="{lang}" />
-<PeoplePartners lang="{lang}" />
-<Development lang="{lang}" />
+<section>
+  <Strategic lang="{lang}" />
+</section>
+<section>
+  <PeoplePartners lang="{lang}" />
+</section>
+<section>
+  <Development lang="{lang}" />
+</section>
 <Operational lang="{lang}" />
 <CorporateCulture lang="{lang}" />
+
+<style>
+  section {
+    margin-bottom: 150px;
+  }
+</style>
