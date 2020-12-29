@@ -12,7 +12,11 @@
       desc:
         'Диверсификация прибыли по региону стала одной из наших стратегических целей на год. Над проектом работали региональные менеджеры Джоан Лопес, Степан Кулик, Борис Нещерет, Александр Кох и Никос Рентумис. Для выполнения целей по PnL и активным клиентам в регионах в этом году мы занимались подключением новых платежных методов, получением лицензий, развитием IB-системы, Customer Journey Map и многими другими инициативами.',
     },
-    en: { title: '', desc: '' },
+    en: {
+      title: 'Development in the regions',
+      desc:
+        'Diversifying profits across the region was one of our strategic goals for the year. Regional managers Joan Lopez, Stepan Kulik, Boris Nesheret, Alexander Koch and Nikos Rentumis worked on the project. To meet our goals for PnL and active customers in the regions, this year we were connecting new payment methods, obtaining licences, developing the IB system, Customer Journey Map and many other initiatives.',
+    },
   };
 </script>
 
