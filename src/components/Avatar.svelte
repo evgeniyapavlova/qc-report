@@ -3,7 +3,10 @@
 </script>
 
 <div class="avatar">
-  <img src="{photo}" alt="" />
+  <div
+    class="photo"
+    style="background-image: url(ASSET_PREFIX/assets/avatars/{photo}.jpg)"
+  ></div>
   <div class="text">
     <div class="name">{name}</div>
     <div class="position">{position}</div>
@@ -11,17 +14,20 @@
 </div>
 
 <style>
+  .photo {
+    width: 87px;
+    height: 87px;
+    border-radius: 87px;
+    margin-right: 15px;
+    background-size: 92px 92px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
   .avatar {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     min-width: 280px;
-  }
-  img {
-    width: 87px;
-    height: 87px;
-    border-radius: 87px;
-		margin-right: 15px;
   }
   .text {
     font-size: 16px;
@@ -30,7 +36,7 @@
   }
   .name {
     font-weight: 700;
-		margin-bottom: 0;
+    margin-bottom: 0;
   }
   .position {
     font-weight: 400;
@@ -46,11 +52,11 @@
       width: 70px;
       margin-top: 15px;
     }
-    img {
+    .photo {
       width: 92px;
       height: 92px;
       border-radius: 92px;
-			margin-right: 20px;
+      margin-right: 20px;
     }
   }
 </style>

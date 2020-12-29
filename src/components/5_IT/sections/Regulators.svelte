@@ -54,7 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 230px;
+    max-width: 150px;
     margin: 0 auto;
     width: 100%;
   }

@@ -40,7 +40,7 @@
         scales: {
           xAxes: [
             {
-              stacked: true,
+              stacked: false,
               type: 'category',
               offset: true,
               gridLines: {
@@ -62,7 +62,7 @@
           ],
           yAxes: [
             {
-              stacked: true,
+              stacked: false,
               gridLines: {
                 display: true,
                 drawTicks: false,
