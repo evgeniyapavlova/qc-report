@@ -66,7 +66,73 @@ const content = {
         'Также закупали перчатки, питьевую воду, туалетную бумагу, крем для рук, одноразовую посуду и приборы.',
     },
   },
-  en: {},
+  en: {
+    h2: 'Corporate social responsibility',
+    h4:
+      "The Charity team is responsible for organizing and supporting charitable and eco-initiatives as part of the company's corporate social responsibility.",
+    p:
+      'We only cooperate with officially registered non-profit organizations because their assistance is transparent and systemic. We see that our employees are willing to help, so we support them and tell them what systemic charity is and how to make it worth their while.',
+    fishkoshop: {
+      title: 'Chip Shop',
+      quote:
+        'It\'s great that Chip Shop is not just about "taking" but also about "giving"',
+      p:
+        "For the third year now, thanks to your support for charity events at the Chip Shop, we've been helping those in need together.",
+      items: [
+        'homeless people are provided with overnight accommodation in warmth and safety (Nochlezhka\'s "Warm Up Points" project)',
+        'packs of hygiene products were donated to the AdVita Cancer Care Foundation',
+        'beds for dogs from the Rzhevka shelter were bought with the money we raised',
+        'donation to the ORBI Stroke Foundation to pay experts for a practical training course for rehabilitation therapists',
+      ],
+    },
+    ecooffice: {
+      title: 'Eco Office',
+      p:
+        "In 2020, thanks to the office's separated waste collection system, we turned in for recycling:",
+      quote:
+        "By supporting the project, we're turning waste into a resource and moving towards reducing our ecological footprint",
+      items: [
+        'bags of plastic bottles',
+        'small bags of glass',
+        'bags of aluminum',
+      ],
+    },
+    hospitals: {
+      title: 'Helping hospitals',
+      p:
+        'Чтобы сделать вклад в борьбу с COVID-19, в самый разгар пандемии мы спонсировали проведение 1000 тестов на вирус в Лимасоле. А в Петербурге и Ленобласти мы помогли 8 больницам, закупив средства индивидуальной защиты, антисептики и другие товары первой необходимости.',
+      items: [
+        'were spent on aid to hospitals in St. Petersburg and the Leningrad region',
+        'Hospitals in St. Petersburg and the Leningrad region',
+      ],
+      list: [
+        "N.F. Filatov Children's Municipal Clinical Hospital No. 5.",
+        'St. Georgy City Hospital',
+        'S.P. Botkin Clinical Hospital for Infectious Diseases',
+        'V.A. Almazov Federal State Budgetary Institution NMITs',
+        'P.N. Prokhorov Interdistrict Hospital in Kingisepp',
+        'Gatchina Clinical Interdistrict Hospital',
+        'Siversky District Hospital',
+        'P. P. Kashchenko Psychiatric Hospital No. 1',
+      ],
+    },
+    bought: {
+      title: 'We bought',
+      items: [
+        'pocket antiseptics',
+        'antiseptics 5 l',
+        'surface antiseptics',
+        'disposal bags',
+        'masks',
+        'protective coveralls',
+        'respirators',
+        'inhaler units',
+      ],
+      covid: 'тестов на COVID-19<br /> в Лимассоле',
+      text:
+        'Gloves, drinking water, toilet paper, hand cream, disposable utensils and cutlery were also purchased.',
+    },
+  },
 };
 
 export const tags = [

@@ -10,7 +10,7 @@ const content = {
       {
         title: 'Средства защиты',
         text:
-          'закупить средства индивидуальной защиты и&nbsp;обеспечить питание семьям, пострадавшим от&nbsp;пандемии COVID-19',
+          'Закупить средства индивидуальной защиты и&nbsp;обеспечить питание семьям, пострадавшим от&nbsp;пандемии COVID-19',
       },
       {
         title: 'Восстановление',
@@ -24,7 +24,31 @@ const content = {
       },
     ],
   },
-  en: {},
+  en: {
+    h2: 'IQ&nbsp;Option Charity Foundation in&nbsp;Cyprus',
+    h4:
+      'In 2018, IQ Option established a charitable foundation in Cyprus that aims to promote the social welfare of vulnerable people in the least developed African countries.',
+    p:
+      'The Cyprus Charity Foundation focuses on Africa as the region that needs the most support at the moment. The Foundation collaborates with local non-profit organizations that know the region\'s problems well, what is needed to solve these problems, and have the ability to provide direct assistance to the population.',
+    h5: 'In 2020, we helped the Faith Foundation in Rwanda:',
+    items: [
+      {
+        title: 'Protective equipment',
+        text:
+          'Procure personal protective equipment and food for families affected by the COVID-19 pandemic',
+      },
+      {
+        title: 'Restore',
+        text:
+          'Restore a school wall that was destroyed in flooding',
+      },
+      {
+        title: 'Clean water',
+        text:
+          'Continue a project aimed at providing clean water to local residents',
+      },
+    ],
+  },
 };
 
 export default content;

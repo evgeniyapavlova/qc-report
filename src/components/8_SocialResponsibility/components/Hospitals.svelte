@@ -202,7 +202,7 @@
       margin-left: 0;
       margin-right: auto;
       text-align: left;
-      margin-top: 82px;
+      margin-top: 176px;
       width: auto;
       margin-bottom: 127px;
     }
