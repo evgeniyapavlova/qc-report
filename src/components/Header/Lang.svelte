@@ -1,10 +1,15 @@
 <script>
-  const langs = [{ name: 'EN' }, { name: 'RU' }];
+  export let currLang;
+  const langs = [{ name: 'en' }, { name: 'ru' }];
 </script>
 
 <div class="langs">
   {#each langs as lang}
-    <div class="lang {lang.name === 'RU' ? 'active' : ''}">{lang.name}</div>
+    <a
+      rel="prefetch"
+      href="ASSET_PREFIX/{lang.name}"
+      class="lang {lang.name === currLang ? 'active' : ''}"
+    >{lang.name.toUpperCase()}</a>
   {/each}
 </div>
 
@@ -22,6 +27,7 @@
   .lang {
     margin-right: 10px;
     cursor: pointer;
+    text-decoration: none;
   }
   .lang:hover,
   .lang.active {

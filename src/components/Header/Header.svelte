@@ -1,4 +1,5 @@
 <script>
+  export let lang;
   import Sidebar from './Sidebar.svelte';
   import ScrollTop from './ScrollTop.svelte';
   import Burger from './Burger.svelte';
@@ -13,7 +14,7 @@
       <Burger bind:open />
       <Logo />
     </div>
-    <Lang />
+    <Lang currLang="{lang}" />
   </section>
 </header>
 <Sidebar bind:open />
