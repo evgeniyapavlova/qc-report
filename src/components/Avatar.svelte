@@ -30,7 +30,7 @@
   }
   .name {
     font-weight: 700;
-		margin-bottom: 2px;
+		margin-bottom: 0;
   }
   .position {
     font-weight: 400;
@@ -42,17 +42,14 @@
       font-size: 14px;
       line-height: 17px;
     }
-    .name {
-      margin-bottom: 5px;
-    }
     .position:after {
       width: 70px;
       margin-top: 15px;
     }
     img {
-      width: 100px;
-      height: 100px;
-      border-radius: 100px;
+      width: 92px;
+      height: 92px;
+      border-radius: 92px;
 			margin-right: 20px;
     }
   }

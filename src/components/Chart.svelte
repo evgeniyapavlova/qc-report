@@ -9,14 +9,14 @@
   onMount(() => {
     const intViewportWidth = window.innerWidth;
     if (intViewportWidth < 670) {
-      renderChart(9, 6, 6, 2, true);
+      renderChart(9, 5, 6, 2, true);
     } else {
       renderChart();
     }
   });
   const renderChart = (
     fontSize = 13,
-    maxYTicksLimit = 10,
+    maxYTicksLimit = 7,
     maxXTicksLimit = 11,
     pointRadius = 5,
     isSmall = false
