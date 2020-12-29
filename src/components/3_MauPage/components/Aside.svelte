@@ -1,46 +1,80 @@
 <script>
+  export let lang;
   import Arrow from '../img/arrow.svg';
-  const asideContent = [
-    {
-      time: 'март 2020',
-      text: 'Jumio закрыл часть своих офисов',
-    },
-    {
-      time: 'конец марта 2020',
-      number: '8 000',
-      text: 'кол-во клиентов, ожидающих верификации',
-    },
-    {
-      time: 'апрель 2020',
-      number: '4 000',
-      text: 'смогли сократить',
-    },
-    {
-      time: 'май 2020',
-      number: '9 500',
-      text: 'первая волна пандемии',
-    },
-    {
-      time: 'июнь 2020',
-      number: '1 500',
-      text: 'команда  Backoffice снизила кол-во',
-    },
-    {
-      time: 'ноябрь 2020',
-      number: '0',
-      text: 'кол-во клиентов, ожидающих верификации',
-    },
-  ];
+  const asideContent = {
+    ru: [
+      {
+        time: 'март 2020',
+        text: 'Jumio закрыл часть своих офисов',
+      },
+      {
+        time: 'конец марта 2020',
+        number: '8 000',
+        text: 'клиентов, ожидающих верификации',
+      },
+      {
+        time: 'апрель 2020',
+        number: '4 000',
+        text: 'смогли сократить',
+      },
+      {
+        time: 'май 2020',
+        number: '9 500',
+        text: 'первая волна пандемии',
+      },
+      {
+        time: 'июнь 2020',
+        number: '1 500',
+        text: 'снизили количество',
+      },
+      {
+        time: 'ноябрь 2020',
+        number: '0',
+        text: 'клиентов, ожидающих верификации',
+      },
+    ],
+    en: [
+      {
+        time: 'March 2020',
+        text: 'Jumio closed some of its offices',
+      },
+      {
+        time: 'end of March 2020',
+        number: '8 000',
+        text: 'number of clients awaiting verification',
+      },
+      {
+        time: 'April 2020',
+        number: '4 000',
+        text: 'we reduced it',
+      },
+      {
+        time: 'May 2020',
+        number: '9 500',
+        text: 'the first wave of the pandemic',
+      },
+      {
+        time: 'June 2020',
+        number: '1 500',
+        text: 'backoffice team has reduced the number',
+      },
+      {
+        time: 'November 2020',
+        number: '0',
+        text: 'number of clients awaiting verification',
+      },
+    ],
+  };
 </script>
 
 <div class="aside">
-  {#each asideContent as item, index}
+  {#each asideContent[lang] as item, index}
     <div class="time">{item.time}</div>
     {#if item.number}
       <div class="number">{item.number}</div>
     {/if}
     <div class="text">{item.text}</div>
-    {#if index !== asideContent.length - 1}
+    {#if index !== asideContent[lang].length - 1}
       <div class="arrow-wrap">
         <Arrow />
       </div>
