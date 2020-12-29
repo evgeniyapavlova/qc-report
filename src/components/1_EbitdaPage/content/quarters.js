@@ -31,7 +31,9 @@ export const content = {
         text:
           'Июль стал самым прибыльным месяцем в&nbsp;истории компании. Активно рос объем торгов на&nbsp;Digital-опционах и&nbsp;Forex. Если рассматривать регионы, основной рост пришелся на&nbsp;Латинскую Америку, Азию и&nbsp;Африку. Август был отмечен небольшим падением доходов. При этом были и&nbsp;положительные новости&nbsp;&mdash; удалось договориться с&nbsp;Pay Retailers о&nbsp;снижении комиссии за&nbsp;вывод средств клиентов в&nbsp;Латинской Америке. Сентябрь прошел достаточно удачно по&nbsp;сравнению с&nbsp;предыдущим месяцем, трейдинговая активность увеличилась, были отмечены первые результаты по&nbsp;снижению расходов на&nbsp;PSP-комиссии. Проекция EBITDA по&nbsp;итогам квартала составила $210M, что на&nbsp;25% больше, чем в&nbsp;предыдущем квартале.',
         quote: 'Июль стал самым прибыльным месяцем в&nbsp;истории компании',
-        list: ['снижении комиссии за&nbsp;вывод средств клиентов с&nbsp;Pay Retailers'],
+        list: [
+          'снижении комиссии за&nbsp;вывод средств клиентов с&nbsp;Pay Retailers',
+        ],
       },
       {
         title: 'Четвертый квартал',
@@ -51,13 +53,17 @@ export const content = {
           'The first quarter laid the foundation for a successful start to 2020—trading volume on our platform was growing, as well as the number of active traders. The main growth and the largest volume of trade came from Turbo- and Digital Options; by region—in Asia and Latin America, with Brazil as the standout, continuing to lead in terms of trade volume. <br><br>March was marked by the beginning of the COVID-19 pandemic, the financial crisis, and high volatility in the markets, which eventually brought the company record profits. Among instruments, Forex options were added to the previous leaders, and Europe also showed a noticeable increase from the regions. EBITDA projection at the end of the quarter was $142M.',
         quote:
           'Financial crisis, and high volatility in the markets, which eventually brought the company record profits',
+        list: [
+          'Europe also showed a noticeable increase',
+          'Brazil continue to lead in terms of trade volume',
+        ],
       },
       {
         title: 'Q2',
         text:
           'The second quarter began successfully for the company. The prevailing market situation with its high volatility and the crisis in the market provided a large volume of trade and allowed maintaining income at the level of March. At the same time, marketing expenses increased, which became possible due to the improvement in the dynamics of return on marketing expenses. <br><br>After a slight decline in income in May, when there was a decline in trading activity, June was again one of the most successful months in the history of the company. The main growth came from Turbo options and Forex, while Latin America was again the growth leader in the regions. Q2 EBITDA projection increased by 18% to $168M.',
-        quote:
-          'June was again one of the most successful months in the history of the company',
+        quote: 'Latin America was again the growth leader',
+        list: ['Marketing expenses increased'],
       },
       {
         isReverse: true,
@@ -65,13 +71,15 @@ export const content = {
         text:
           "July became the most profitable month in the company's history. The volume of trades on Digital Options and Forex was actively growing. As for regions, the main growth came from Latin America, Asia and Africa. August was marked by a slight drop in income. But there was positive news—we managed to agree on lowering withdrawal fees for clients in Latin America with Pay Retailers, one of the most important payment systems for us. September was quite successful compared to the previous month; trading activity increased, and the first results were noted on the reduction of costs for PSP-commissions. EBITDA projection for the quarter was $210M, up 25% from the previous quarter.",
         quote: "July became the most profitable month in the company's history",
+        list: ['lowering withdrawal fees with Pay Retailers'],
       },
       {
         title: 'Q4',
         text:
           'Volatility in the markets in October decreased significantly compared to September, and accordingly, our profits also decreased by 8%. Nevertheless, the EBITDA projection for the year was $204M. Expenditures were also mostly down, except for marketing costs; we expect that this should bring results in the coming months. <br><br>November was also marked by a decrease in trading activity, while expenditures remained at the same level. According to the forecast, based on data from the first half of December, the last month of the year promises us a slight revival of activity and income growth. At the same time, we should expect that expenses will also increase due to year-end bonus payments, as well as some large quarterly payments.',
         quote:
-          'Volatility in the markets in October decreased significantly compared to September',
+          'The last month of the year promises us a slight revival of activity and income growth',
+        list: ['Expenditures were also mostly down'],
       },
     ],
   },
