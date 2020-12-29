@@ -56,6 +56,7 @@ const content = {
     ],
   },
   en: {
+    h5: 'From company mission to development tasks',
     items: [
       {
         title: 'Mission Action Plan',

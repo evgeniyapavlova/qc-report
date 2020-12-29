@@ -32,7 +32,7 @@
       </div>
     </div>
     <div slot="left">
-      <div class="quote">{content[lang].quote}</div>
+      <div class="quote">{@html content[lang].quote}</div>
     </div>
   </Col2>
 </Layout>
