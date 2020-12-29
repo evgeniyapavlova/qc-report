@@ -15,7 +15,7 @@
     en: {
       title: 'Development in the regions',
       desc:
-        'Diversifying profits across the region was one of our strategic goals for the year. Regional managers Joan Lopez, Stepan Kulik, Boris Nesheret, Alexander Koch and Nikos Rentumis worked on the project. To meet our goals for PnL and active customers in the regions, this year we were connecting new payment methods, obtaining licences, developing the IB system, Customer Journey Map and many other initiatives.',
+        'Diversifying profits across the region was one of our strategic goals for the year. Regional managers Joan Lopez, Stepan Kulik, Boris Nesheret, Alexander Kokh and Nikos Rentoumis worked on the project. To meet our goals for PnL and active customers in the regions, this year we were connecting new payment methods, obtaining licences, developing the IB system, Customer Journey Map and many other initiatives.',
     },
   };
 </script>
