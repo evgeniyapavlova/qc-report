@@ -1,30 +1,7 @@
 <script>
+  export let lang;
   export let open = false;
-  const menu = [
-    {
-      name: 'EBITDA',
-      code: 'ebitda',
-    },
-
-    { name: 'Запуск Margin Forex', code: 'marginForex' },
-
-    {
-      name: 'Эпик по MAU выполнен',
-      code: 'mau',
-    },
-    {
-      name: 'Создание B2B-бизнеса ',
-      code: 'b2b',
-    },
-    { name: 'Технические и продуктовые апдейты', code: 'updates' },
-    { name: 'Переход на удалёнку', code: 'remote' },
-    { name: 'Улучшение подходов к менеджменту', code: 'improvement' },
-    { name: 'Social responsibility', code: 'responsibility' },
-    {
-      name: 'Благодарности',
-      code: 'thanks',
-    },
-  ];
+  import { content, codes } from '../IndexPage/menu.js';
 
   const handleClickMenuItem = (e) => {
     const code = e.target.dataset.code;
@@ -39,14 +16,14 @@
 
 <div class="sidebar" class:open id="sidebar">
   <div class="sidebar-content">
-    {#each menu as item}
+    {#each content[lang].items as item, index}
       <div class="block">
         <div
           on:click="{handleClickMenuItem}"
           class="item"
-          data-code="{item.code}"
+          data-code="{codes[index]}"
         >
-          {item.name}
+          {item}
         </div>
       </div>
     {/each}

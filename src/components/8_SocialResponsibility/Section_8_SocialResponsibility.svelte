@@ -7,8 +7,16 @@
   import Cyprus from './sections/Cyprus.svelte';
 </script>
 
-<span data-id="responsibility"></span>
-<SocialIntro lang="{lang}" />
-<Fund lang="{lang}" />
-<Corporate lang="{lang}" />
-<Cyprus lang="{lang}" />
+<div class="responsibility">
+  <span data-id="responsibility"></span>
+  <SocialIntro lang="{lang}" />
+  <Fund lang="{lang}" />
+  <Corporate lang="{lang}" />
+  <Cyprus lang="{lang}" />
+</div>
+
+<style>
+  .responsibility {
+    overflow: hidden;
+  }
+</style>

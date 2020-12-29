@@ -17,7 +17,7 @@
     <Lang currLang="{lang}" />
   </section>
 </header>
-<Sidebar bind:open />
+<Sidebar lang="{lang}" bind:open />
 <ScrollTop />
 
 <style>

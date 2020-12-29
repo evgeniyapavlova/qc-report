@@ -17,7 +17,7 @@
   <title>Quadcode Annual Review 2020</title>
 </svelte:head>
 
-<Header />
+<Header lang="{lang}" />
 
 <Section_0_Intro lang="{lang}" />
 

@@ -17,7 +17,7 @@
   <title>Quadcode Annual Review 2020</title>
 </svelte:head>
 
-<Header />
+<Header lang="{lang}" />
 
 <Section_0_Intro lang="{lang}" />
 
@@ -29,12 +29,12 @@
 
 <Section_3_B2B lang="{lang}" />
 
-<!--<Section_5_IT lang="{lang}" />-->
+<Section_5_IT lang="{lang}" />
 
 <Section_6_Remote lang="{lang}" />
 
 <Section_7_Management lang="{lang}" />
 
-<!--<Section_8_SocialResponsibility lang="{lang}" />-->
+<Section_8_SocialResponsibility lang="{lang}" />
 
-<!--<Section_9_Gratitude lang="{lang}" />-->
+<Section_9_Gratitude lang="{lang}" />
