@@ -11,6 +11,7 @@
   import icon1 from '../img/icon1.svg';
   import icon2 from '../img/icon2.svg';
   import icon3 from '../img/icon3.svg';
+  import Engine from './Engine.svelte';
 
   const david = {
     name: 'George David',
@@ -29,7 +30,7 @@
       plan: 'Планирование',
       planText:
         'При планировании релиза Margin Forex на пользователей мы обращали особое внимание на три аспекта:',
-      release: 'состоялась первая итерация релиза Margin Forex',
+      release: 'состоялась первая итерация релиза Margin&nbsp;Forex',
     },
     en: {
       h1: 'Launch of Margin&nbsp;Forex',
@@ -78,46 +79,47 @@
 <span data-id="marginForex"></span>
 <section>
   <Layout>
-    <H1_Text_Avatar
-      person="{david}"
-      h1="{content[lang].h1}"
-      text="{content[lang].text}"
-    />
-    <Col2>
-      <div slot="right" class="right">
-        <h5 class="h5-center">
-          {@html content[lang].q}
-        </h5>
-        <div class="list">
-          {#each content[lang].list as item, index}
-            <div class="list-item">
-              <svelte:component this="{icons[index]}" />
-              <div class="desc">{item}</div>
-            </div>
-          {/each}
-        </div>
-      </div>
-      <div slot="left" class="left">
-        <div class="quote">
-          {@html content[lang].quote}
-        </div>
-      </div>
-    </Col2>
+<!--    <H1_Text_Avatar-->
+<!--      person="{david}"-->
+<!--      h1="{content[lang].h1}"-->
+<!--      text="{content[lang].text}"-->
+<!--    />-->
+<!--    <Col2>-->
+<!--      <div slot="right" class="right">-->
+<!--        <h5 class="h5-center">-->
+<!--          {@html content[lang].q}-->
+<!--        </h5>-->
+<!--        <div class="list">-->
+<!--          {#each content[lang].list as item, index}-->
+<!--            <div class="list-item">-->
+<!--              <svelte:component this="{icons[index]}" />-->
+<!--              <div class="desc">{item}</div>-->
+<!--            </div>-->
+<!--          {/each}-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div slot="left" class="left">-->
+<!--        <div class="quote">-->
+<!--          {@html content[lang].quote}-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </Col2>-->
 
-    <div class="h5-wrap">
-      <H5_p
-        red="{true}"
-        h5="{content[lang].plan}"
-        p="{content[lang].planText}"
-      />
-    </div>
-    <PlanningList lang="{lang}" />
+<!--    <div class="h5-wrap">-->
+<!--      <H5_p-->
+<!--        red="{true}"-->
+<!--        h5="{content[lang].plan}"-->
+<!--        p="{content[lang].planText}"-->
+<!--      />-->
+<!--    </div>-->
+<!--    <PlanningList lang="{lang}" />-->
+    <Engine lang="{lang}" />
 
     <div class="release">
       <div class="text">
         <span>29.07.2020</span>
         <br />
-        {content[lang].release}
+        {@html content[lang].release}
       </div>
       <div class="mockup">
         <img src="ASSET_PREFIX/assets/margin_forex/margin_mockup.jpg" alt="" />
