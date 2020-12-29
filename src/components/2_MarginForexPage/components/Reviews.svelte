@@ -24,7 +24,23 @@
         'Очень динамичный по сравнению с другими приложениями',
       ],
     },
-    en: {},
+    en: {
+      title: 'Feedback from our clients',
+      desc:
+        'During the release we&nbsp;asked customers if&nbsp;they liked our new platform. It&nbsp;was important for&nbsp;us to&nbsp;get feedback&nbsp;&mdash; how user-friendly it&nbsp;was and whether there was anything we&nbsp;could improve. We&nbsp;interviewed 420 people over the course of&nbsp;the release.',
+      list: [
+        'Overall Satisfaction',
+        'Easy and usability of the new UI',
+        'Satisfaction with spreads',
+        'Ready to continue using our Margin Forex',
+      ],
+      reviews: [
+        "It's easy to open and monitor trades",
+        'I like the new portfolio tab',
+        'Much easier to use UI than other Forex brokers',
+        'Very dynamic compared to other applications',
+      ],
+    },
   };
   const reviewsEmoji = [
     'ASSET_PREFIX/assets/emoji/emoji1.jpg',
@@ -88,7 +104,7 @@
 
 <style>
   .wrap {
-		margin-top: 80px;
+    margin-top: 80px;
   }
   .list {
     text-align: center;
@@ -126,8 +142,8 @@
     max-width: 280px;
   }
   .review:nth-child(2) {
-		margin-right: 0;
-		margin-left: auto;
+    margin-right: 0;
+    margin-left: auto;
   }
   .review:nth-child(even) {
     padding: 16px 23px 18px 61px;
@@ -144,7 +160,7 @@
   @media only screen and (min-width: 960px) {
     .wrap {
       display: flex;
-			margin-top: 120px;
+      margin-top: 120px;
     }
     .reviews {
       min-width: 350px;

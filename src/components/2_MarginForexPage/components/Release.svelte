@@ -12,7 +12,7 @@
     ru: {
       title: 'Релиз',
       desc:
-        'Релиз Margin Forex на клиентов был разбит на 9 итераций с июля по ноябрь — итеративный подход был необходим, чтобы убедиться, что все наши системы выдерживают большой поток пользователей. За это время мы открыли доступ к инструменту в 199 странах, получили в общей сложности 2830493 регистраций, 11322 пользователей на реальном и 152847 на демо-балансе. Коэффициент удержания составляет порядка 70% месяц к месяцу.',
+        'Релиз Margin Forex на&nbsp;клиентов был разбит на&nbsp;9&nbsp;итераций с&nbsp;июля по&nbsp;ноябрь&nbsp;&mdash; итеративный подход был необходим, чтобы убедиться, что все наши системы выдерживают большой поток пользователей.<br /><br />За&nbsp;это время мы&nbsp;открыли доступ к&nbsp;инструменту в&nbsp;199&nbsp;странах, получили в&nbsp;общей сложности 2&nbsp;830&nbsp;493&nbsp;регистраций, 11&nbsp;322 пользователей на&nbsp;реальном и&nbsp;152&nbsp;847&nbsp;на демо-балансе. Коэффициент удержания составляет порядка&nbsp;70% месяц к&nbsp;месяцу.',
       chart1Title: 'Подключение новых стран',
       chart2Title: 'Прирост активных пользователей',
       list: [
@@ -23,7 +23,20 @@
         'коэффициент удержания',
       ],
     },
-    en: {},
+    en: {
+      title: 'Release',
+      desc:
+        'The release of&nbsp;Margin Forex to&nbsp;clients was split into 9&nbsp;iterations from July to&nbsp;November. An&nbsp;iterative approach was necessary to&nbsp;ensure that all our systems could withstand the high volume of&nbsp;users.<br /><br />During this time we&nbsp;opened access to&nbsp;the tool in&nbsp;199&nbsp;countries, receiving a&nbsp;total of&nbsp;2,830,493&nbsp;registrations, 11,322 users on&nbsp;real balances and 152,847&nbsp;on demo balances. The retention rate is&nbsp;about&nbsp;70% month-to-month.',
+      chart1Title: 'New countries added',
+      chart2Title: 'Growth of active users',
+      list: [
+        'registrations',
+        'of real account users',
+        'of demo account users',
+        'countries',
+        'Retention Rate',
+      ],
+    },
   };
   const list = [
     { text: '2 830 493', icon: registrations },
@@ -67,7 +80,9 @@
 <Col2>
   <div slot="right">
     <h5>{content[lang].title}</h5>
-    <p>{content[lang].desc}</p>
+    <p>
+      {@html content[lang].desc}
+    </p>
     <div class="chart1-wrap">
       <Chart
         chartId="mf-countries-chart"
@@ -91,7 +106,7 @@
           <Icon_Number_Text
             icon="{list[index].icon}"
             text="{item}"
-            title="{list[index].text}"
+            title="{lang === 'en' ? list[index].text.replace(' ', ',') : list[index].text}"
           />
         </div>
       {/each}

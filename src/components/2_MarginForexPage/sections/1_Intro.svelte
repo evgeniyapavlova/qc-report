@@ -16,9 +16,9 @@
   const { david } = people;
   const content = {
     ru: {
-      h1: 'Запуск Margin Forex',
+      h1: 'Запуск Margin&nbsp;Forex',
       text:
-        'Одна из наших стратегических целей — диверсификация прибыли по продукту. Главным новым продуктом, над которым мы работали в этом году стал Margin Forex. ',
+        'Одна из&nbsp;наших стратегических целей&nbsp;&mdash; Диверсификация прибыли по&nbsp;продукту. Главным новым продуктом, над которым мы&nbsp;работали в&nbsp;этом году, стал Margin Forex.',
       q: 'Что даст нам новый маржинальный движок?',
       list: ['Больше клиентов', 'Больше Lifetime', 'Больший Lifetime Value'],
       quote:
@@ -26,9 +26,21 @@
       plan: 'Планирование',
       planText:
         'При планировании релиза Margin Forex на пользователей мы обращали особое внимание на три аспекта:',
-      release: 'состоялся релиз',
+      release: 'состоялась первая итерация релиза Margin Forex',
     },
-    en: { h1: '', text: '', q: '', list: ['', '', ''], quote: '', release: '' },
+    en: {
+      h1: 'Launch of Margin&nbsp;Forex',
+      text:
+        'One of&nbsp;our strategic goals is&nbsp;to&nbsp;diversify profits by&nbsp;product. The main new product we&nbsp;worked on&nbsp;this year was Margin Forex.',
+      q: 'What will the new margin engine give&nbsp;us?',
+      list: ['More clients', 'More Lifetime', 'Greater Lifetime Value'],
+      quote:
+        'We&rsquo;re already leading the options market and the next product we&nbsp;wanted to&nbsp;develop was Forex. This is&nbsp;a&nbsp;product with very great potential.',
+      release: 'the first iteration of the Margin Forex release took place',
+      plan: 'Planning',
+      planText:
+        'When planning the release of&nbsp;Margin Forex to&nbsp;users, we&nbsp;paid particular attention to&nbsp;three aspects:',
+    },
   };
 
   const icons = [icon1, icon2, icon3];
@@ -70,7 +82,9 @@
     />
     <Col2>
       <div slot="right" class="right">
-        <h5 class="h5-center">{content[lang].q}</h5>
+        <h5 class="h5-center">
+          {@html content[lang].q}
+        </h5>
         <div class="list">
           {#each content[lang].list as item, index}
             <div class="list-item">
@@ -81,7 +95,9 @@
         </div>
       </div>
       <div slot="left" class="left">
-        <div class="quote">{content[lang].quote}</div>
+        <div class="quote">
+          {@html content[lang].quote}
+        </div>
       </div>
     </Col2>
 
@@ -195,9 +211,10 @@
     }
     .text {
       position: absolute;
-      right: -94px;
+      right: -121px;
       top: 47%;
       text-align: left;
+      max-width: 150px;
     }
     .h5-center {
       margin-top: 0;

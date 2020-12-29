@@ -23,7 +23,25 @@
         },
       ],
     },
-    en: {},
+    en: {
+      list: [
+        {
+          title: 'Scalability',
+          text:
+            'We&nbsp;had to&nbsp;make sure that we&nbsp;could support all our old customers on&nbsp;the new engine.<br /><br />We&nbsp;created the Sharding Scheme feature for this purpose&mdash;it will allow&nbsp;us to&nbsp;scale the business to&nbsp;a&nbsp;huge number of&nbsp;users without any restrictions.',
+        },
+        {
+          title: 'Risk management',
+          text:
+            'It&nbsp;was important to&nbsp;make sure that our risk managers had all the tools they needed to&nbsp;control the risks associated with a&nbsp;new product.<br /><br />We&rsquo;ve created the Admin Risks Tool, a&nbsp;tool that allows&nbsp;us to&nbsp;monitor in&nbsp;real time the risks on&nbsp;our clients&rsquo; open trades.',
+        },
+        {
+          title: 'Marketing',
+          text:
+            'With our marketing team we&nbsp;created landing pages to&nbsp;attract traffic.',
+        },
+      ],
+    },
   };
   const icons = [icon1, icon2, icon3];
 </script>
@@ -74,7 +92,7 @@
     .item {
       width: 33%;
       text-align: left;
-			padding-right: 20px;
+      padding-right: 20px;
     }
     .list {
       justify-content: space-between;
