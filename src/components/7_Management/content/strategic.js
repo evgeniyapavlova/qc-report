@@ -27,7 +27,7 @@ const content = {
     h2: 'Strategic HR',
     h5: "We're increasing engagement",
     h4:
-      'Миссия команды Strategic HR&nbsp;&mdash; создавать пространство, в&nbsp;котором сотрудники имеют все необходимые возможности для раскрытия потенциала и&nbsp;развития, искренне вовлечены в&nbsp;рабочие задачи и&nbsp;успешно достигают стратегических целей компании. Именно над этим мы&nbsp;работали в&nbsp;2020&nbsp;году.',
+      'The mission of the Strategic HR team is to create a space in which employees have all the necessary opportunities to achieve their potential and development, are genuinely engaged in their work tasks, and successfully achieve the company\'s strategic goals. This is precisely what we were working on in&nbsp;2020.',
     p:
       'This year, we&nbsp;continued to&nbsp;work on&nbsp;engagement: in&nbsp;both the second and fourth quarters, we&nbsp;saw an&nbsp;increase in&nbsp;the number of&nbsp;respondents and average values for most questions. Analysis of&nbsp;the responses will allow&nbsp;us to&nbsp;work on&nbsp;precisely those areas that require attention. After all, in&nbsp;answering the Q12 survey questions, employees highlight those aspects of&nbsp;their work in&nbsp;which they feel uncomfortable or&nbsp;dissatisfied. This is&nbsp;in&nbsp;line with the Data-driven approach: any decision must be&nbsp;justified by&nbsp;the impact on&nbsp;the company&rsquo;s business objectives and backed up&nbsp;by&nbsp;numbers.',
     quote:

@@ -14,8 +14,8 @@
       'Nov',
     ],
     values: {
-      values1: [46, 21, 33, 30, 15, 28, 24, 31, 21, 19, 13],
-      values2: [20, 15, 17, 10, 14, 12, 13, 16, 19, 20, 21],
+      values1: [12, 8, 14, 9, 6, 9, 7, 12, 10, 8, 5],
+      values2: [6, 4, 1, 4, 3, 4, 3, 6, 6, 0, 2],
     },
   };
   export const chartData2 = {
@@ -68,7 +68,7 @@
       padding-right: 16%;
     }
     .chart-label {
-			margin-top: 80px;
+      margin-top: 80px;
     }
   }
 </style>
