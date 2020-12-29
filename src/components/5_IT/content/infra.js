@@ -30,7 +30,26 @@ const content = {
     quote:
       'Можно с уверенностью сказать мы имеем надежный фундамент в нашей инфраструктуре',
   },
-  en: {},
+  en: {
+    h3: 'Qualitatively improved <span>network infrastructure</span>',
+    p1:
+      'We&rsquo;ve done a&nbsp;lot of&nbsp;work this year to&nbsp;improve the network infrastructure. Today it&rsquo;s safe to&nbsp;say we&nbsp;have a&nbsp;solid foundation in&nbsp;our infrastructure&mdash;a scalable and fault-tolerant network in&nbsp;a&nbsp;clear, automated and described state.',
+    h5: 'Work with IT vendors',
+    p2:
+      'The number of vendors with whom systematic work has been established has increased in the last year from 26 to 118 and continues to grow. Today, the company has a well-functioning IT vendor liaison unit.',
+    items: [
+      'Moved the network to better and more stable equipment',
+      'Ensured fault tolerance on all critical nodes and channels',
+      'Formulated, documented and described configuration standards',
+      'Monitored equipment',
+      'Conducted a complete refactoring of equipment configurations',
+      'Set up a backup of configurations',
+      'Conducted a complete inventory of equipment, connections, channels and contracts with suppliers',
+      'Introduced centralised authorisation for equipment',
+    ],
+    quote:
+      'Today it&rsquo;s safe to&nbsp;say we&nbsp;have a&nbsp;solid foundation in&nbsp;our infrastructure',
+  },
 };
 
 export default content;
