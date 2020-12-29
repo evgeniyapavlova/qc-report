@@ -54,7 +54,9 @@
   <div class="block1 mark-influence">
     <div class="text-content">
       <h5>Influence Marketing</h5>
-      <p class="p1">{@html content[lang].text_1}</p>
+      <p class="p1">
+        {@html content[lang].text_1}
+      </p>
       <div class="numbers">
         {#each numbers_1 as number}
           <LineNumberItem {...number} caption="{number.caption[lang]}" />
@@ -167,6 +169,12 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .block1 {
+      margin-bottom: 150px;
+    }
+    .mark-influence {
+      margin-top: 70px;
+    }
     .video {
       width: 57%;
     }

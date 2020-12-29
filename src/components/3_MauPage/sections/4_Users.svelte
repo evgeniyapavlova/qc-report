@@ -192,6 +192,9 @@
     max-width: 160px;
   }
   @media only screen and (min-width: 960px) {
+    section {
+      padding-top: 150px;
+    }
     .records {
       margin-top: 65px;
       max-width: 528px;

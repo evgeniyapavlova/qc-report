@@ -36,7 +36,7 @@
         <div class="chart-wrap">
           <Chart chartId="mau1-chart" data="{mauChart}" label="MAU" />
         </div>
-        <div class="chart-wrap-2">
+        <div class="chart-wrap-2 chart-wrap" >
           <Chart
             chartId="ftd-chart"
             data="{ftdChart}"
@@ -61,6 +61,11 @@
   }
   .chart-wrap-2 {
     margin-top: 62px;
+  }
+  .chart-wrap {
+    height: 300px;
+    position: relative;
+		width: 100%;
   }
   @media only screen and (min-width: 960px) {
     section {

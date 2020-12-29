@@ -155,7 +155,7 @@
     .extra-img {
       left: 0;
       transform: translateX(-105%);
-      top: -50px;
+      top: 5px;
     }
     .block-europe {
       padding-top: 0;
@@ -220,6 +220,10 @@
     }
   }
   @media only screen and (min-width: 960px) {
+    .block {
+      margin-bottom: 160px;
+    }
+
     .block-asia img {
       left: 50%;
       top: -7px;
@@ -240,8 +244,8 @@
   }
   @media only screen and (min-width: 1050px) {
     .block-africa img {
-      right: 223px;
-      top: 47px;
+      right: 246px;
+      top: 4px;
     }
   }
   @media only screen and (min-width: 1115px) {
