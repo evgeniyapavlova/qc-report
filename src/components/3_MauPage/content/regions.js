@@ -1,5 +1,28 @@
-import people from '../../../helpers/people';
-const { lopez, rentoumis, kokh, nescheret, kulik } = people;
+const lopez = {
+  name: 'Joan Lopez',
+  position: 'Regional Business Developer',
+  photo: 'lopez',
+};
+const rentoumis = {
+  name: 'Nikos Rentoumis',
+  position: 'Regional Business Developer',
+  photo: 'rentoumis',
+};
+const kokh = {
+  name: 'Alexander Kokh',
+  position: 'Regional Business Developer',
+  photo: 'kokh',
+};
+const nescheret = {
+  name: 'Boris Nescheret',
+  position: 'Regional Business Developer',
+  photo: 'nescheret',
+};
+const kulik = {
+  name: 'Stepan Kulik',
+  position: 'Regional Business Developer',
+  photo: 'kulik',
+};
 export default [
   {
     person: lopez,

@@ -12,8 +12,11 @@
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Col2 from '../../Col2.svelte';
-  import people from '../../../helpers/people';
-  const { romashkina } = people;
+  const romashkina = {
+    name: 'Natalia Romashkina',
+    position: 'Head of Corporate Culture',
+    photo: 'romashkina',
+  };
   import content from '../content/corporate';
   const icons = [icon1, icon2, icon3, icon4, icon5];
 </script>
@@ -122,10 +125,10 @@
       padding: 0 20px 0 0;
     }
     img {
-			margin-top: 115px;
-			width: 712px;
-			margin-right: 0;
-			margin-left: -130px;
+      margin-top: 115px;
+      width: 712px;
+      margin-right: 0;
+      margin-left: -130px;
     }
   }
 </style>

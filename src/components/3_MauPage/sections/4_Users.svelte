@@ -13,9 +13,12 @@
   import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import NumbersList from '../../NumbersList.svelte';
-  import people from '../../../helpers/people';
   export let lang;
-  const { kutkova } = people;
+  const kutkova = {
+    name: 'Irina Kutkova',
+    position: 'Chief of Customer Care',
+    photo: 'kutkova',
+  };
   const content = {
     ru: {
       p1: 'Динамика обращений пользователей',

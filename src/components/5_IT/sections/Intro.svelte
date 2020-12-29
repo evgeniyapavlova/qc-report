@@ -2,8 +2,11 @@
   export let lang;
   import Layout from '../../Layout.svelte';
   import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
-  import people from '../../../helpers/people';
-  const { laskin } = people;
+  const laskin = {
+    name: 'Victor Laskin',
+    position: 'Chief Technical Officer',
+    photo: 'laskin',
+  };
   import content from '../content/intro';
 </script>
 

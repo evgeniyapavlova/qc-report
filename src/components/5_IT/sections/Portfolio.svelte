@@ -4,8 +4,11 @@
   import H3_Text_Avatar from '../../H3_Text_Avatar.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Col2 from '../../Col2_5_6.svelte';
-  import people from '../../../helpers/people';
-  const { ivanov } = people;
+  const ivanov = {
+    name: 'Aleksandr Ivanov',
+    position: 'Chief of System Architecture',
+    photo: 'ivanov',
+  };
   import content from '../content/portfolio';
 </script>
 

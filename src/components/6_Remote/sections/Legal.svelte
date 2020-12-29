@@ -2,12 +2,15 @@
   export let lang;
   import pass from '../img/pass.svg';
   import content, { icons1 } from '../content/legal';
-  import people from '../../../helpers/people';
   import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Col2 from '../../Col2_3.svelte';
   import Layout from '../../Layout.svelte';
-  const { khimchenko } = people;
+  const khimchenko = {
+    name: 'Tatyana Khimchenko',
+    position: 'Head of International Legal',
+    photo: 'khimchenko',
+  };
 </script>
 
 <section>

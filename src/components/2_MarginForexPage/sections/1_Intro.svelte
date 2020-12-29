@@ -8,12 +8,15 @@
   import H5_p from '../../H5_p.svelte';
   import Tags from '../../Tags.svelte';
   import Col2 from '../../Col2_6_5.svelte';
-  import people from '../../../helpers/people';
   import icon1 from '../img/icon1.svg';
   import icon2 from '../img/icon2.svg';
   import icon3 from '../img/icon3.svg';
 
-  const { david } = people;
+  const david = {
+    name: 'George David',
+    position: 'Product Owner Forex/CFD Products',
+    photo: 'david',
+  };
   const content = {
     ru: {
       h1: 'Запуск Margin&nbsp;Forex',

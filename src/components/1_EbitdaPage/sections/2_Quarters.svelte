@@ -8,8 +8,11 @@
   import LineNumberItem from '../../LineNumberItem.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Avatar from '../../Avatar.svelte';
-  import people from '../../../helpers/people';
-  const { gitsis } = people;
+  const gitsis = {
+    name: 'Michael Gitsis',
+    position: 'Chief of Administration and Group CFO',
+    photo: 'gitsis',
+  };
 </script>
 
 <section>

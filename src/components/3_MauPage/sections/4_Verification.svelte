@@ -3,9 +3,12 @@
   import Aside from '../components/Aside.svelte';
   import Layout from '../../Layout.svelte';
   import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
-  import people from '../../../helpers/people';
   import Chart from '../../Chart.svelte';
-  const { francois } = people;
+  const francois = {
+    name: 'Maxime François',
+    position: 'Chief of Global Compliance and Back Office',
+    photo: 'francois',
+  };
   const data = {
     labels: [
       'Jan',

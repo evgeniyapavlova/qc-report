@@ -1,10 +1,13 @@
 <script>
-  import people from '../../../helpers/people';
   import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
   import Layout from '../../Layout.svelte';
   import MarketingInfo from '../components/MarketingInfo.svelte';
   export let lang;
-  const { pachko } = people;
+  const pachko = {
+    name: 'Artem Pachko',
+    position: 'Chief of Acquisition and Sales',
+    photo: 'pachko',
+  };
   const content = {
     ru: {
       h2: 'Маркетинг',

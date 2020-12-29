@@ -5,8 +5,11 @@
   import content from '../content/fund';
   import Python from '../components/Python.svelte';
   import Google from '../components/Google.svelte';
-  import people from '../../../helpers/people';
-  const { latokhin } = people;
+  const latokhin = {
+    name: 'Kirill Latokhin',
+    position: 'Charity Team Leader',
+    photo: 'latokhin',
+  };
 </script>
 
 <section>

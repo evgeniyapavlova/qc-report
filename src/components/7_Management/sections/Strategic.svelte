@@ -7,8 +7,11 @@
   import LineNumberItem from '../../LineNumberItem.svelte';
   import Col2 from '../../Col2_3.svelte';
   import content, { icons, numbers } from '../content/strategic';
-  import people from '../../../helpers/people';
-  const { samburova } = people;
+  const samburova = {
+    name: 'Eva Samburova',
+    position: 'Head of Strategic HR',
+    photo: 'samburova',
+  };
 </script>
 
 <Layout>

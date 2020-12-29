@@ -4,8 +4,11 @@
   import H3_Text_Avatar from '../../H3_Text_Avatar.svelte';
   import Icon_Number_P from '../../Icon_Number_P.svelte';
   import LineNumberItem from '../../LineNumberItem.svelte';
-  import people from '../../../helpers/people';
-  const { votintsev } = people;
+  const votintsev = {
+    name: 'Dmitriy Votintsev',
+    position: 'Chief of IT Operations',
+    photo: 'votintsev',
+  };
   import content, { icons } from '../content/infra';
 </script>
 
@@ -38,7 +41,11 @@
         </p>
       </div>
       <div class="number-item">
-        <LineNumberItem period="26 <span>2019</span>" number="118" caption="IT vendors" />
+        <LineNumberItem
+          period="26 <span>2019</span>"
+          number="118"
+          caption="IT vendors"
+        />
       </div>
     </div>
   </div>

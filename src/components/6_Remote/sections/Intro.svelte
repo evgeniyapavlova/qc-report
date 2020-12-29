@@ -1,9 +1,12 @@
 <script>
   export let lang;
-  import people from '../../../helpers/people';
   import Layout from '../../Layout.svelte';
   import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
-  const { gitsis } = people;
+  const gitsis = {
+    name: 'Michael Gitsis',
+    position: 'Chief of Administration and Group CFO',
+    photo: 'gitsis',
+  };
   const content = {
     ru: {
       h1: 'Переход на удалённую работу',

@@ -10,8 +10,11 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Chart from '../components/ChartEbitda.svelte';
   import Col2 from '../../Col2.svelte';
-  import people from '../../../helpers/people';
-  const { rabinovich } = people;
+  const rabinovich = {
+    name: 'Anton Rabinovich',
+    position: 'CEO',
+    photo: 'rabinovich',
+  };
   const content = {
     ru: {
       h1: 'Уверенно приближаемся к&nbsp;цели EBITDA',
@@ -29,17 +32,17 @@
       ],
     },
     en: {
-      h1: 'We\'re steadily approaching our EBITDA target',
+      h1: "We're steadily approaching our EBITDA target",
       desc:
-        'This year\'s financial results are excellent, despite all the challenges we\'ve faced.',
+        "This year's financial results are excellent, despite all the challenges we've faced.",
       quote:
         'I see great progress on the goals set at the beginning of the year and great potential for further growth.',
       p:
-        'As the chart shows, we\'re well on our way to the interim EBITDA target of $250M that we set in the Mission Action Plan in 2018.',
+        "As the chart shows, we're well on our way to the interim EBITDA target of $250M that we set in the Mission Action Plan in 2018.",
       listTitle: 'What made this possible?',
       list: [
         'Hard work by all branches and teams',
-        'The organizational transformation we\'ve been undergoing over the last two years',
+        "The organizational transformation we've been undergoing over the last two years",
         'The coronavirus pandemic, which turned the world upside down in a matter of months',
       ],
     },

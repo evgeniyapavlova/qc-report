@@ -4,8 +4,11 @@
   import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import content, { icons } from '../content/intro';
-  import people from '../../../helpers/people';
-  const { bezrodnaya } = people;
+  const bezrodnaya = {
+    name: 'Anna Bezrodnaya',
+    position: 'Chief Organization Development Officer',
+    photo: 'bezrodnaya',
+  };
 </script>
 
 <section>

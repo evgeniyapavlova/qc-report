@@ -7,8 +7,11 @@
   import Layout from '../../Layout.svelte';
   import Carousel from '../../Carousel.svelte';
   import Col2 from '../../Col2.svelte';
-  import people from '../../../helpers/people';
-  const { abdukarimova } = people;
+  const abdukarimova = {
+    name: 'Vera-Nika Abdukarimova',
+    position: 'Head of Office Administration',
+    photo: 'abdukarimova',
+  };
 </script>
 
 <section>

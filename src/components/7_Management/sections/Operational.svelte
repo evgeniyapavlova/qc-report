@@ -9,8 +9,11 @@
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Col2_5_6 from '../../Col2_6_5.svelte';
-  import people from '../../../helpers/people';
-  const { mikhaylova } = people;
+  const mikhaylova = {
+    name: 'Tatyana Mikhaylova',
+    position: 'HR Business Partner',
+    photo: 'mikhaylova',
+  };
   import content, { numbers, icons1 } from '../content/operational';
   const icons = [icon1, icon2, icon3, icon4];
 </script>
@@ -123,7 +126,7 @@
     }
     p {
       margin: 65px 0 95px;
-			width: 58%;
+      width: 58%;
     }
     .item-wrap {
       margin-bottom: 76px;

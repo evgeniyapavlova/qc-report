@@ -8,8 +8,16 @@
   import Stages from '../B2BPage/Stages.svelte';
   import Goals from '../B2BPage/Goals.svelte';
   import DevelopmentB2B from '../B2BPage/DevelopmentB2B.svelte';
-  import people from '../../helpers/people';
-  const { golubev, bolotov } = people;
+  const golubev = {
+    name: 'Vladimir Golubev',
+    position: 'Chief of Strategic Finance and Legal',
+    photo: 'golubev',
+  };
+  const bolotov = {
+    name: 'Kirill Bolotov',
+    position: 'Chief of B2B',
+    photo: 'bolotov',
+  };
   const tags = [
     'Admin platform',
     'Affiliate',
@@ -95,7 +103,7 @@
   @media only screen and (min-width: 960px) {
     .p-goals {
       margin-bottom: 60px;
-			margin-top: 150px;
+      margin-top: 150px;
     }
     .h2-wrap {
       margin-bottom: 48px;

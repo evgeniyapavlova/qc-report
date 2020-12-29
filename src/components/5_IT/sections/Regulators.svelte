@@ -6,8 +6,11 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import List1 from '../../List1.svelte';
   import Col2 from '../../Col2_3.svelte';
-  import people from '../../../helpers/people';
-  const { dubov } = people;
+  const dubov = {
+    name: 'Ilya Dubov',
+    position: 'Head of Secuity & Risk Management',
+    photo: 'dubov',
+  };
   import content, { icons, icons2 } from '../content/regulators';
 </script>
 
@@ -64,7 +67,7 @@
     font-size: 16px;
     line-height: 19px;
     max-width: 260px;
-		margin: 35px auto 200px;
+    margin: 35px auto 200px;
   }
   @media only screen and (min-width: 960px) {
     h5 {

@@ -3,36 +3,69 @@
   import logo from './img/logo.svg';
   import content, { content1 } from './content';
   import Block from './components/Block.svelte';
-  import people from '../../helpers/people';
   import Layout from '../Layout.svelte';
   import H1_Text_Avatar from '../H1_Text_Avatar.svelte';
-  const {
-    rabinovich,
-    taklalsingh,
-    dudukina,
-    kvashnin,
-    zhdanovskaya,
-    terekhova,
-    zaytseva,
-    kertling,
-    golikov,
-    kuklina,
-    samburova,
-    kutkova,
-  } = people;
   const persons = [
-    rabinovich,
-    taklalsingh,
-    dudukina,
-    kvashnin,
-    zhdanovskaya,
-    terekhova,
-    zaytseva,
-    kertling,
-    golikov,
-    kuklina,
-    samburova,
-    kutkova,
+    {
+      name: 'Anton Rabinovich',
+      position: 'CEO',
+      photo: 'rabinovich',
+    },
+    {
+      name: 'Steve Taklalsingh',
+      position: 'Director UK',
+      photo: 'taklalsingh',
+    },
+    {
+      name: 'Alina Dudukina',
+      position: 'Head of Insights & Experiments',
+      photo: 'dudukina',
+    },
+    {
+      name: 'Vladimir Kvashnin',
+      position: 'C++ developer',
+      photo: 'kvashnin',
+    },
+    {
+      name: 'Anna Zhdanovskaya',
+      position: 'Educational events manager',
+      photo: 'zhdanovskaya',
+    },
+    {
+      name: 'Anastasiya Terekhova',
+      position: 'Billing support officer',
+      photo: 'terekhova',
+    },
+    {
+      name: 'Nadezhda Zaytseva',
+      position: 'Billing manager',
+      photo: 'zaytseva',
+    },
+    {
+      name: 'Rodion Kertling',
+      position: 'Chief Data & Analysis Officer',
+      photo: 'kertling',
+    },
+    {
+      name: 'Sergey Golikov',
+      position: 'Product owner',
+      photo: 'golikov',
+    },
+    {
+      name: 'Hristina Kuklina',
+      position: 'UX/UI designer',
+      photo: 'kuklina',
+    },
+    {
+      name: 'Eva Samburova',
+      position: 'Head of Strategic HR',
+      photo: 'samburova',
+    },
+    {
+      name: 'Irina Kutkova',
+      position: 'Chief of Customer Care',
+      photo: 'kutkova',
+    },
   ];
 </script>
 

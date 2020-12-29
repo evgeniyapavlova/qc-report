@@ -6,8 +6,11 @@
   import Ecooffice from '../components/Ecooffice.svelte';
   import Hospitals from '../components/Hospitals.svelte';
   import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
-  import people from '../../../helpers/people';
-  const { galak } = people;
+  const galak = {
+    name: 'Olga Galak',
+    position: 'Charity PR manager',
+    photo: 'galak',
+  };
 </script>
 
 <Layout>

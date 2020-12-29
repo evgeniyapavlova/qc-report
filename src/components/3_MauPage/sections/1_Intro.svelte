@@ -1,5 +1,4 @@
 <script>
-  import people from '../../../helpers/people';
   import Layout from '../../Layout.svelte';
   import Chart from '../../Chart.svelte';
   import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
@@ -8,7 +7,11 @@
   import { mauChart, ftdChart } from './chartData';
   import Aside1 from '../components/Aside1.svelte';
   export let lang;
-  const { tychenko } = people;
+  const tychenko = {
+    name: 'Evgeny Tychenko',
+    position: 'Chief of B2C',
+    photo: 'tychenko',
+  };
 
   const content = {
     ru: {
@@ -36,7 +39,7 @@
         <div class="chart-wrap">
           <Chart chartId="mau1-chart" data="{mauChart}" label="MAU" />
         </div>
-        <div class="chart-wrap-2 chart-wrap" >
+        <div class="chart-wrap-2 chart-wrap">
           <Chart
             chartId="ftd-chart"
             data="{ftdChart}"
@@ -65,7 +68,7 @@
   .chart-wrap {
     height: 300px;
     position: relative;
-		width: 100%;
+    width: 100%;
   }
   @media only screen and (min-width: 960px) {
     section {

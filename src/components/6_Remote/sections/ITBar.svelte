@@ -6,8 +6,11 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Col2 from '../../Col2_Reverse.svelte';
-  import people from '../../../helpers/people';
-  const { kurbatov } = people;
+  const kurbatov = {
+    name: 'Evgenii Kurbatov',
+    position: 'Head of Office System Administration',
+    photo: 'kurbatov',
+  };
 </script>
 
 <section>
@@ -138,8 +141,8 @@
       margin: 0 0 0 auto;
     }
     .p1 {
-			width: 58%;
-			margin: 80px 0 0 auto;
+      width: 58%;
+      margin: 80px 0 0 auto;
     }
   }
 </style>

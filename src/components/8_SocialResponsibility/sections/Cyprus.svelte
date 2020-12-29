@@ -1,8 +1,11 @@
 <script>
   export let lang;
-  import people from '../../../helpers/people';
   import content from '../content/cyprus';
-  const { bykova } = people;
+  const bykova = {
+    name: 'Olga Bykova',
+    position: 'Charity document manager',
+    photo: 'bykova',
+  };
   import H2_Text_Avatar from '../../H2_Text_Avatar.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Layout from '../../Layout.svelte';
@@ -36,10 +39,10 @@
       </div>
     {/each}
   </div>
-<!--  <Carousel-->
-<!--    folder="rwanda"-->
-<!--    imagesSrc="{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}"-->
-<!--  />-->
+  <!--  <Carousel-->
+  <!--    folder="rwanda"-->
+  <!--    imagesSrc="{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]}"-->
+  <!--  />-->
 </Layout>
 
 <style>
