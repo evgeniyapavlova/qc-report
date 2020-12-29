@@ -15,42 +15,37 @@
         {
           title: 'Наша команда',
           text:
-            'Департамент Customer Care насчитывает 179 человек. И более 75% нашей команды — удаленные сотрудники. Чтобы собрать многонациональную команду в 18 странах мира и разных часовых поясах мы посмотрели 3041 видеоинтервью, прочли 1884 эссе, провели больше 400 тестовых дней и обработали 52 новых иностранных сайта по поиску работы.',
+            'Департамент Customer Care насчитывает 179&nbsp;человек. И&nbsp;более&nbsp;75% нашей команды&nbsp;&mdash; удаленные сотрудники. Чтобы собрать многонациональную команду в&nbsp;18&nbsp;странах мира и&nbsp;разных часовых поясах, мы&nbsp;посмотрели 3041&nbsp;видеоинтервью, прочли 1884&nbsp;эссе, провели больше 400 тестовых дней и&nbsp;обработали 52&nbsp;новых иностранных сайта по&nbsp;поиску работы.',
         },
         {
           title: 'Возможности роста',
           text:
-            'Карьерный рост саппортера может быть очень разным, внутри отдела можно возглавить команду, углубиться в обучение сотрудников, заняться работой с отзывами на внешних ресурсах, оптимизировать расписание ребят, а снаружи — можно развиваться в любом отделе и любой команде, если успешно пройти внутренний конкурс. В 2020 году 13 человек перешли из отдела поддержки в другие отделы, а 19 — получили внутренний перевод внутри команды',
+            'Карьерный рост саппортера может быть очень разным, внутри отдела можно возглавить команду, углубиться в&nbsp;обучение сотрудников, заняться работой с&nbsp;отзывами на&nbsp;внешних ресурсах, оптимизировать расписание ребят, а&nbsp;снаружи&nbsp;&mdash; можно развиваться в&nbsp;любом отделе и&nbsp;любой команде, если успешно пройти внутренний конкурс. В&nbsp;2020 году 14&nbsp;человек перешли из&nbsp;отдела поддержки в&nbsp;другие отделы, а&nbsp;20&nbsp;&mdash; получили внутренний перевод внутри команды.',
           list: [
             {
               icon: changeIcon,
-              title: '13',
+              title: '14',
               text: 'переходов в другие отделы',
             },
-            { icon: change2Icon, title: '19', text: 'перевод внутри команды' },
+            { icon: change2Icon, title: '20', text: 'переводов внутри команды' },
           ],
         },
       ],
     },
     en: {
-      quote: '',
-      caption: '',
+      quote: 'The 100th remote employee joined our&nbsp;team in November&nbsp;2020.',
+      caption: 'Geography of remote employees',
       items: [
         {
-          title: '',
-          text: '',
-          list: [
-            { icon: '', title: '', text: '' },
-            { icon: '', title: '7,89', text: '' },
-            { icon: '', title: '13', text: '' },
-          ],
+          title: 'Our team',
+          text: 'There are 179 people in&nbsp;our Customer Care department. And more than&nbsp;75% of&nbsp;our team are remote workers. To&nbsp;assemble a&nbsp;multinational team in&nbsp;18&nbsp;countries and different time zones, we&nbsp;watched 3,041 video interviews, read 1,884&nbsp;essays, conducted over 400 test days and developed 52&nbsp;new foreign job search websites.',
         },
         {
-          title: '',
-          text: '',
+          title: 'Opportunities for growth',
+          text: 'A&nbsp;support staffer&rsquo;s career growth can vary greatly&nbsp;&mdash; inside the department they could lead a&nbsp;team, go&nbsp;deeper into training of&nbsp;employees, work with feedback on&nbsp;external resources, optimize the schedule of&nbsp;colleagues. Outside, they can develop in&nbsp;any department and any team, if&nbsp;they successfully pass the internal competition. In&nbsp;2020, 14&nbsp;people moved from the support department to&nbsp;other departments and 20&nbsp;were transferred internally within the team.',
           list: [
-            { icon: '', title: '13', text: '' },
-            { icon: '', title: '19', text: '' },
+            { icon: '', title: '14', text: 'transfers to other departments' },
+            { icon: '', title: '20', text: 'internal<br />transfers' },
           ],
         },
       ],
@@ -64,7 +59,7 @@
       <div slot="right">
         {#each content[lang].items as item}
           <h5>{item.title}</h5>
-          <p>{item.text}</p>
+          <p>{@html item.text}</p>
           {#if item.list}
             <div class="list">
               {#each item.list as iconItem}
@@ -77,7 +72,7 @@
         {/each}
       </div>
       <div slot="left" class="flex-reverse">
-        <div class="quote">{content[lang].quote}</div>
+        <div class="quote">{@html content[lang].quote}</div>
         <img
           src="ASSET_PREFIX/assets/mau/pie-chart.jpg"
           alt=""
