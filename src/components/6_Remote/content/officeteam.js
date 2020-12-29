@@ -48,7 +48,43 @@ export const content = {
       },
     ],
   },
-  en: {},
+  en: {
+    desc:
+      "Already at the beginning of March we knew that a difficult time was ahead, but of course we couldn't have imagined the extent of the consequences for the world. We put all offline events on hold, and let the guys go off to work remotely. ",
+    text:
+      "Our task was to completely transform offline corporate life into online. We've tried to implement almost everything we could have imagined in it: lectures, cooking and pastry master classes, art classes, film and literature meetings, tastings, a beer casino, online excursions and even a jazz concert.",
+    quote:
+      'Our task was to completely transform offline corporate life into online',
+    title2: 'Online we conducted:',
+    items: [
+      'Friday<br />events',
+      'IQ&nbsp;Code<br />events',
+      'Art&nbsp;Code<br />master classes',
+      'Cinema&nbsp;Code<br />events',
+      'Library&nbsp;Code<br />events',
+    ],
+    items2: [
+      {
+        title: 'Catering',
+        text: 'Organized three catering options for telecommuters',
+      },
+      {
+        title: 'Party&nbsp;Code portal',
+        text:
+          'Created the Party Code portal, which brings together all corporate events',
+      },
+      {
+        title: "Thanks God We're Together",
+        text:
+          "Launched the Thank God We're Together project to keep Friday evenings together despite the distances",
+      },
+      {
+        title: 'Gifts',
+        text:
+          'Sent useful gifts to guys who were unlucky enough to catch the coronavirus',
+      },
+    ],
+  },
 };
 export const icons1 = [
   { number: '70', icon: icon1_1 },

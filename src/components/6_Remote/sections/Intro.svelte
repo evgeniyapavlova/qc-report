@@ -11,8 +11,9 @@
         'Переход на удаленную работу стал большим челленджем не только для всех сотрудников, которым нужно было привыкать к новым условиям, но и для многих команд, которые сопровождали этот процесс и делали так, чтобы мы продолжали чувствовать себя частью одной большой компании, даже находясь так далеко друг от друга.',
     },
     en: {
-      h1: '',
-      desc: '',
+      h1: 'Transition to remote work',
+      desc:
+        'The transition to remote working was a big challenge, not only for all the employees who had to get used to the new environment, but also for the many teams who supported the process and made sure that we continued to feel part of one big company, even when we were so far away from each other.',
     },
   };
 </script>

@@ -12,7 +12,7 @@ export const content = {
   ru: {
     h2: 'IT Bar',
     desc:
-      ' Вначале карантина были лишь туманные прогнозы и избыток дезинформации. Что происходит сейчас? Что будет завтра? До перехода сотрудников на удаленную работу оставались считанные дни.',
+      'Вначале карантина были лишь туманные прогнозы и избыток дезинформации. Что происходит сейчас? Что будет завтра? До перехода сотрудников на удаленную работу оставались считанные дни.',
     text:
       'На проработке кейсов мы начали с хардкорного варианта — полного локдауна. Благодаря усилиям и сплоченности всех команд, которые участвовали в переходе на удаленку, мы успешно справились с вызовами пандемии. Работать с такими людьми — большая удача!',
     quote:
@@ -51,7 +51,48 @@ export const content = {
     finalText2:
       'На данный момент у нас ежедневно дежурят по два бойца, готовых помочь тем, кто приходит в офис и обслуживающие инфраструктуру. В это же время остальные ребята оказывают удаленную поддержку. У нас еще много планов и идей, которые будут реализованы в 2021.',
   },
-  en: { h2: '' },
+  en: {
+    h2: 'IT Bar',
+    desc:
+      "At the beginning of the quarantine, there were only vague forecasts and an excess of misinformation. What's happening now? What about tomorrow? We were just days away from moving employees to remote work. ",
+    text:
+      "In our case study, we started with the hardcore option of a full lockdown. Thanks to the efforts and cohesion of all the teams involved in the transition to remote work, we've successfully met the challenges of the pandemic. Working with people like that our great luck!",
+    quote:
+      'Thanks to the efforts and cohesion of all the teams involved in the transition to remote work, we\'ve successfully met the challenges of the pandemic',
+    items: [
+      'messages in the #admins channel',
+      'Helpdesk requests to the IT Bar in Russia and Cyprus',
+      'volume of incoming traffic to the office',
+      'new notebooks issued to employees',
+    ],
+    title2:
+      'To make the transition to remote work a smooth one, Office System Administration:',
+    items2: [
+      {
+        title: 'Data Replication',
+        text:
+          'Within hours, replicated data from the St Petersburg and Cyprus offices. In this way, an employee could access internal services when there was no access to the offices at all.',
+      },
+      {
+        title: 'VPN',
+        text:
+          'They ensured that the VPN could handle the load up to and including all employees at the same time.',
+      },
+      {
+        title: 'Printers & Scanners',
+        text:
+          'In a matter of days, printers and scanners were purchased for the administrative branch staff who handle the paperwork. The whole team, in conveyor belt mode, set them up and tested them so that employees would have no problems connecting their homes.',
+      },
+      {
+        title: 'Office Duty',
+        text:
+          'They worked out processes for new employees, offline support and made a plan for office duty.',
+      },
+    ],
+    finalText1: 'How do we work now and what lies ahead?',
+    finalText2:
+      'At the moment, we have two warriors on duty every day, ready to help those who come to the office and maintain the infrastructure. At the same time, the other guys are providing remote support. We still have many plans and ideas to implement in 2021.',
+  },
 };
 export const numbers = [2785, 1664, '39 TB', 141];
 export const icons1 = [icon1_1, icon1_2, icon1_3, icon1_4];
