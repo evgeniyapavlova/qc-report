@@ -202,11 +202,17 @@
     }
   }
   @media only screen and (min-width: 1000px) {
+    .img-item {
+      margin-top: 60px;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
     .development {
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       position: relative;
+      margin-bottom: 100px;
     }
     .block {
       width: 33%;
@@ -224,11 +230,11 @@
     .laptop {
       bottom: 0;
       position: absolute;
-      right: 0;
-      width: 50%;
       max-width: 100%;
       z-index: 0;
       margin: 0;
+      right: -10%;
+      width: 66%;
     }
     .block-1 {
       z-index: 1;
@@ -240,12 +246,8 @@
       margin-top: 50px;
     }
     h5 {
-      margin: 62px 0 50px;
+      margin: 82px 0 50px;
     }
   }
-  @media only screen and (min-width: 1280px) {
-    .laptop {
-      right: -50px;
-    }
-  }
+
 </style>

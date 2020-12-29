@@ -43,5 +43,10 @@
     .item-length-4 {
       width: 25%;
     }
+    .item-length-2 {
+      width: 50%;
+      min-width: 50%;
+      padding: 0 40px 0 0;
+    }
   }
 </style>

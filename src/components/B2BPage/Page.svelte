@@ -8,6 +8,7 @@
   import Stages from '../B2BPage/Stages.svelte';
   import Goals from '../B2BPage/Goals.svelte';
   import DevelopmentB2B from '../B2BPage/DevelopmentB2B.svelte';
+  import ImprovingPlatform from '../B2BPage/ImprovingPlatform.svelte';
   const golubev = {
     name: 'Vladimir Golubev',
     position: 'Chief of Strategic Finance and Legal',
@@ -27,7 +28,7 @@
     'Client services',
     'Compliance Development',
     'Customer Acquisition',
-    'Desktop QA',
+    'QA Desktop ',
     'GL core',
     'Infrastructure',
     'iOS',
@@ -35,8 +36,8 @@
     'Quotes',
     'Root',
     'System Architecture',
-    'Translation',
-    'Web',
+    'Copywriting',
+    'Web solutions development',
   ];
   const content = {
     ru: {
@@ -76,12 +77,13 @@
     <span data-id="saas"></span>
     <div class="h2-wrap">
       <H2_Text_Avatar
-        h2="{content[lang].h1}"
+        h2="{content[lang].h2}"
         person="{bolotov}"
         text="{content[lang].text2}"
       />
     </div>
     <DevelopmentB2B lang="{lang}" />
+    <ImprovingPlatform lang="{lang}" />
     <div class="tags-wrap">
       <Tags tags="{tags}" />
     </div>
@@ -99,6 +101,7 @@
   }
   .tags-wrap {
     max-width: 760px;
+    margin-top: 100px;
   }
   @media only screen and (min-width: 960px) {
     .p-goals {
@@ -107,6 +110,9 @@
     }
     .h2-wrap {
       margin-bottom: 48px;
+    }
+    .tags-wrap {
+      margin-top: 150px;
     }
   }
 </style>
