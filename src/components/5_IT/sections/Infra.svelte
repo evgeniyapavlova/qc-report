@@ -38,7 +38,7 @@
         </p>
       </div>
       <div class="number-item">
-        <LineNumberItem period="30" number="90" caption="IT vendors" />
+        <LineNumberItem period="26 <span>2019</span>" number="118" caption="IT vendors" />
       </div>
     </div>
   </div>

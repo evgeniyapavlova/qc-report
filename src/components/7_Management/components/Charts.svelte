@@ -67,5 +67,8 @@
       margin-top: 0;
       padding-right: 16%;
     }
+    .chart-label {
+			margin-top: 80px;
+    }
   }
 </style>

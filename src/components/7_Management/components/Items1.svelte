@@ -45,6 +45,7 @@
     .wrap {
       display: flex;
       align-items: center;
+			margin-bottom: 170px;
     }
     .item-wrap {
       padding: 0 20px 0 0;
