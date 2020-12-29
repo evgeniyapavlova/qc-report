@@ -17,7 +17,8 @@
       h1: 'Уверенно приближаемся к&nbsp;цели EBITDA',
       desc:
         'Финансовые результаты этого года отличные, несмотря на&nbsp;все вызовы, с&nbsp;которыми мы&nbsp;столкнулись.',
-      quote:'Я&nbsp;вижу большой прогресс по&nbsp;целям, поставленным в&nbsp;начале года, и&nbsp;огромный потенциал для дальнейшего роста',
+      quote:
+        'Я&nbsp;вижу большой прогресс по&nbsp;целям, поставленным в&nbsp;начале года, и&nbsp;огромный потенциал для дальнейшего роста',
       p:
         'Как видно на&nbsp;графике, мы&nbsp;уверенно приближаемся к&nbsp;промежуточной цели EBITDA $250M, которую поставили в&nbsp;Mission Action Plan в&nbsp;2018&nbsp;году.',
       listTitle: 'Что этому способствовало?',
@@ -27,7 +28,21 @@
         'Пандемия коронавируса, которая за&nbsp;несколько месяцев перевернула весь мир',
       ],
     },
-    en: { h1: '', desc: '' },
+    en: {
+      h1: 'We\'re steadily approaching our EBITDA target',
+      desc:
+        'This year\'s financial results are excellent, despite all the challenges we\'ve faced.',
+      quote:
+        'I see great progress on the goals set at the beginning of the year and great potential for further growth.',
+      p:
+        'As the chart shows, we\'re well on our way to the interim EBITDA target of $250M that we set in the Mission Action Plan in 2018.',
+      listTitle: 'What made this possible?',
+      list: [
+        'Hard work by all branches and teams',
+        'The organizational transformation we\'ve been undergoing over the last two years',
+        'The coronavirus pandemic, which turned the world upside down in a matter of months',
+      ],
+    },
   };
 
   const listIcons = [icon1, icon2, icon3];
@@ -69,11 +84,17 @@
             label="EBITDA projection"
           />
         </div>
-        <div class="quote">{@html content[lang].quote}</div>
+        <div class="quote">
+          {@html content[lang].quote}
+        </div>
       </div>
       <div slot="left">
-        <p>{@html content[lang].p}</p>
-        <h5>{@html content[lang].listTitle}</h5>
+        <p>
+          {@html content[lang].p}
+        </p>
+        <h5>
+          {@html content[lang].listTitle}
+        </h5>
         <div class="list">
           {#each content[lang].list as item, index}
             <div class="item">

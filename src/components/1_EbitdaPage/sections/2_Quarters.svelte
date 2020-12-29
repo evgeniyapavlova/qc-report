@@ -172,7 +172,7 @@
       margin: 0;
     }
     p {
-      margin-bottom: 50px;
+      margin-bottom: 70px;
     }
     .items-q1 .icon-items .icon-item {
       width: 47%;
