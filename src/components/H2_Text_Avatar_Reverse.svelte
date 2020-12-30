@@ -20,10 +20,6 @@
 <style>
   h4 {
     margin-top: 40px;
-    max-width: 618px;
-  }
-  h2 {
-    max-width: 618px;
   }
   @media only screen and (min-width: 800px) {
     .flex {
@@ -32,7 +28,7 @@
       justify-content: space-between;
     }
     h2 {
-      width: calc(58% - 20px);
+      width: 58%;
       margin-left: auto;
       margin-right: 0;
     }

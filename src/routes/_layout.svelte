@@ -42,7 +42,7 @@
     --red: #e62334;
   }
   :global(h4) {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: rgba(50, 62, 72, 0.5);
@@ -61,7 +61,7 @@
     line-height: 1.25;
   }
   :global(.quote) {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 30px;
     line-height: 1.05;
   }
@@ -130,7 +130,8 @@
       font-size: 26px;
       line-height: 26px;
     }
-    :global(h2) {
+    :global(h2),
+    :global(h1) {
       margin-bottom: 55px;
     }
     :global(h4) {
@@ -147,7 +148,7 @@
     color: var(--dark-gray);
     font-size: 30px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 65px;
     border-left: 4px solid var(--red);
     padding-left: 22px;
@@ -159,19 +160,18 @@
     }
   }
 
-  @media only screen and (min-width: 960px) {
-    :global(h1) {
-      margin-bottom: 100px;
-    }
-  }
   :global(h6) {
     font-size: 14px;
     font-weight: bold;
   }
-  :global(.p-with-links a) {
-    color: var(--red);
+  :global(.p-with-links a, .p-with-links span) {
     font-weight: bold;
+    transition: color ease-out 0.2s;
   }
+  :global(.p-with-links a:hover) {
+    color: var(--red);
+  }
+
   :global(.chart-label) {
     font-size: 13px;
     line-height: 16px;

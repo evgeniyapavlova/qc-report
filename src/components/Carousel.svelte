@@ -1,6 +1,6 @@
 <script>
   import Carousel from '@beyonk/svelte-carousel';
-  import { Carousel as Images } from 'svelte-images';
+  import { Carousel as Images } from './SvImages';
 
   const { Modal, open, close } = Images;
   export let imagesSrc = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];

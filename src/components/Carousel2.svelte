@@ -1,25 +1,24 @@
 <script>
   import Carousel from '@beyonk/svelte-carousel';
-  import { Carousel as Images1 } from 'svelte-images';
+  import { Carousel as Images } from './SvImages2';
 
-  const { Modal, open, close } = Images1;
-  export let imagesSrc = [];
-  export let folder = '';
+  const { Modal, open, close } = Images;
+  export let imagesSrc = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+  export let folder = 'rwanda';
 
   const images = imagesSrc.map((img) => ({
     thumbnail: `ASSET_PREFIX/assets/photos/${folder}/thumbnails/${img}.jpg`,
     src: `ASSET_PREFIX/assets/photos/${folder}/${img}.jpg`,
   }));
 
-  const popModal = (idx) => {
+  const popModal = (idx) =>
     setTimeout(() => {
       open(images, idx);
     }, 0);
-  };
 </script>
 
-<div class="overflow-h-1">
-  <div class="carousel-wrap-1">
+<div class="overflow-h">
+  <div class="carousel-wrap">
     <Carousel dots="{false}">
       <span class="control" slot="left-control"></span>
       {#each images as image, i}
@@ -43,7 +42,7 @@
   .slide-content {
     padding: 10px;
   }
-  .carousel-wrap-1 {
+  .carousel-wrap {
     margin: 100px 0;
   }
   img {
@@ -57,8 +56,8 @@
   }
   .control {
   }
-  :global(.carousel-wrap-1 button.left),
-  :global(.carousel-wrap-1 button.right) {
+  :global(.carousel-wrap button.left),
+  :global(.carousel-wrap button.right) {
     top: 10px;
     margin-top: 0;
     height: calc(100% - 20px);
@@ -68,31 +67,32 @@
     width: 33%;
     background: rgba(245, 245, 245, 0.65);
     cursor: pointer;
+		z-index: 2 !important;
   }
-  :global(.carousel-wrap-1 button.right) {
+  :global(.carousel-wrap button.right) {
     right: 0 !important;
   }
-  :global(.carousel-wrap-1 button.left) {
+  :global(.carousel-wrap button.left) {
     left: 0 !important;
   }
   @media only screen and (max-width: 959px) {
-    .carousel-wrap-1 {
+    .carousel-wrap {
       margin: 70px 0;
     }
   }
   @media only screen and (max-width: 700px) {
-    .carousel-wrap-1 {
+    .carousel-wrap {
       width: 876px;
       margin-left: calc(50% - 438px);
     }
-    .overflow-h-1 {
+    .overflow-h {
       overflow: hidden;
       margin-left: -24px;
       margin-right: -24px;
     }
   }
   @media only screen and (max-width: 600px) {
-    .overflow-h-1 {
+    .overflow-h {
       margin-left: -16px;
       margin-right: -16px;
     }

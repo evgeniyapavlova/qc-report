@@ -1,5 +1,6 @@
 <script>
   const lang = 'en';
+  import Divider from '../components/Divider.svelte';
   import Header from '../components/Header/Header.svelte';
   import Section_0_Intro from '../components/IndexPage/Intro.svelte';
   import Section_2_MarginForex from '../components/2_MarginForexPage/sections/1_Intro.svelte';
@@ -23,18 +24,26 @@
 
 <Section_1_Ebitda lang="{lang}" />
 
+<Divider src="margin_forex" />
 <Section_2_MarginForex lang="{lang}" />
 
+<Divider src="mau" />
 <Section_3_MAU lang="{lang}" />
 
+<Divider src="b2b" />
 <Section_3_B2B lang="{lang}" />
 
+<Divider src="tech" />
 <Section_5_IT lang="{lang}" />
 
+<Divider src="remote" />
 <Section_6_Remote lang="{lang}" />
 
+<Divider src="management" />
 <Section_7_Management lang="{lang}" />
 
+<Divider src="charity" />
 <Section_8_SocialResponsibility lang="{lang}" />
 
+<Divider src="thanks" />
 <Section_9_Gratitude lang="{lang}" />
