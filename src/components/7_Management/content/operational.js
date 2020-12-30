@@ -33,11 +33,11 @@ const content = {
     ],
   },
   en: {
-    h2: 'Операционный HR',
+    h2: 'HR Operations',
     h4:
-      'В&nbsp;этом году мы&nbsp;сфокусировались на&nbsp;улучшении HR&#8209;процессов и&nbsp;адаптации к&nbsp;новым реалиям этого мира для достижения наших бизнес&#8209;целей.',
+      'This year we focused on improving our HR processes and adapting to the new realities of this world to achieve our business goals.',
     p1:
-      'Мы&nbsp;работали над разделением брендов нашего холдинга для рынка труда, формировали новые команды, занимались улучшением процессов и&nbsp;качеством сервиса нашего департамента, начали наш путь роста в&nbsp;Data&#8209;driven направлении и&nbsp;сформировали новый взгляд для направления Talent Acquisition.',
+      'We worked on differentiating our holding brands for the labor market, building new teams, improving processes and service quality in our department, started our growth journey in the Data-driven area, and shaped a new vision for Talent Acquisition.',
     titles: [
       'Brand sharing',
       'Improved processes and quality of service',
@@ -46,7 +46,7 @@ const content = {
     ],
     texts: [
       'We pulled talent into a new and unknown brand in the job market, formed an internal brand sharing policy, created new career pages, developed a career website for the Quadcode brand, and helped shape our employer brand strategy.',
-      'We launched a turnkey recruitment process and relocation to the Gibraltar office. At first cosmic velocity, we adapted recruitment and internal processes for onboarding, processing, hiring, firing and even relocating employees in a remote environment. We created a remote recruitment policy and have already recruited our first full-time remote employees. We conducted in-depth interviews to analyze problems among our customers and shaped many improvements to our Hiring Flow, which we\'ll continue to integrate into our processes next year.',
+      "We launched a turnkey recruitment process and relocation to the Gibraltar office. At first cosmic velocity, we adapted recruitment and internal processes for onboarding, processing, hiring, firing and even relocating employees in a remote environment. We created a remote recruitment policy and have already recruited our first full-time remote employees. We conducted in-depth interviews to analyze problems among our customers and shaped many improvements to our Hiring Flow, which we'll continue to integrate into our processes next year.",
       'We formed, learned to count and correctly maintain data to build metrics in HR. To improve process speed and analytics, the recruitment funnel moved to a new database for candidate management—Huntflow. On Cyprus we implemented a new solution for managing all HR processes—BambooHR. We implemented payroll analytics for the Product and IT branches on a regular basis. Together with the analytics team, we got a working tool to work with parsing data from hh.ru. We took on digitizing our recruitment reports and CIS recruitment applications. We automated sick leave without official sick leave and made a huge number of modifications to 1C by our own efforts.',
       'We started the transformation to move into the Talent Acquisition area and split the team into two parts: Sourcing and Recruiting. This division will allow team members to focus on each area.',
     ],

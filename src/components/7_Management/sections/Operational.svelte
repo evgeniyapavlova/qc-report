@@ -34,14 +34,14 @@
         title="{content[lang].titles[0]}"
         text="{content[lang].texts[0]}"
       />
-      <div class="chart-label">106 people was hired in Russia</div>
+      <div class="chart-label">106 people were hired in Russia</div>
       <img
         class="chart1"
         src="ASSET_PREFIX/assets/management/operation_graphs_1.jpg"
         alt="106 people were hired in Russia"
       />
       <div class="chart-label">
-        26 people was hired in Cyprus, Gibraltar, UK
+        26 people were hired in Cyprus, Gibraltar, UK
       </div>
       <img
         class="chart2"
