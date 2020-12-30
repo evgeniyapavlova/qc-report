@@ -5,7 +5,7 @@
 <style>
   .wrap2020 {
     position: absolute;
-    left: 40%;
+    left: 48%;
     bottom: 50%;
     height: 704px;
     overflow: hidden;
@@ -21,7 +21,7 @@
     }
   }
   img {
-    width: 614px;
+    width: 700px;
   }
 
   @keyframes a2020 {
@@ -35,12 +35,18 @@
       transform: translateY(50%);
     }
   }
+  @media only screen and (max-width: 1125px) {
+    img {
+      width: 614px;
+    }
+  }
   @media only screen and (max-width: 960px) {
     img {
       width: 400px;
     }
     .wrap2020 {
       bottom: 37%;
+      left: 40%;
     }
   }
 

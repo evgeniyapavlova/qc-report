@@ -5,7 +5,7 @@
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Icon_Title_Text from '../../Icon_Title_Text.svelte';
   import Layout from '../../Layout.svelte';
-  import Carousel from '../../Carousel.svelte';
+  import Carousel from '../../Carousel2.svelte';
   import Col2 from '../../Col2.svelte';
   const abdukarimova = {
     name: 'Vera-Nika Abdukarimova',
@@ -66,6 +66,7 @@
 <style>
   section {
     padding-top: 200px;
+    overflow: hidden;
   }
   p {
     margin: 45px 0 75px;

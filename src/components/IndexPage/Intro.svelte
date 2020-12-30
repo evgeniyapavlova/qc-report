@@ -100,7 +100,7 @@
   }
   .row:hover .number,
   .row.active .number {
-    font-weight: 600;
+    font-weight: bold;
     color: var(--red);
   }
   .item {
