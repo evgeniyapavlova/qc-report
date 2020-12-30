@@ -1,0 +1,1 @@
+import{S as t,i as s,s as e,q as a,d as c,n as d}from"./client.cda4d6e8.js";function n(t){return{c(){this.h()},l(t){a('[data-svelte="svelte-mtyumh"]',document.head).forEach(c),this.h()},h(){document.title="ONE YEAR IN REVIEW"},m:d,p:d,i:d,o:d,d:d}}export default class extends t{constructor(t){super(),s(this,t,null,n,e,{})}}
