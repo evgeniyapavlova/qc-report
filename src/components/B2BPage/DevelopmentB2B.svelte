@@ -1,4 +1,11 @@
 <script>
+  import icon1 from './img/icon1.svg';
+  import icon2 from './img/icon2.svg';
+  import icon3 from './img/icon3.svg';
+  import icon4 from './img/icon4.svg';
+  import icon5 from './img/icon5.svg';
+  import icon6 from './img/icon6.svg';
+  import icon7 from './img/icon7.svg';
   export let lang;
   const items = {
     ru: [
@@ -8,23 +15,20 @@
         text:
           'Software as a Service — это предоставление программного обеспечения как услуги. В нашем случае мы предоставляем мобильную, десктоп и веб-версии трейдинговой платформы нашим клиентам: банкам, будущим и нынешним брокерам и финтех компаниям.',
         title2: 'Что нужно знать о нашем SaaS-решении?',
+        icons: [icon1, icon2, icon3, icon4],
         subitems: [
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas1.jpg',
             text: 'Безотказное время работы нашей платформы составляет 99,95%',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas2.jpg',
             text:
               'Мы берем на себя техническое обслуживание, поэтому клиент может не тратить на это свое время.',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas3.jpg',
             text:
               'Наша платформа кастомизируема, то есть настраивается под требования клиента.',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas4.jpg',
             text:
               'Приложения, которые мы предоставляем, отвечают всем требованиям маркетплейсов.',
           },
@@ -36,19 +40,17 @@
         text:
           'В 2020 году мы начали работу над созданием банковской инфраструктуры как для нашей группы компаний, так и для наших B2B-клиентов. ',
         title2: 'Почему банкинг?',
+        icons: [icon5, icon6, icon7],
         subitems: [
           {
-            icon: 'ASSET_PREFIX/assets/b2b/banking1.jpg',
             text:
               'С помощью банков Amaiz, Westiva и Westiva Brazil мы сможем значительно снизить расходы компании на банковские комиссии и биллинг.',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/banking2.jpg',
             text:
               'Обеспечим B2C-клиентов наших брокеров возможностью пополнять баланс платформы и выводить средства с помощью банковской карты.',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/banking3.jpg',
             text:
               'Регулируемые и нерегулируемые партнеры (трафик-провайдеры) получат удобный инструмент для вывода заработанных средств и реинвестирования в рекламу нашей платформы.',
           },
@@ -71,23 +73,20 @@
         text:
           'Software as a Service is the provision of software as a service. In our case, we provide mobile, desktop and web versions of the trading platform to our clients: banks, prospective and current brokers and fintech companies.',
         title2: 'What do you need to know about our SaaS solution?',
+        icons: [icon1, icon2, icon3, icon4],
         subitems: [
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas1.jpg',
             text: 'Our platform has a 99.95% uptime.',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas2.jpg',
             text:
               "We take care of the tech maintenance, so the customer doesn't have to waste their time on it.",
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas3.jpg',
             text:
               "Our platform is customisable, i.e., it is adjustable to the customer's requirements.",
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/saas4.jpg',
             text:
               'The applications we provide meet all the requirements of marketplaces.',
           },
@@ -99,19 +98,17 @@
         text:
           'In 2020, we started working on the banking infrastructure for both our group of companies and our B2B clients.',
         title2: 'Why banking?',
+        icons: [icon5, icon6, icon7],
         subitems: [
           {
-            icon: 'ASSET_PREFIX/assets/b2b/banking1.jpg',
             text:
               "With the help of Amaiz, Westiva and Westiva Brazil banks, we'll be able to significantly reduce the company's bank fees and billing costs.",
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/banking2.jpg',
             text:
               'We provide B2C clients of our brokers with the ability to replenish the platform balance and withdraw funds via bank card.',
           },
           {
-            icon: 'ASSET_PREFIX/assets/b2b/banking3.jpg',
             text:
               'Regulated and unregulated partners (traffic providers) will receive a convenient tool for withdrawing earned funds and reinvesting in advertising on our platform.',
           },
@@ -139,9 +136,9 @@
       {#if item.title2}
         <h5>{item.title2}</h5>
         <div class="subitems">
-          {#each item.subitems as subitem}
+          {#each item.subitems as subitem, index1}
             <div class="subitem">
-              <img class="img-subitem" src="{subitem.icon}" alt="" />
+              <svelte:component this="{item.icons[index1]}" />
               <p class="centered">{subitem.text}</p>
             </div>
           {/each}
@@ -165,10 +162,6 @@
     text-align: center;
     margin-bottom: 50px;
   }
-  .img-subitem {
-    width: 50px;
-    margin-bottom: 18px;
-  }
   .laptop {
     margin: 29px auto;
     width: 100%;
@@ -177,7 +170,7 @@
   }
   .centered {
     max-width: 310px;
-    margin: 0 auto;
+    margin: 18px auto 0;
   }
   .img-item {
     height: 262px;
@@ -227,6 +220,9 @@
       max-width: 250px;
       margin: 0 auto 0 0;
     }
+    .centered {
+      margin: 18px auto 0 0;
+    }
     .laptop {
       bottom: 0;
       position: absolute;
@@ -249,5 +245,4 @@
       margin: 82px 0 50px;
     }
   }
-
 </style>

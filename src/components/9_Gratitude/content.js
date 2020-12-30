@@ -131,7 +131,7 @@ const content = {
       quote:
         'Thank you for being very cool, smart guys, for your involvement and blazing eyes',
       text:
-        'Anton, thank you so&nbsp;much for the opportunities you give&nbsp;us all!I&rsquo;d like to&nbsp;add my&nbsp;thanks to&nbsp;Anna Bezrodnaya for taking care of&nbsp;the team, helping with any issues and supporting&nbsp;us in&nbsp;our endeavours! <br><br>And my&nbsp;team, of&nbsp;course, for being very cool, smart guys, for your involvement and blazing eyes, for being ready to&nbsp;conquer new heights every time!<br><br>I&rsquo;m proud of&nbsp;your work and of&nbsp;having you on&nbsp;my&nbsp;team!',
+        'Anton, thank you so&nbsp;much for the opportunities you give&nbsp;us all! I&rsquo;d like to&nbsp;add my&nbsp;thanks to&nbsp;Anna Bezrodnaya for taking care of&nbsp;the team, helping with any issues and supporting&nbsp;us in&nbsp;our endeavours!<br><br>And my&nbsp;team, of&nbsp;course, for being very cool, smart guys, for your involvement and blazing eyes, for being ready to&nbsp;conquer new heights every time!<br><br>I&rsquo;m proud of&nbsp;your work and of&nbsp;having you on&nbsp;my&nbsp;team!',
     },
     {
       quote:
