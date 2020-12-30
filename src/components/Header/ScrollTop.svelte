@@ -24,7 +24,14 @@
   .scroll-top {
     cursor: pointer;
     position: fixed;
-    bottom: 40px;
-    left: 40px;
+    bottom: 12px;
+    left: 12px;
+    z-index: 3;
+  }
+  @media only screen and (min-width: 1150px) {
+    .scroll-top {
+      bottom: 20px;
+      left: 40px;
+    }
   }
 </style>

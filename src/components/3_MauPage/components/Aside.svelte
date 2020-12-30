@@ -91,7 +91,7 @@
   }
   .time {
     color: var(--red);
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 6px;
   }
   .number {
@@ -102,7 +102,7 @@
   }
   .text {
     opacity: 0.6;
-    font-weight: 600;
+    font-weight: bold;
     max-width: 170px;
     margin: 0 auto;
   }

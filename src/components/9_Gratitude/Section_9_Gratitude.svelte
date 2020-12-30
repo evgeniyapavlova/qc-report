@@ -79,12 +79,12 @@
       {/each}
     </div>
     <div class="final">
-      <p>{content1[lang].finalP}</p>
-      <div class="quote">{content1[lang].finalQuote}</div>
+      <p>{@html content1[lang].finalP}</p>
+      <div class="quote">{@html content1[lang].finalQuote}</div>
       <h5 class="red">
         {@html content1[lang].finalRed}
       </h5>
-      <svelte:component this="{logo}" />
+			<img src="ASSET_PREFIX/assets/svg/logo_black.svg" alt="">
     </div>
   </Layout>
 </section>

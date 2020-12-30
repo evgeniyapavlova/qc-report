@@ -64,33 +64,38 @@
 </script>
 
 <span data-id="b2b"></span>
-<Layout>
-  <Section>
-    <H1_Text_Avatar
-      h1="{content[lang].h1}"
-      person="{golubev}"
-      text="{content[lang].text}"
-    />
-    <Stages />
-    <p class="p-goals">{content[lang].goals}</p>
-    <Goals lang="{lang}" />
-    <span data-id="saas"></span>
-    <div class="h2-wrap">
-      <H2_Text_Avatar
-        h2="{content[lang].h2}"
-        person="{bolotov}"
-        text="{content[lang].text2}"
+<div class="b2b">
+  <Layout>
+    <Section>
+      <H1_Text_Avatar
+        h1="{content[lang].h1}"
+        person="{golubev}"
+        text="{content[lang].text}"
       />
-    </div>
-    <DevelopmentB2B lang="{lang}" />
-    <ImprovingPlatform lang="{lang}" />
-    <div class="tags-wrap">
-      <Tags tags="{tags}" />
-    </div>
-  </Section>
-</Layout>
+      <Stages />
+      <p class="p-goals">{content[lang].goals}</p>
+      <Goals lang="{lang}" />
+      <span data-id="saas"></span>
+      <div class="h2-wrap">
+        <H2_Text_Avatar
+          h2="{content[lang].h2}"
+          person="{bolotov}"
+          text="{content[lang].text2}"
+        />
+      </div>
+      <DevelopmentB2B lang="{lang}" />
+      <ImprovingPlatform lang="{lang}" />
+      <div class="tags-wrap">
+        <Tags tags="{tags}" />
+      </div>
+    </Section>
+  </Layout>
+</div>
 
 <style>
+  .b2b {
+    overflow: hidden;
+  }
   .p-goals {
     margin: 80px 0 48px;
     max-width: 550px;

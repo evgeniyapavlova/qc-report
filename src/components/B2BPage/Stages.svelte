@@ -40,7 +40,7 @@
     margin-right: auto;
   }
   .text {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     text-align: center;

@@ -159,5 +159,11 @@ export const content1 = {
     h2: 'Thanks',
     h4:
       "We know how and love to say thank you to each other and acknowledge everyone's contribution to the work we do. That's why we want to conclude this magazine with a word of thanks.",
+    finalP:
+      'In&nbsp;Quadcode-Magazine we&nbsp;haven&rsquo;t covered all the cool events of&nbsp;the year, but we&rsquo;ve tried to&nbsp;remember the biggest projects in&nbsp;which almost all the teams were involved.',
+    finalQuote:
+      'May 2020&nbsp;be remembered for great goals, excellent results, small and big victories, teamwork and mutual support!',
+    finalRed:
+      'And what does the new year hold in&nbsp;store for&nbsp;us?<br /> We&rsquo;ll find out soon enough!',
   },
 };

@@ -90,7 +90,7 @@
   </div>
 </Col2>
 
-<h5>{content[lang].h5_2}</h5>
+<h5>{@html content[lang].h5_2}</h5>
 <List1
   icons="{icons2}"
   titles="{content[lang].titles}"
