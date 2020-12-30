@@ -76,43 +76,44 @@
   ];
 </script>
 
+
 <span data-id="marginForex"></span>
 <section>
   <Layout>
-<!--    <H1_Text_Avatar-->
-<!--      person="{david}"-->
-<!--      h1="{content[lang].h1}"-->
-<!--      text="{content[lang].text}"-->
-<!--    />-->
-<!--    <Col2>-->
-<!--      <div slot="right" class="right">-->
-<!--        <h5 class="h5-center">-->
-<!--          {@html content[lang].q}-->
-<!--        </h5>-->
-<!--        <div class="list">-->
-<!--          {#each content[lang].list as item, index}-->
-<!--            <div class="list-item">-->
-<!--              <svelte:component this="{icons[index]}" />-->
-<!--              <div class="desc">{item}</div>-->
-<!--            </div>-->
-<!--          {/each}-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <div slot="left" class="left">-->
-<!--        <div class="quote">-->
-<!--          {@html content[lang].quote}-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </Col2>-->
+    <H1_Text_Avatar
+      person="{david}"
+      h1="{content[lang].h1}"
+      text="{content[lang].text}"
+    />
+    <Col2>
+      <div slot="right" class="right">
+        <h5 class="h5-center">
+          {@html content[lang].q}
+        </h5>
+        <div class="list">
+          {#each content[lang].list as item, index}
+            <div class="list-item">
+              <svelte:component this="{icons[index]}" />
+              <div class="desc">{item}</div>
+            </div>
+          {/each}
+        </div>
+      </div>
+      <div slot="left" class="left">
+        <div class="quote">
+          {@html content[lang].quote}
+        </div>
+      </div>
+    </Col2>
 
-<!--    <div class="h5-wrap">-->
-<!--      <H5_p-->
-<!--        red="{true}"-->
-<!--        h5="{content[lang].plan}"-->
-<!--        p="{content[lang].planText}"-->
-<!--      />-->
-<!--    </div>-->
-<!--    <PlanningList lang="{lang}" />-->
+    <div class="h5-wrap">
+      <H5_p
+        red="{true}"
+        h5="{content[lang].plan}"
+        p="{content[lang].planText}"
+      />
+    </div>
+    <PlanningList lang="{lang}" />
     <Engine lang="{lang}" />
 
     <div class="release">

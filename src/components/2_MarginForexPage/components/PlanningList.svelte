@@ -51,7 +51,7 @@
     <div class="item">
       <svelte:component this="{icons[index]}" />
       <h5>{item.title}</h5>
-      <p class="with-span">
+      <p class="p-with-links">
         {@html item.text}
       </p>
     </div>
@@ -70,10 +70,6 @@
     margin-right: auto;
   }
 
-  :global(.with-span span, .with-span a) {
-    color: var(--red);
-    font-weight: bold;
-  }
   .list {
     margin: 60px 0;
   }
