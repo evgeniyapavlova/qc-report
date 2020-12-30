@@ -95,8 +95,8 @@
       margin-bottom: 0;
     }
     img {
-      max-width: 750px;
-      top: -120px;
+      max-width: 670px;
+      top: -90px;
     }
     .quote {
       margin-bottom: 300px;

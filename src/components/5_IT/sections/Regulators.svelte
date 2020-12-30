@@ -78,7 +78,7 @@
       margin-top: 85px;
     }
     .flex {
-      margin-top: 150px;
+      margin: 150px auto 0 0;
     }
     .caption {
       font-size: 14px;

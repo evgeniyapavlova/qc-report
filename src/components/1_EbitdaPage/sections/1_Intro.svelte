@@ -9,7 +9,7 @@
   import H1_Text_Avatar from '../../H1_Text_Avatar.svelte';
   import Icon_Number_Text from '../../Icon_Number_Text.svelte';
   import Chart from '../components/ChartEbitda.svelte';
-  import Col2 from '../../Col2.svelte';
+  import Col2 from '../../Col2_3.svelte';
   const rabinovich = {
     name: 'Anton Rabinovich',
     position: 'CEO',
