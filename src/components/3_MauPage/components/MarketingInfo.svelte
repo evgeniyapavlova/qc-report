@@ -3,7 +3,6 @@
   import LogoIqOption from '../img/iq_option_logo_round.svg';
   import LogoIqBroker from '../img/iq_broker_logo_round.svg';
   import LineNumberItem from '../../LineNumberItem.svelte';
-  import Col2 from '../../Col2.svelte';
   export let lang;
   const content = {
     ru: [
@@ -52,7 +51,7 @@
             caption: 'FTD',
           },
           {
-            period: '$16,8M <span>2019</span>',
+            period: '$1,68M <span>2019</span>',
             number: '$10M',
             caption: 'Сумма депозитов',
           },
@@ -127,7 +126,7 @@
             caption: 'FTD',
           },
           {
-            period: '$16,8M <span>2019</span>',
+            period: '$1,68M <span>2019</span>',
             number: '$10M',
             caption: 'Total deposits',
           },
