@@ -212,7 +212,7 @@
       align-items: flex-start;
       justify-content: space-between;
       position: relative;
-      margin-bottom: 100px;
+      margin-bottom: 150px;
     }
     .block {
       width: 33%;

@@ -7,7 +7,6 @@
     position: absolute;
     left: 48%;
     bottom: 50%;
-    height: 704px;
     overflow: hidden;
   }
 
@@ -16,7 +15,6 @@
       transform: translateY(50%);
       animation-duration: 3s;
       animation-name: a2020;
-
       animation-iteration-count: 1;
     }
   }

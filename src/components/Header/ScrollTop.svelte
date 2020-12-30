@@ -24,14 +24,24 @@
   .scroll-top {
     cursor: pointer;
     position: fixed;
-    bottom: 12px;
-    left: 12px;
+    bottom: 8px;
+    right: 12px;
     z-index: 3;
+  }
+  @media only screen and (min-width: 600px) {
+    .scroll-top {
+			bottom: 20px;
+			right: 20px;
+    }
   }
   @media only screen and (min-width: 1150px) {
     .scroll-top {
       bottom: 20px;
-      left: 40px;
+      right: 40px;
+    }
+    :global(.scroll-top svg) {
+      width: 40px;
+      height: 40px;
     }
   }
 </style>

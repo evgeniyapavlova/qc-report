@@ -48,14 +48,14 @@
 <style>
   section {
     overflow: hidden;
-    padding-top: 80px;
+    padding-top: 150px;
   }
   .h2-wrap {
     margin-bottom: 100px;
   }
   @media only screen and (min-width: 960px) {
     section {
-      padding-top: 120px;
+      padding-top: 200px;
     }
   }
 </style>

@@ -79,7 +79,7 @@
       />
     </div>
     <Col2>
-      <div slot="right">
+      <div slot="right" class="col col1">
         <div class="chart-wrap">
           <Chart
             data="{chartData}"
@@ -91,7 +91,7 @@
           {@html content[lang].quote}
         </div>
       </div>
-      <div slot="left">
+      <div slot="left" class="col col2">
         <p>
           {@html content[lang].p}
         </p>
@@ -147,11 +147,9 @@
   }
   @media only screen and (min-width: 960px) {
     .chart-wrap {
-      margin: 120px 0 65px;
+      margin: 0 0 65px;
     }
-    .h1-wrap {
-      margin-bottom: -50px;
-    }
+
     .quote {
       margin-top: 80px;
       margin-bottom: 0;
@@ -172,6 +170,9 @@
     }
     p {
       margin-bottom: 60px;
+    }
+    .col {
+      margin-top: 120px;
     }
   }
 </style>

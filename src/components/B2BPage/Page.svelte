@@ -114,6 +114,7 @@
       margin-top: 150px;
     }
     .h2-wrap {
+			padding-top: 150px;
       margin-bottom: 48px;
     }
     .tags-wrap {
