@@ -77,7 +77,7 @@ const content = {
         'We are pleased to be "chosen" and to have the support of a leading international company!',
       h5_2: 'We continue to grow ourselves and help others to grow',
       text2:
-        'During the 2019/20 and 2020/21 academic years, over 400 teachers and 6,000 students from more than 60 regions of the Russian Federation took part in the projects <a href="https://iqcharity.ru/projects/myfirstcode" target="_blank">My First Code</a>, <a href="https://iqcharity.ru/projects/kosmos" target="_blank">Space Coding</a> and <a href="https://iqcharity.ru/projects/pythononline" target="_blank">Generation Python</a> of the IQ Option Charity Education Development.',
+        'During the 2019/20 and 2020/21 academic years, over 400 teachers and 6,000 students from more than 60 regions of the Russian Federation took part in the projects <a href="https://iqcharity.ru/projects/myfirstcode" target="_blank">My First Code</a>, <a href="https://iqcharity.ru/projects/kosmos" target="_blank">CosmoWeb</a> and <a href="https://iqcharity.ru/projects/pythononline" target="_blank">Generation Python</a> of the IQ Option Charity Education Development.',
       texts: ['students', 'teachers', 'regions'],
     },
   },
