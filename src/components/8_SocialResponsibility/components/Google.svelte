@@ -7,7 +7,7 @@
 
 <Col2_5_6>
   <div slot="right">
-    <h5>Ok, Google!</h5>
+    <h5 class="h5_1">Ok, Google!</h5>
     <p class="p-with-links">
       {@html content[lang].google.text}
     </p>
@@ -47,15 +47,22 @@
   }
   .wrap {
     margin-top: 120px;
-		margin-bottom: 150px;
+    margin-bottom: 150px;
+  }
+  .h5_1 {
+    margin-top: 200px;
   }
   @media only screen and (min-width: 960px) {
     .quote {
-      margin-top: 30px;
+      margin-top: 230px;
       margin-bottom: 0;
     }
     :global(.wrap-funds-google .item-wrap) {
       width: 33%;
+    }
+    .wrap {
+      margin-top: 170px;
+      margin-bottom: 220px;
     }
   }
 </style>

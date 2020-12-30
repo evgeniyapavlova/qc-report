@@ -173,7 +173,7 @@
       margin-bottom: 0;
     }
     .wrap {
-      margin-bottom: 150px;
+      margin-bottom: 200px;
     }
     .list {
       margin-top: 0;

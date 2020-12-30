@@ -100,7 +100,7 @@ const content = {
     hospitals: {
       title: 'Helping hospitals',
       p:
-        'Чтобы сделать вклад в борьбу с COVID-19, в самый разгар пандемии мы спонсировали проведение 1000 тестов на вирус в Лимасоле. А в Петербурге и Ленобласти мы помогли 8 больницам, закупив средства индивидуальной защиты, антисептики и другие товары первой необходимости.',
+        'To contribute to the fight against COVID-19, at the height of the pandemic we sponsored 1000 tests for the virus in Limassol. And in St. Petersburg and the Leningrad region, we helped eight hospitals by purchasing personal protective equipment, antiseptics and other essentials.',
       items: [
         'were spent on aid to hospitals in St. Petersburg and the Leningrad region',
         'Hospitals in St. Petersburg and the Leningrad region',

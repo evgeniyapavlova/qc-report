@@ -4,7 +4,7 @@
   import List1 from '../../List1.svelte';
   import List2 from '../../List2.svelte';
   import content, { icons1, icons2 } from '../content/fund';
-  import logo_python from '../img/logo_python.svg';
+  import Image1 from './Img.svelte';
 </script>
 
 <Col2>
@@ -14,7 +14,7 @@
   </div>
   <div slot="left">
     <div class="img">
-      <svelte:component this="{logo_python}" />
+      <Image1 />
     </div>
   </div>
 </Col2>
@@ -40,7 +40,7 @@
 <style>
   .wrap1 {
     position: relative;
-		margin-bottom: 120px;
+    margin-bottom: 120px;
   }
   h5 {
     color: var(--red);
@@ -60,7 +60,7 @@
     max-width: 618px;
     margin-bottom: 42px;
     position: relative;
-    z-index:1;
+    z-index: 1;
   }
   img {
     width: 100%;
@@ -77,8 +77,8 @@
     }
     img {
       position: absolute;
-      top: 68%;
-			right: -10%;
+      top: 83%;
+      right: -10%;
       transform: translateY(-50%);
       z-index: 0;
     }

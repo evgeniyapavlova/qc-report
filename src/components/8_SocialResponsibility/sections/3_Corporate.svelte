@@ -24,7 +24,9 @@
   <div class="wrap">
     <Ecooffice lang="{lang}" />
   </div>
-  <Hospitals lang="{lang}" />
+  <div class="wrap2">
+    <Hospitals lang="{lang}" />
+  </div>
 </Layout>
 
 <style>
@@ -37,6 +39,12 @@
   @media only screen and (min-width: 960px) {
     p {
       width: 58%;
+    }
+    .wrap {
+      margin-top: 150px;
+    }
+    .wrap2 {
+      margin-top: 180px;
     }
   }
 </style>
